@@ -42,7 +42,7 @@ layout: default
 | 194944 | D04 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A004 | <a onclick="agregarGrupo('IL346', '194944')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194945 | D05 | CAMPOS VILLARREAL, RODRIGO ANTONIO | 15:00 - 16:55 | Lunes y Miércoles | DEDT | A001 | <a onclick="agregarGrupo('IL346', '194945')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194946 | D06 | DE LA CRUZ SANDOVAL, GABRIEL | 16:00 - 19:55 | Viernes | DEDT | A001 | <a onclick="agregarGrupo('IL346', '194946')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194947 | D07 | GONZALEZ ROJAS, JOSE MANUEL | 11:00 - 14:55 | Viernes | DEDT | A002 | <a onclick="agregarGrupo('IL346', '194947')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194947 | D07 | GONZALEZ ROJAS, JOSE MANUEL | 11:00 - 14:55 | Viernes | DEDT | A002 | <a href="https://chat.whatsapp.com/FLexNYtdY2x1UnEqG9mbGP" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 
 <h2 style="text-align: center;"> IL363 - Sistemas Digitales </h2>
 
