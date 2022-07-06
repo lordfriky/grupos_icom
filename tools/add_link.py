@@ -5,7 +5,7 @@ from os.path import exists, join, dirname
 
 if(len(argv) != 4):
     print('Uso: python3 add_link.py *clave_de_materia* *nrc* *link_al_grupo*')
-    exit()
+    exit(1)
 
 clave = argv[1]
 nrc = argv[2]
@@ -18,6 +18,10 @@ if len(clave) != 5:
 if len(nrc) != 6:
     print('Error: El NRC {} es inválido'.format(nrc))
     exit(1)
+
+# Al parecer las instrucciones no fueron muy claras...
+if url.startswith('<'):
+    url = url[1:-1]
 
 if not url(link): # To do: Quizás podamos validar que sea un link de WhatsApp, pero igual con esto basta mientras, supongo
     print('Error: El link {} es inválido'.format(link))
