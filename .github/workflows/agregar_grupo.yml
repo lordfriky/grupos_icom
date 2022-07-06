@@ -32,9 +32,9 @@ jobs:
         python3 tools/add_link.py $CLAVE $NRC $LINK
     
     - name: Commit changes
-        run: |
-          git config --global user.name 'Lord Friky'
-          git config --global user.email 'lordfriky@users.noreply.github.com'
-          git add --all
-          git commit -am ":robot: Grupo añadido automáticamente"
-          git push
+      run: |
+        git config --global user.name 'Lord Friky'
+        git config --global user.email 'lordfriky@users.noreply.github.com'
+        git add --all
+        git commit -am ":robot: Grupo añadido automáticamente"
+        git push
