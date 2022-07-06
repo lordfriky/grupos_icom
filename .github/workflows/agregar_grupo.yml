@@ -1,4 +1,4 @@
-name: "Agrgar grupo"
+name: "Agregar grupo"
 
 on:
   issues:
