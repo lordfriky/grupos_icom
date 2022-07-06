@@ -50,7 +50,7 @@ layout: default
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
 | 194949 | D01 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 7:00 - 8:55 | Lunes y Miércoles | DEDT | A004 | <a onclick="agregarGrupo('IL363', '194949')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194950 | D02 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '194950')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194951 | D03 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 13:00 - 14:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '194951')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194951 | D03 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 13:00 - 14:55 | Lunes y Miércoles | DEDT | A014 | <a href="https://chat.whatsapp.com/GN8PYfQgblGJvoEC9CZXcJ" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 194952 | D04 | VELAZQUEZ MORA, EDUARDO | 17:00 - 18:55 | Martes y Jueves | DEDT | A004 | <a onclick="agregarGrupo('IL363', '194952')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194953 | D05 | VELAZQUEZ MORA, EDUARDO | 11:00 - 12:55 | Martes y Jueves | DEDT | A013 | <a onclick="agregarGrupo('IL363', '194953')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194954 | D06 | GONZALEZ ROJAS, JOSE MANUEL | 15:00 - 16:55 | Lunes y Miércoles | DEDT | A009 | <a onclick="agregarGrupo('IL363', '194954')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
