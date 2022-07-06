@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "es-419" }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <script>
+        function agregarGrupo(clave, nrc){
+            const link = 'https://github.com/lordfriky/grupos_icom/issues/new?title=bot%7C' + clave + '%7C' + nrc + '%7C%3Clink%5Fal%5Fgrupo%5Fde%5Fwhatsapp%3E&body=Sólo+cambia+%60%3Clink%5Fal%5Fgrupo%5Fde%5Fwhatsapp%3E%60+en+el+título+por+el+link+correspondiente+y+haz+clic+en+%60Submit+new+issue%60.+Los+cambios+deberían+verse+reflejados+de+30+a+60+segundos.+Si+el+link+no+se+actualiza+contáctame+por+WhatsApp.';
+            window.location.href = link;
+        }
+    </script>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Grupos ICOM</h1>
+      <h2 class="project-tagline">Página web para facilitar la búsqueda de grupos de WhatsApp de materias.</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits"><p align="center">Sitio creado por Daniel Hdez M (<a href="https://github.com/lordfriky">Lord Friky</a>).</p></span>
+      </footer>
+    </main>
+  </body>
+</html>
