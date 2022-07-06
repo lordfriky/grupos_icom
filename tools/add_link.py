@@ -20,8 +20,8 @@ if len(nrc) != 6:
     exit(1)
 
 # Al parecer las instrucciones no fueron muy claras...
-if url.startswith('<'):
-    url = url[1:-1]
+if link.startswith('<'):
+    link = link[1:-1]
 
 if not url(link): # To do: Quizás podamos validar que sea un link de WhatsApp, pero igual con esto basta mientras, supongo
     print('Error: El link {} es inválido'.format(link))
