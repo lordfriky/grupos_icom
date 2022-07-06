@@ -24,7 +24,7 @@ layout: default
 
 | NRC | Sección | Maestrx | Horario | Dias | Edificio | Salón | Grupo de WhatsApp |
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
-| 112239 | D01 | LOPEZ ALCALA, MARITZA ELIZABETH | 13:00 - 14:55 | Martes y Jueves | DEDU | A005 | <a onclick="agregarGrupo('IB056', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 112239 | D01 | LOPEZ ALCALA, MARITZA ELIZABETH | 13:00 - 14:55 | Martes y Jueves | DEDU | A005 | <a onclick="agregarGrupo('IB056', '112239')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 
 <h2 style="text-align: center;"> IL347 - Ecuaciones diferenciales </h2>
 
@@ -48,27 +48,27 @@ layout: default
 
 | NRC | Sección | Maestrx | Horario | Dias | Edificio | Salón | Grupo de WhatsApp |
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
-| 194949 | D01 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 7:00 - 8:55 | Lunes y Miércoles | DEDT | A004 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194950 | D02 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194951 | D03 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 13:00 - 14:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194952 | D04 | VELAZQUEZ MORA, EDUARDO | 17:00 - 18:55 | Martes y Jueves | DEDT | A004 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194953 | D05 | VELAZQUEZ MORA, EDUARDO | 11:00 - 12:55 | Martes y Jueves | DEDT | A013 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194954 | D06 | GONZALEZ ROJAS, JOSE MANUEL | 15:00 - 16:55 | Lunes y Miércoles | DEDT | A009 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194955 | D07 | CORDOVA SOLTERO, HECTOR JAVIER | 15:00 - 16:55 | Martes y Jueves | N/A | N/A | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194956 | D08 | VILLEGAS GONZALEZ, JOSE MARTIN | 7:00 - 8:55 | Lunes y Miércoles | DEDT | A006 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194957 | D09 | SANCHEZ ROMERO, CARLOS ALBERTO | 7:00 - 8:55 | Martes y Jueves | DEDT | A021 | <a onclick="agregarGrupo('IL363', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194949 | D01 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 7:00 - 8:55 | Lunes y Miércoles | DEDT | A004 | <a onclick="agregarGrupo('IL363', '194949')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194950 | D02 | HIGASHI MINAMI, SERGIO RAMON ITSUO | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '194950')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194951 | D03 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 13:00 - 14:55 | Lunes y Miércoles | DEDT | A014 | <a onclick="agregarGrupo('IL363', '194951')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194952 | D04 | VELAZQUEZ MORA, EDUARDO | 17:00 - 18:55 | Martes y Jueves | DEDT | A004 | <a onclick="agregarGrupo('IL363', '194952')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194953 | D05 | VELAZQUEZ MORA, EDUARDO | 11:00 - 12:55 | Martes y Jueves | DEDT | A013 | <a onclick="agregarGrupo('IL363', '194953')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194954 | D06 | GONZALEZ ROJAS, JOSE MANUEL | 15:00 - 16:55 | Lunes y Miércoles | DEDT | A009 | <a onclick="agregarGrupo('IL363', '194954')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194955 | D07 | CORDOVA SOLTERO, HECTOR JAVIER | 15:00 - 16:55 | Martes y Jueves | N/A | N/A | <a onclick="agregarGrupo('IL363', '194955')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194956 | D08 | VILLEGAS GONZALEZ, JOSE MARTIN | 7:00 - 8:55 | Lunes y Miércoles | DEDT | A006 | <a onclick="agregarGrupo('IL363', '194956')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194957 | D09 | SANCHEZ ROMERO, CARLOS ALBERTO | 7:00 - 8:55 | Martes y Jueves | DEDT | A021 | <a onclick="agregarGrupo('IL363', '194957')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 
 <h2 style="text-align: center;"> IL349 - Administración </h2>
 
 | NRC | Sección | Maestrx | Horario | Dias | Edificio | Salón | Grupo de WhatsApp |
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
-| 194919 | D01 | FIGUEROA VEGA, LINKA VANESSA | 13:00 - 14:55 | Martes y Jueves | DESV1 | A044 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194920 | D02 | CASILLAS ZAMORA, ANTONIO | 11:00 - 12:55 | Lunes y Miércoles | DEDX | A003 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194921 | D03 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 13:00 - 14:55 | Lunes y Miércoles | DESV1 | A048 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194922 | D04 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 9:00 - 10:55 | Martes y Jueves | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194923 | D05 | LOPEZ FRANCO, ADRIANA LISET | 9:00 - 10:55 | Lunes y Miércoles | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194924 | D06 | LOPEZ FRANCO, ADRIANA LISET | 15:00 - 16:55 | Lunes y Miércoles | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194925 | D07 | CEDANO RODRIGUEZ, ALFREDO | 17:00 - 18:55 | Martes y Jueves | DEDX | A002 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194926 | D08 | CEDANO RODRIGUEZ, ALFREDO | 19:00 - 20:55 | Martes y Jueves | DEDX | A012 | <a onclick="agregarGrupo('IL349', '')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194919 | D01 | FIGUEROA VEGA, LINKA VANESSA | 13:00 - 14:55 | Martes y Jueves | DESV1 | A044 | <a onclick="agregarGrupo('IL349', '194919')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194920 | D02 | CASILLAS ZAMORA, ANTONIO | 11:00 - 12:55 | Lunes y Miércoles | DEDX | A003 | <a onclick="agregarGrupo('IL349', '194920')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194921 | D03 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 13:00 - 14:55 | Lunes y Miércoles | DESV1 | A048 | <a onclick="agregarGrupo('IL349', '194921')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194922 | D04 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 9:00 - 10:55 | Martes y Jueves | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '194922')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194923 | D05 | LOPEZ FRANCO, ADRIANA LISET | 9:00 - 10:55 | Lunes y Miércoles | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '194923')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194924 | D06 | LOPEZ FRANCO, ADRIANA LISET | 15:00 - 16:55 | Lunes y Miércoles | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '194924')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194925 | D07 | CEDANO RODRIGUEZ, ALFREDO | 17:00 - 18:55 | Martes y Jueves | DEDX | A002 | <a onclick="agregarGrupo('IL349', '194925')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194926 | D08 | CEDANO RODRIGUEZ, ALFREDO | 19:00 - 20:55 | Martes y Jueves | DEDX | A012 | <a onclick="agregarGrupo('IL349', '194926')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 
 <p align="center">Datos actualizados al día <b>5 de julio de 2022</b> a las <b>16:24</b></p>
