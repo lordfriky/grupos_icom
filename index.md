@@ -6,7 +6,7 @@ layout: default
 
 | NRC | Sección | Maestrx | Horario | Dias | Edificio | Salón | Grupo de WhatsApp |
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
-| 195113 | D01 | MUÑOZ GOMEZ, LUIS ALBERTO | 7:00 - 8:55 | Martes y Jueves | DUCT2 | LC04 | <a onclick="agregarGrupo('I5289', '195113')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 195113 | D01 | MUÑOZ GOMEZ, LUIS ALBERTO | 7:00 - 8:55 | Martes y Jueves | DUCT2 | LC04 | <a href="https://chat.whatsapp.com/E1RosRVy5HPFJY5zJd6FIf" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 195114 | D02 | VEGA MALDONADO, SABRINA LIZBETH | 11:00 - 12:55 | Lunes y Miércoles | DEDX (Lunes) y DUCT1 (Miércoles) | A005 (Lunes) y LC10 (Miércoles) | <a onclick="agregarGrupo('I5289', '195114')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 195115 | D03 | MORALES LOPEZ, LUIS ANGEL | 9:00 - 10:55 | Lunes y Miércoles | DEDX | A018 | <a onclick="agregarGrupo('I5289', '195115')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 195116 | D04 | MORALES LOPEZ, LUIS ANGEL | 11:00 - 12:55 | Lunes y Miércoles | DEDX | A011 | <a onclick="agregarGrupo('I5289', '195116')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
