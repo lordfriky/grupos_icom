@@ -2,7 +2,7 @@
 from datetime import datetime
 import json
 import os
-from re import match
+import re
 from sys import argv
 from bs4 import BeautifulSoup
 
@@ -19,11 +19,27 @@ def obtenerMes(mes: int):
 
 
 def verificarArgumentos(argumentos: list):
-    if len(argumentos) != 4:
+    if os.environ.get("ISSUE_BODY"):
+        cuerpoIssue = os.environ.get("ISSUE_BODY")
+        pattern = "(?ism)### Enlace de invitación\n\n(.+)\n\n### Clave de la materia\n\n(\w+)\n\n### NRC del curso\n\n(\d+)"
+        matches = re.findall(pattern, cuerpoIssue, re.DOTALL)
+        if matches:
+            matches, = matches
+            link, clave, nrc = matches
+        else:
+            print('Los datos del Issue no tienen el formato esperado. Verificar')
+            exit(1)
+
+    elif len(argumentos) == 4:
+        clave, nrc, link = argv[1:4]
+
+    else:
         print('Uso: python3 add_link.py *clave_de_materia* *nrc* *link_al_grupo*')
         exit(1)
 
-    clave, nrc, link = argv[1:4]
+    if not os.environ.get("GIT_USER"):
+        print("La variable de entorno 'GIT_USER' no está establecida. Imposible continuar")
+        exit(1)
 
     if len(clave) != 5:
         print('Error: La clave {} es inválida.'.format(clave))
@@ -37,7 +53,7 @@ def verificarArgumentos(argumentos: list):
     link = link.strip("<>")
 
     # Validamos que sea un link de WhatsApp
-    if match(r"https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
+    if re.match(r"https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
         print('Error: El link {} es inválido. Verifica que el link comience con HTTPS y no HTTP'.format(link))
         exit(1)
 

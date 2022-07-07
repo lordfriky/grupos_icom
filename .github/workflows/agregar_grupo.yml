@@ -1,4 +1,4 @@
-name: "Agregar grupo"
+name: "Añadir grupo"
 
 on:
   issues:
@@ -7,8 +7,16 @@ on:
 jobs:
   move:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'bot|')
+    if: ${{ github.event.issue.title == '[BOT] Añadir enlace de invitación' }}
+
+    env:
+      ISSUE_BODY: ${{ github.event.issue.body }}
+      GIT_USER: ${{ github.repository_owner }}
+      GITHUB_TOKEN: ${{ github.token }}
+
     steps:
+    - name: Installing environment tools
+      run: sudo snap install --classic hub
 
     - name: Checkout
       uses: actions/checkout@v2
@@ -23,21 +31,17 @@ jobs:
       run: pip3 install requests beautifulsoup4 html5lib
 
     - name: Add link to file
-      env:
-        ISSUE_TITLE: ${{ github.event.issue.title }}
-        ISSUE_BODY: ${{ github.event.issue.body }}
-        GIT_USER: ${{ github.repository_owner }}
       run: |
-        CLAVE=$(echo $ISSUE_TITLE | cut -d "|" -f2)
-        NRC=$(echo $ISSUE_TITLE | cut -d "|" -f3)
-        LINK=$(echo $ISSUE_TITLE | cut -d "|" -f4)
-        python3 tools/add_link.py $CLAVE $NRC $LINK
+        python3 tools/add_link.py
 
     - name: Commit changes
       run: |
-        git config --global user.name '$(echo $GIT_USER)'
-        git config --global user.email '$(echo $GIT_USER)@users.noreply.github.com'
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'github-actions@users.noreply.github.com'
         git add --all
-        git commit -am ":robot: Grupo $(echo $NRC) añadido automáticamente"
+        git commit -am ":robot: Grupo añadido automáticamente"
         git push
 
+    - name: Close issue
+      run: |
+        hub api -XPATCH repos/${{ github.repository }}/issues/${{ github.event.issue.number }} -f state=closed
