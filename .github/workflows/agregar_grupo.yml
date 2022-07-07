@@ -20,21 +20,24 @@ jobs:
         architecture: 'x64'
 
     - name: Setup Python Modules
-      run: pip3 install requests beautifulsoup4 validators
-    
+      run: pip3 install requests beautifulsoup4 html5lib
+
     - name: Add link to file
       env:
         ISSUE_TITLE: ${{ github.event.issue.title }}
+        ISSUE_BODY: ${{ github.event.issue.body }}
+        GIT_USER: ${{ github.repository_owner }}
       run: |
         CLAVE=$(echo $ISSUE_TITLE | cut -d "|" -f2)
         NRC=$(echo $ISSUE_TITLE | cut -d "|" -f3)
         LINK=$(echo $ISSUE_TITLE | cut -d "|" -f4)
         python3 tools/add_link.py $CLAVE $NRC $LINK
-    
+
     - name: Commit changes
       run: |
-        git config --global user.name 'Lord Friky'
-        git config --global user.email 'lordfriky@users.noreply.github.com'
+        git config --global user.name '$(echo $GIT_USER)'
+        git config --global user.email '$(echo $GIT_USER)@users.noreply.github.com'
         git add --all
-        git commit -am ":robot: Grupo añadido automáticamente"
+        git commit -am ":robot: Grupo $(echo $NRC) añadido automáticamente"
         git push
+

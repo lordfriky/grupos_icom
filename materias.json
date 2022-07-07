@@ -1,0 +1,5481 @@
+{
+    "IL349": {
+        "nombre": "Administracion",
+        "grupos": {
+            "194919": {
+                "seccion": "D01",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194919,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A44"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Figueroa Vega, Linka Vanessa",
+                "url": ""
+            },
+            "194920": {
+                "seccion": "D02",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 23,
+                "creditos": 8,
+                "nrc": 194920,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A03"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Casillas Zamora, Antonio",
+                "url": "https://chat.whatsapp.com/FG3EI7l1ZwtG7LFKuAClIL"
+            },
+            "194921": {
+                "seccion": "D03",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 194921,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gomez Rodriguez, Pedro Misraim",
+                "url": ""
+            },
+            "194922": {
+                "seccion": "D04",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194922,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gomez Rodriguez, Pedro Misraim",
+                "url": ""
+            },
+            "194923": {
+                "seccion": "D05",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194923,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": "https://chat.whatsapp.com/JP3KKmG15MtJyGLy7gZZ1A"
+            },
+            "194924": {
+                "seccion": "D06",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194924,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "194925": {
+                "seccion": "D07",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 28,
+                "creditos": 8,
+                "nrc": 194925,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Cedano Rodriguez, Alfredo",
+                "url": ""
+            },
+            "194926": {
+                "seccion": "D08",
+                "materia": "Administracion",
+                "cupo": 40,
+                "disponible": 32,
+                "creditos": 8,
+                "nrc": 194926,
+                "clave": "IL349",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Cedano Rodriguez, Alfredo",
+                "url": ""
+            }
+        }
+    },
+    "IL353": {
+        "nombre": "Administracion de Proyectos Tecnologicos",
+        "grupos": {
+            "193713": {
+                "seccion": "D01",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 20,
+                "creditos": 8,
+                "nrc": 193713,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guzman Montes, Carlos Alberto",
+                "url": ""
+            },
+            "193714": {
+                "seccion": "D02",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193714,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mendez Palos, Eduardo",
+                "url": ""
+            },
+            "193715": {
+                "seccion": "D03",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 193715,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 10:55"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Arreola Gonzalez, Mauricio Rodolfo",
+                "url": ""
+            },
+            "193716": {
+                "seccion": "D04",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 193716,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 14:55"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Arreola Gonzalez, Mauricio Rodolfo",
+                "url": ""
+            },
+            "193717": {
+                "seccion": "D05",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193717,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mendez Palos, Eduardo",
+                "url": ""
+            },
+            "193718": {
+                "seccion": "D06",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 193718,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gil Rivera, Ruben Adrian",
+                "url": ""
+            },
+            "193719": {
+                "seccion": "D07",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 31,
+                "creditos": 8,
+                "nrc": 193719,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A47"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gil Rivera, Ruben Adrian",
+                "url": ""
+            },
+            "193720": {
+                "seccion": "D08",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 13,
+                "creditos": 8,
+                "nrc": 193720,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gil Rivera, Ruben Adrian",
+                "url": ""
+            },
+            "193736": {
+                "seccion": "D09",
+                "materia": "Administracion de Proyectos Tecnologicos",
+                "cupo": 40,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 193736,
+                "clave": "IL353",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Galvez Lopez, Hector Alejandro",
+                "url": ""
+            }
+        }
+    },
+    "IB056": {
+        "nombre": "Algebra Lineal",
+        "grupos": {
+            "112239": {
+                "seccion": "D01",
+                "materia": "Algebra Lineal",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 112239,
+                "clave": "IB056",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A05",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Alcala, Maritza Elizabeth",
+                "url": ""
+            }
+        }
+    },
+    "IL344": {
+        "nombre": "Calculo Diferencial e Integral",
+        "grupos": {
+            "193990": {
+                "seccion": "D02",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 9,
+                "nrc": 193990,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55",
+                    "10:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio Z2",
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A14",
+                    "A07",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Velazquez Ortega, Ana Betty",
+                "url": ""
+            },
+            "193991": {
+                "seccion": "D03",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 9,
+                "nrc": 193991,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55",
+                    "11:00 - 11:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio Z2",
+                    "Edificio Z2",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A14",
+                    "A14",
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Macias Sandoval, Omar Vladimir",
+                "url": ""
+            },
+            "193992": {
+                "seccion": "D04",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 9,
+                "nrc": 193992,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 13:55",
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Viernes",
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A07",
+                    "A07",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Alcala, Maritza Elizabeth",
+                "url": ""
+            },
+            "193993": {
+                "seccion": "D05",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 14,
+                "creditos": 9,
+                "nrc": 193993,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 15:55",
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Viernes",
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A07",
+                    "A07",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Cervantes Lomeli, Adrian",
+                "url": ""
+            },
+            "193994": {
+                "seccion": "D06",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 9,
+                "nrc": 193994,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55",
+                    "17:00 - 17:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio Z2",
+                    "Edificio Z2",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A14",
+                    "A14",
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Macias Sandoval, Omar Vladimir",
+                "url": ""
+            },
+            "193995": {
+                "seccion": "D07",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 14,
+                "creditos": 9,
+                "nrc": 193995,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55",
+                    "07:00 - 08:55",
+                    "07:00 - 07:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A05",
+                    "A20",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Elizalde Camino, Fernando",
+                "url": ""
+            },
+            "193996": {
+                "seccion": "D08",
+                "materia": "Calculo Diferencial e Integral",
+                "cupo": 40,
+                "disponible": 12,
+                "creditos": 9,
+                "nrc": 193996,
+                "clave": "IL344",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55",
+                    "16:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles",
+                    "Martes"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A14",
+                    "A18",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Huerta Cisneros, Federico Antonio",
+                "url": ""
+            }
+        }
+    },
+    "IL346": {
+        "nombre": "Circuitos Electronicos y Electromagnetismo",
+        "grupos": {
+            "194941": {
+                "seccion": "D01",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 22,
+                "creditos": 8,
+                "nrc": 194941,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Villegas Gonzalez, Jose Martin",
+                "url": ""
+            },
+            "194942": {
+                "seccion": "D02",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194942,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A20"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guillen Bonilla, Jose Trinidad",
+                "url": ""
+            },
+            "194943": {
+                "seccion": "D03",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 194943,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A11"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Carrillo Diaz, Raul",
+                "url": ""
+            },
+            "194944": {
+                "seccion": "D04",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194944,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Medina Vazquez, Agustin Santiago",
+                "url": "https://chat.whatsapp.com/FqTwyPE5ZTUAvhMPpLTOv8"
+            },
+            "194945": {
+                "seccion": "D05",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194945,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Villarreal, Rodrigo Antonio",
+                "url": ""
+            },
+            "194946": {
+                "seccion": "D06",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 18,
+                "creditos": 8,
+                "nrc": 194946,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "16:00 - 19:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De La Cruz Sandoval, Gabriel",
+                "url": ""
+            },
+            "194947": {
+                "seccion": "D07",
+                "materia": "Circuitos Electronicos y Electromagnetismo",
+                "cupo": 40,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 194947,
+                "clave": "IL346",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 14:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gonzalez Rojas, Jose Manuel",
+                "url": "https://chat.whatsapp.com/FLexNYtdY2x1UnEqG9mbGP"
+            }
+        }
+    },
+    "IL341": {
+        "nombre": "Etica y Legislacion",
+        "grupos": {
+            "189608": {
+                "seccion": "D01",
+                "materia": "Etica y Legislacion",
+                "cupo": 45,
+                "disponible": 43,
+                "creditos": 8,
+                "nrc": 189608,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            },
+            "189609": {
+                "seccion": "D02",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189609,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 10:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "189610": {
+                "seccion": "D03",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 32,
+                "creditos": 8,
+                "nrc": 189610,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A49"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "189611": {
+                "seccion": "D04",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 8,
+                "nrc": 189611,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "189612": {
+                "seccion": "D05",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 8,
+                "nrc": 189612,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            },
+            "189613": {
+                "seccion": "D06",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 8,
+                "nrc": 189613,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "189614": {
+                "seccion": "D07",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189614,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Galvez Lopez, Hector Alejandro",
+                "url": ""
+            },
+            "189615": {
+                "seccion": "D08",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 189615,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 18:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A49"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "189616": {
+                "seccion": "D09",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 34,
+                "creditos": 8,
+                "nrc": 189616,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            },
+            "189617": {
+                "seccion": "D10",
+                "materia": "Etica y Legislacion",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189617,
+                "clave": "IL341",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            }
+        }
+    },
+    "LT251": {
+        "nombre": "Expresion Oral y Escrita",
+        "grupos": {
+            "193769": {
+                "seccion": "D01",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 6,
+                "nrc": 193769,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:30"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "193771": {
+                "seccion": "D02",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 6,
+                "nrc": 193771,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:30"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "193772": {
+                "seccion": "D03",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 6,
+                "nrc": 193772,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "\u00a0"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "193773": {
+                "seccion": "D04",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 37,
+                "creditos": 6,
+                "nrc": 193773,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:30"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A43"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sandoval Alvarez, Norma Estela",
+                "url": ""
+            },
+            "193774": {
+                "seccion": "D05",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 30,
+                "creditos": 6,
+                "nrc": 193774,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:30"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sandoval Alvarez, Norma Estela",
+                "url": ""
+            },
+            "193775": {
+                "seccion": "D06",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 30,
+                "creditos": 6,
+                "nrc": 193775,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 20:00"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A43"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sandoval Alvarez, Norma Estela",
+                "url": ""
+            },
+            "193776": {
+                "seccion": "D07",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 1,
+                "creditos": 6,
+                "nrc": 193776,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:30"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            },
+            "193778": {
+                "seccion": "D08",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 6,
+                "nrc": 193778,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "08:00 - 10:55"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            },
+            "193779": {
+                "seccion": "D09",
+                "materia": "Expresion Oral y Escrita",
+                "cupo": 40,
+                "disponible": 11,
+                "creditos": 6,
+                "nrc": 193779,
+                "clave": "LT251",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 14:00"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A47"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guerrero Contreras, Jose Luis",
+                "url": ""
+            }
+        }
+    },
+    "IL340": {
+        "nombre": "Fundamentos de Fisica",
+        "grupos": {
+            "189664": {
+                "seccion": "D01",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 189664,
+                "clave": "IL340",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55",
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A16",
+                    "A15"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De Alba Martinez, Durruty Jesus",
+                "url": ""
+            },
+            "189665": {
+                "seccion": "D02",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189665,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A18"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Salazar Zepeda, Martin Hugo",
+                "url": ""
+            },
+            "189666": {
+                "seccion": "D03",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189666,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Mercado, Liliana",
+                "url": ""
+            },
+            "189667": {
+                "seccion": "D04",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 3,
+                "creditos": 8,
+                "nrc": 189667,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 12:55"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guzman Hernandez, Jose",
+                "url": ""
+            },
+            "189668": {
+                "seccion": "D05",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 2,
+                "creditos": 8,
+                "nrc": 189668,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 12:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio W"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Guzman Hernandez, Jose",
+                "url": ""
+            },
+            "189669": {
+                "seccion": "D06",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189669,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles, Viernes"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A13"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De Anda Ramirez, Francisco Jose",
+                "url": ""
+            },
+            "189670": {
+                "seccion": "D07",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 2,
+                "creditos": 8,
+                "nrc": 189670,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A16"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Torres Cortez, Omar Rafael",
+                "url": ""
+            },
+            "189671": {
+                "seccion": "D08",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189671,
+                "clave": "IL340",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Alfaro Garces, Juan",
+                "url": ""
+            },
+            "189672": {
+                "seccion": "D09",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189672,
+                "clave": "IL340",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55",
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A18",
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mu\u00f1oz Villegas, Susana",
+                "url": ""
+            },
+            "189673": {
+                "seccion": "D10",
+                "materia": "Fundamentos de Fisica",
+                "cupo": 3,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189673,
+                "clave": "IL340",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A14",
+                    "A06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Alcala Gutierrez, Jaime",
+                "url": ""
+            }
+        }
+    },
+    "I5288": {
+        "nombre": "Fundamentos de Programacion",
+        "grupos": {
+            "189619": {
+                "seccion": "D01",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189619,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Serrano, Eduardo Alberto",
+                "url": ""
+            },
+            "189620": {
+                "seccion": "D02",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 10,
+                "creditos": 8,
+                "nrc": 189620,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Serrano, Eduardo Alberto",
+                "url": ""
+            },
+            "189621": {
+                "seccion": "D03",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189621,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC08"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Serrano, Eduardo Alberto",
+                "url": ""
+            },
+            "189622": {
+                "seccion": "D04",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 189622,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189623": {
+                "seccion": "D05",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 11,
+                "creditos": 8,
+                "nrc": 189623,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189624": {
+                "seccion": "D06",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189624,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC08"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Serrano, Eduardo Alberto",
+                "url": ""
+            },
+            "189625": {
+                "seccion": "D07",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 13,
+                "creditos": 8,
+                "nrc": 189625,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189626": {
+                "seccion": "D08",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 11,
+                "creditos": 8,
+                "nrc": 189626,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT1"
+                ],
+                "aula": [
+                    "LC02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vega Maldonado, Sabrina Lizbeth",
+                "url": ""
+            },
+            "189627": {
+                "seccion": "D09",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 12,
+                "creditos": 8,
+                "nrc": 189627,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189628": {
+                "seccion": "D10",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189628,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio UCT1"
+                ],
+                "aula": [
+                    "LC04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Barba Comparan, Andres",
+                "url": ""
+            },
+            "189629": {
+                "seccion": "D11",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 14,
+                "creditos": 8,
+                "nrc": 189629,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189630": {
+                "seccion": "D12",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 13,
+                "creditos": 8,
+                "nrc": 189630,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189631": {
+                "seccion": "D13",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189631,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Osuna Enciso, Jose Valentin",
+                "url": ""
+            },
+            "189632": {
+                "seccion": "D14",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 10,
+                "creditos": 8,
+                "nrc": 189632,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aranguren Navarro, Itzel Niasandiu",
+                "url": ""
+            },
+            "189633": {
+                "seccion": "D15",
+                "materia": "Fundamentos de Programacion",
+                "cupo": 15,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 189633,
+                "clave": "I5288",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Cisneros, Juan Jose",
+                "url": ""
+            }
+        }
+    },
+    "IL351": {
+        "nombre": "Innovacion y Tecnologia",
+        "grupos": {
+            "193721": {
+                "seccion": "D01",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193721,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A43"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Galvez Lopez, Hector Alejandro",
+                "url": ""
+            },
+            "193747": {
+                "seccion": "D02",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193747,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 16:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A47"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morales Casta\u00f1eda, Juan Bernardo",
+                "url": ""
+            },
+            "193748": {
+                "seccion": "D03",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193748,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A47"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morales Casta\u00f1eda, Juan Bernardo",
+                "url": ""
+            },
+            "193749": {
+                "seccion": "D04",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193749,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A43"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
+                "url": ""
+            },
+            "193750": {
+                "seccion": "D05",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193750,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
+                "url": ""
+            },
+            "193751": {
+                "seccion": "D06",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 193751,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
+                "url": ""
+            },
+            "193752": {
+                "seccion": "D07",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 193752,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A38"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Villarreal, Rodrigo Antonio",
+                "url": ""
+            },
+            "193754": {
+                "seccion": "D08",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 34,
+                "creditos": 8,
+                "nrc": 193754,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A38"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campos Villarreal, Rodrigo Antonio",
+                "url": ""
+            },
+            "193755": {
+                "seccion": "D09",
+                "materia": "Innovacion y Tecnologia",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 8,
+                "nrc": 193755,
+                "clave": "IL351",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Campa Molina, Jorge",
+                "url": ""
+            }
+        }
+    },
+    "IL342": {
+        "nombre": "Introduccion a la Ingenieria",
+        "grupos": {
+            "189634": {
+                "seccion": "D01",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189634,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A11"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "189635": {
+                "seccion": "D02",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189635,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A09"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vega Maldonado, Sabrina Lizbeth",
+                "url": ""
+            },
+            "189636": {
+                "seccion": "D03",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 189636,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 16:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "189637": {
+                "seccion": "D04",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 8,
+                "nrc": 189637,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A03"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "189638": {
+                "seccion": "D05",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 189638,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A16"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Rivera Aguilar, Janeth Gabriela",
+                "url": ""
+            },
+            "189639": {
+                "seccion": "D06",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 35,
+                "creditos": 8,
+                "nrc": 189639,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 12:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A16"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            },
+            "189642": {
+                "seccion": "D09",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 8,
+                "nrc": 189642,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De La Cruz Sandoval, Gabriel",
+                "url": ""
+            },
+            "189643": {
+                "seccion": "D10",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 37,
+                "creditos": 8,
+                "nrc": 189643,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A19"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De La Cruz Sandoval, Gabriel",
+                "url": ""
+            },
+            "194916": {
+                "seccion": "D11",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 194916,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A09"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Alvarez Carreon, Jesus Gilberto",
+                "url": ""
+            },
+            "194917": {
+                "seccion": "D12",
+                "materia": "Introduccion a la Ingenieria",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 194917,
+                "clave": "IL342",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A19"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Alvarez Carreon, Jesus Gilberto",
+                "url": ""
+            }
+        }
+    },
+    "IL350": {
+        "nombre": "Liderazgo y Emprendimiento",
+        "grupos": {
+            "193758": {
+                "seccion": "D01",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 30,
+                "creditos": 7,
+                "nrc": 193758,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A41"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ramirez Alba, Cecilia Erika",
+                "url": ""
+            },
+            "193759": {
+                "seccion": "D02",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 7,
+                "nrc": 193759,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ramirez Alba, Cecilia Erika",
+                "url": ""
+            },
+            "193760": {
+                "seccion": "D03",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 7,
+                "nrc": 193760,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A38"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Torres Molina, Sergio Andres",
+                "url": ""
+            },
+            "193765": {
+                "seccion": "D07",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 37,
+                "creditos": 7,
+                "nrc": 193765,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A44"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "193766": {
+                "seccion": "D08",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 38,
+                "creditos": 7,
+                "nrc": 193766,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A40"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "193767": {
+                "seccion": "D09",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 26,
+                "creditos": 7,
+                "nrc": 193767,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 14:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A44"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morgan Franco, Rocio Del Carmen",
+                "url": ""
+            },
+            "193971": {
+                "seccion": "D10",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 7,
+                "nrc": 193971,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A34"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Torres Molina, Sergio Andres",
+                "url": ""
+            },
+            "193972": {
+                "seccion": "D11",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 39,
+                "creditos": 7,
+                "nrc": 193972,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A38"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Torres Molina, Sergio Andres",
+                "url": ""
+            },
+            "193973": {
+                "seccion": "D12",
+                "materia": "Liderazgo y Emprendimiento",
+                "cupo": 40,
+                "disponible": 22,
+                "creditos": 7,
+                "nrc": 193973,
+                "clave": "IL350",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A48"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Lopez Franco, Adriana Liset",
+                "url": ""
+            }
+        }
+    },
+    "I5247": {
+        "nombre": "Logica Matematica",
+        "grupos": {
+            "189644": {
+                "seccion": "D01",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189644,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio R",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A01",
+                    "A15"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Flores Sandoval, Miriam Ileana",
+                "url": ""
+            },
+            "189645": {
+                "seccion": "D02",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189645,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio R"
+                ],
+                "aula": [
+                    "A08",
+                    "A03"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Martinez Vazquez, Ricardo",
+                "url": ""
+            },
+            "189646": {
+                "seccion": "D03",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 189646,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55",
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio R",
+                    "Edificio R"
+                ],
+                "aula": [
+                    "A02",
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Santiago Hernandez, Eloisa",
+                "url": ""
+            },
+            "189647": {
+                "seccion": "D04",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189647,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio R",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A04",
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Cordova Gonzalez, Veronica Iliana",
+                "url": ""
+            },
+            "189648": {
+                "seccion": "D05",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189648,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio Z2",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A14",
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Santiago Hernandez, Eloisa",
+                "url": ""
+            },
+            "189649": {
+                "seccion": "D06",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 189649,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio R",
+                    "Edificio R"
+                ],
+                "aula": [
+                    "A03",
+                    "A03"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Flores Sandoval, Miriam Ileana",
+                "url": ""
+            },
+            "189650": {
+                "seccion": "D07",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189650,
+                "clave": "I5247",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A24"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Villegas Ruvalcaba, Mario",
+                "url": ""
+            },
+            "189651": {
+                "seccion": "D08",
+                "materia": "Logica Matematica",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189651,
+                "clave": "I5247",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "00:47 - 00:47",
+                    "00:48 - 00:48"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Virtual 1",
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A15",
+                    "A15"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Beltran Aguirre, Fabiola Del Carmen",
+                "url": ""
+            }
+        }
+    },
+    "IL345": {
+        "nombre": "Matematicas Discretas",
+        "grupos": {
+            "193980": {
+                "seccion": "D01",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193980,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "00:31 - 00:31",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Viernes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A07",
+                    "\u00a0"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Aceves Fernandez, Elizabeth",
+                "url": ""
+            },
+            "193981": {
+                "seccion": "D02",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 11,
+                "creditos": 8,
+                "nrc": 193981,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio Z2",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A13",
+                    "LC02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Garcia Nava, Dalmiro",
+                "url": ""
+            },
+            "193982": {
+                "seccion": "D03",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193982,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A21",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Villalobos Jimenez, Sara Edith",
+                "url": ""
+            },
+            "193983": {
+                "seccion": "D04",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 5,
+                "creditos": 8,
+                "nrc": 193983,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A11",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Olivares Perez, Maria Elena",
+                "url": ""
+            },
+            "193984": {
+                "seccion": "D05",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 18,
+                "creditos": 8,
+                "nrc": 193984,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55",
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A21",
+                    "A21"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Macias Ramos, Jose Apolinar",
+                "url": ""
+            },
+            "193986": {
+                "seccion": "D07",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 8,
+                "creditos": 8,
+                "nrc": 193986,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A05",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Solis Rodriguez, Jose",
+                "url": ""
+            },
+            "193987": {
+                "seccion": "D08",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 8,
+                "creditos": 8,
+                "nrc": 193987,
+                "clave": "IL345",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A13",
+                    "A13"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Garcia Nava, Dalmiro",
+                "url": ""
+            },
+            "193988": {
+                "seccion": "D09",
+                "materia": "Matematicas Discretas",
+                "cupo": 40,
+                "disponible": 15,
+                "creditos": 8,
+                "nrc": 193988,
+                "clave": "IL345",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Cordova Gonzalez, Veronica Iliana",
+                "url": ""
+            }
+        }
+    },
+    "IL343": {
+        "nombre": "Mecanica",
+        "grupos": {
+            "193249": {
+                "seccion": "D01",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193249,
+                "clave": "IL343",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A16"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Inzunza, Carlos Daniel",
+                "url": ""
+            },
+            "193250": {
+                "seccion": "D02",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193250,
+                "clave": "IL343",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A16",
+                    "A08"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Pelayo Pelayo, Alma Lucia",
+                "url": ""
+            },
+            "193251": {
+                "seccion": "D03",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 8,
+                "creditos": 8,
+                "nrc": 193251,
+                "clave": "IL343",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 12:55"
+                ],
+                "dias": [
+                    "S\u00e1bado"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Garcia Sanchez, Mayra Elizabeth",
+                "url": ""
+            },
+            "193252": {
+                "seccion": "D04",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193252,
+                "clave": "IL343",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A15",
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "De Anda Ramirez, Francisco Jose",
+                "url": ""
+            },
+            "193253": {
+                "seccion": "D05",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193253,
+                "clave": "IL343",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio V",
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A16",
+                    "A08"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Inzunza, Carlos Daniel",
+                "url": ""
+            },
+            "193254": {
+                "seccion": "D06",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 8,
+                "creditos": 8,
+                "nrc": 193254,
+                "clave": "IL343",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Avi\u00f1a Ramirez, Eduardo",
+                "url": ""
+            },
+            "193255": {
+                "seccion": "D07",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 193255,
+                "clave": "IL343",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A15"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gonzalez Ochoa, Hector Octavio",
+                "url": ""
+            },
+            "193256": {
+                "seccion": "D08",
+                "materia": "Mecanica",
+                "cupo": 35,
+                "disponible": 9,
+                "creditos": 8,
+                "nrc": 193256,
+                "clave": "IL343",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio V"
+                ],
+                "aula": [
+                    "A17"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vargas Rodriguez, Elvira Susana",
+                "url": ""
+            }
+        }
+    },
+    "IG738": {
+        "nombre": "Precalculo",
+        "grupos": {
+            "189652": {
+                "seccion": "D01",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189652,
+                "clave": "IG738",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "00:09 - 00:09"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A50"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Valdivia Bautista, Sandra Minerva",
+                "url": ""
+            },
+            "189653": {
+                "seccion": "D02",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 3,
+                "creditos": 8,
+                "nrc": 189653,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Velazquez Ortega, Ana Betty",
+                "url": ""
+            },
+            "189654": {
+                "seccion": "D03",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189654,
+                "clave": "IG738",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio R"
+                ],
+                "aula": [
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Marquez Frausto, Teresa Gabriela",
+                "url": ""
+            },
+            "189655": {
+                "seccion": "D04",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189655,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Solis Rodriguez, Jose",
+                "url": ""
+            },
+            "189656": {
+                "seccion": "D05",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189656,
+                "clave": "IG738",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "00:06 - 00:06"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A38"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mendoza Santos, Rosa Delia",
+                "url": ""
+            },
+            "189657": {
+                "seccion": "D06",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189657,
+                "clave": "IG738",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "00:23 - 00:23"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 2"
+                ],
+                "aula": [
+                    "A50"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Montes Navarro, Mariana Sarahi",
+                "url": ""
+            },
+            "189658": {
+                "seccion": "D07",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189658,
+                "clave": "IG738",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "00:12 - 00:12",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Jueves",
+                    "Martes"
+                ],
+                "edificio": [
+                    "Virtual 2",
+                    "Edificio Z2"
+                ],
+                "aula": [
+                    "A45",
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Hernandez Arellano, Angelica Fabiola",
+                "url": ""
+            },
+            "189659": {
+                "seccion": "D08",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 189659,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Cordova Gonzalez, Veronica Iliana",
+                "url": ""
+            },
+            "189660": {
+                "seccion": "D09",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 4,
+                "creditos": 8,
+                "nrc": 189660,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Cordova Gonzalez, Veronica Iliana",
+                "url": ""
+            },
+            "189661": {
+                "seccion": "D10",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 4,
+                "creditos": 8,
+                "nrc": 189661,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Rodriguez Medina, Guadalupe Isabel",
+                "url": ""
+            },
+            "189662": {
+                "seccion": "D11",
+                "materia": "Precalculo",
+                "cupo": 5,
+                "disponible": 4,
+                "creditos": 8,
+                "nrc": 189662,
+                "clave": "IG738",
+                "sesion": [],
+                "horas": [],
+                "dias": [],
+                "edificio": [],
+                "aula": [],
+                "periodo": [],
+                "profesor": "Fernandez Luna, Ma. Guadalupe",
+                "url": ""
+            }
+        }
+    },
+    "IB067": {
+        "nombre": "Probabilidad y Estadistica",
+        "grupos": {
+            "112240": {
+                "seccion": "D01",
+                "materia": "Probabilidad y Estadistica",
+                "cupo": 25,
+                "disponible": 18,
+                "creditos": 8,
+                "nrc": 112240,
+                "clave": "IB067",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio U",
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A08",
+                    "A08"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vera Soria, Francisco",
+                "url": ""
+            },
+            "178862": {
+                "seccion": "D02",
+                "materia": "Probabilidad y Estadistica",
+                "cupo": 25,
+                "disponible": 23,
+                "creditos": 8,
+                "nrc": 178862,
+                "clave": "IB067",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles, Viernes"
+                ],
+                "edificio": [
+                    "Edificio U"
+                ],
+                "aula": [
+                    "A12"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Santiago Hernandez, Eloisa",
+                "url": ""
+            }
+        }
+    },
+    "IL352": {
+        "nombre": "Programacion Estructurada",
+        "grupos": {
+            "193703": {
+                "seccion": "D01",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 20,
+                "creditos": 10,
+                "nrc": 193703,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Viernes",
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X",
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "A02",
+                    "LC04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Garcia Gil, Gerardo",
+                "url": ""
+            },
+            "193704": {
+                "seccion": "D02",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193704,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC02",
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Narez, Alma Gloria",
+                "url": ""
+            },
+            "193705": {
+                "seccion": "D03",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 21,
+                "creditos": 10,
+                "nrc": 193705,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio X",
+                    "Edificio UCT2",
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "A08",
+                    "LC02",
+                    "LC09"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ramirez Gaytan, Gonzalo Alejandro",
+                "url": ""
+            },
+            "193706": {
+                "seccion": "D04",
+                "materia": "Programacion Estructurada",
+                "cupo": 29,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193706,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC02",
+                    "A01"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Narez, Alma Gloria",
+                "url": ""
+            },
+            "193707": {
+                "seccion": "D05",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193707,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1,
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55",
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Mi\u00e9rcoles",
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT1",
+                    "Edificio X",
+                    "Edificio UCT1"
+                ],
+                "aula": [
+                    "LC02",
+                    "A08",
+                    "LC09"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vega Maldonado, Sabrina Lizbeth",
+                "url": ""
+            },
+            "193708": {
+                "seccion": "D06",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 14,
+                "creditos": 10,
+                "nrc": 193708,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC07",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Osuna Enciso, Jose Valentin",
+                "url": ""
+            },
+            "193709": {
+                "seccion": "D07",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193709,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC02",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Esquivel Torres, Sara",
+                "url": ""
+            },
+            "193710": {
+                "seccion": "D08",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193710,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles, Viernes"
+                ],
+                "edificio": [
+                    "Edificio X",
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "A07",
+                    "LC07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Martinez Soltero, Erasmo Gabriel",
+                "url": ""
+            },
+            "193711": {
+                "seccion": "D09",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193711,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC02",
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vazquez Narez, Alma Gloria",
+                "url": ""
+            },
+            "193712": {
+                "seccion": "D10",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 193712,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles, Viernes"
+                ],
+                "edificio": [
+                    "Edificio X",
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "A20",
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
+                "url": ""
+            },
+            "195134": {
+                "seccion": "D11",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 12,
+                "creditos": 10,
+                "nrc": 195134,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55",
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC05",
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Camacho Santillan, Veronica",
+                "url": ""
+            },
+            "195135": {
+                "seccion": "D12",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 10,
+                "nrc": 195135,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55",
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC03",
+                    "A02"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Barba Comparan, Andres",
+                "url": ""
+            },
+            "195136": {
+                "seccion": "D13",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 4,
+                "creditos": 10,
+                "nrc": 195136,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT1",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC06",
+                    "A11"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sanchez Romero, Carlos Alberto",
+                "url": ""
+            },
+            "195143": {
+                "seccion": "D14",
+                "materia": "Programacion Estructurada",
+                "cupo": 24,
+                "disponible": 17,
+                "creditos": 10,
+                "nrc": 195143,
+                "clave": "IL352",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55",
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles",
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT1",
+                    "Edificio X"
+                ],
+                "aula": [
+                    "LC05",
+                    "A11"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sanchez Romero, Carlos Alberto",
+                "url": ""
+            }
+        }
+    },
+    "I5289": {
+        "nombre": "Programacion Orientada a Objetos",
+        "grupos": {
+            "195113": {
+                "seccion": "D01",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 1,
+                "creditos": 8,
+                "nrc": 195113,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
+                "url": ""
+            },
+            "195114": {
+                "seccion": "D02",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 195114,
+                "clave": "I5289",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55",
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X",
+                    "Edificio UCT1"
+                ],
+                "aula": [
+                    "A05",
+                    "LC10"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Vega Maldonado, Sabrina Lizbeth",
+                "url": "https://chat.whatsapp.com/LelakJH83Xk4kzNkBjhD0P"
+            },
+            "195115": {
+                "seccion": "D03",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 2,
+                "creditos": 8,
+                "nrc": 195115,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A18"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morales Lopez, Luis Angel",
+                "url": ""
+            },
+            "195116": {
+                "seccion": "D04",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 195116,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A11"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Morales Lopez, Luis Angel",
+                "url": ""
+            },
+            "195117": {
+                "seccion": "D05",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 5,
+                "creditos": 8,
+                "nrc": 195117,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 16:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ortega Sanchez, Noe",
+                "url": ""
+            },
+            "195119": {
+                "seccion": "D06",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 11,
+                "creditos": 8,
+                "nrc": 195119,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 20:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Ortega Sanchez, Noe",
+                "url": ""
+            },
+            "195121": {
+                "seccion": "D07",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 40,
+                "disponible": 14,
+                "creditos": 8,
+                "nrc": 195121,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Esquivel Torres, Sara",
+                "url": "https://chat.whatsapp.com/C4JsamPNeEj6RQ5AN7zAGk"
+            },
+            "195122": {
+                "seccion": "D08",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 40,
+                "disponible": 9,
+                "creditos": 8,
+                "nrc": 195122,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Esquivel Torres, Sara",
+                "url": ""
+            },
+            "195124": {
+                "seccion": "D09",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 18,
+                "creditos": 8,
+                "nrc": 195124,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 18:55"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC05"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Herrera Lujan, Zoila Liliana",
+                "url": ""
+            },
+            "195126": {
+                "seccion": "D10",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 40,
+                "disponible": 40,
+                "creditos": 8,
+                "nrc": 195126,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "19:00 - 20:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio X"
+                ],
+                "aula": [
+                    "A07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Mariscal Lugo, Luis Felipe",
+                "url": ""
+            },
+            "195127": {
+                "seccion": "D11",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 40,
+                "disponible": 30,
+                "creditos": 8,
+                "nrc": 195127,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Virtual 1"
+                ],
+                "aula": [
+                    "A42"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Valdivia Gonzalez, Arturo",
+                "url": ""
+            },
+            "195129": {
+                "seccion": "D12",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 10,
+                "creditos": 8,
+                "nrc": 195129,
+                "clave": "I5289",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT2"
+                ],
+                "aula": [
+                    "LC07"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
+                "url": ""
+            },
+            "195130": {
+                "seccion": "D13",
+                "materia": "Programacion Orientada a Objetos",
+                "cupo": 24,
+                "disponible": 11,
+                "creditos": 8,
+                "nrc": 195130,
+                "clave": "I5289",
+                "sesion": [
+                    1,
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55",
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes",
+                    "Jueves"
+                ],
+                "edificio": [
+                    "Edificio UCT1",
+                    "Edificio UCT1"
+                ],
+                "aula": [
+                    "LC08",
+                    "LC06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22",
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
+                "url": ""
+            }
+        }
+    },
+    "IL363": {
+        "nombre": "Sistemas Digitales",
+        "grupos": {
+            "194949": {
+                "seccion": "D01",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194949,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Higashi Minami, Sergio Ramon Itsuo",
+                "url": ""
+            },
+            "194950": {
+                "seccion": "D02",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 7,
+                "creditos": 8,
+                "nrc": 194950,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "09:00 - 10:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Higashi Minami, Sergio Ramon Itsuo",
+                "url": ""
+            },
+            "194951": {
+                "seccion": "D03",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 0,
+                "creditos": 8,
+                "nrc": 194951,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "13:00 - 14:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A14"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Medina Vazquez, Agustin Santiago",
+                "url": "https://chat.whatsapp.com/GN8PYfQgblGJvoEC9CZXcJ"
+            },
+            "194952": {
+                "seccion": "D04",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 31,
+                "creditos": 8,
+                "nrc": 194952,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "17:00 - 18:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A04"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Velazquez Mora, Eduardo",
+                "url": ""
+            },
+            "194953": {
+                "seccion": "D05",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 3,
+                "creditos": 8,
+                "nrc": 194953,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "11:00 - 12:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A13"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Velazquez Mora, Eduardo",
+                "url": ""
+            },
+            "194954": {
+                "seccion": "D06",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 31,
+                "creditos": 8,
+                "nrc": 194954,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A09"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Gonzalez Rojas, Jose Manuel",
+                "url": ""
+            },
+            "194955": {
+                "seccion": "D07",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 9,
+                "creditos": 8,
+                "nrc": 194955,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "15:00 - 16:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio \u00a0"
+                ],
+                "aula": [
+                    "\u00a0"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Cordova Soltero, Hector Javier",
+                "url": ""
+            },
+            "194956": {
+                "seccion": "D08",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 22,
+                "creditos": 8,
+                "nrc": 194956,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Lunes, Mi\u00e9rcoles"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A06"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Villegas Gonzalez, Jose Martin",
+                "url": ""
+            },
+            "194957": {
+                "seccion": "D09",
+                "materia": "Sistemas Digitales",
+                "cupo": 40,
+                "disponible": 34,
+                "creditos": 8,
+                "nrc": 194957,
+                "clave": "IL363",
+                "sesion": [
+                    1
+                ],
+                "horas": [
+                    "07:00 - 08:55"
+                ],
+                "dias": [
+                    "Martes, Jueves"
+                ],
+                "edificio": [
+                    "Edificio T"
+                ],
+                "aula": [
+                    "A21"
+                ],
+                "periodo": [
+                    "11/08/22 - 14/12/22"
+                ],
+                "profesor": "Sanchez Romero, Carlos Alberto",
+                "url": ""
+            }
+        }
+    }
+}
