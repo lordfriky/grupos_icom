@@ -1,0 +1,32 @@
+name: Añadir grupo
+description: Añadir un enlace a un grupo de WhatsApp
+title: "[BOT] Añadir enlace de invitación"
+labels: ["grupo"]
+body:
+  - type: markdown
+    attributes:
+      value: ¡Gracias por añadir un nuevo grupo a esta web!
+  - type: input
+    id: link
+    attributes:
+      label: Enlace de invitación
+      description: Ingresa el enlace de invitación al grupo de WhatsApp
+      placeholder: https://chat.whatsapp.com/abcxyz
+    validations:
+      required: true
+  - type: input
+    id: clave
+    attributes:
+      label: Clave de la materia
+      description: Ingresa la clave de la materia que quieres añadir. Es la que utilizas al buscar grupos en SIIAU.
+      placeholder: I3456, AB123, LT789, MA134, etc.
+    validations:
+      required: true
+  - type: input
+    id: nrc
+    attributes:
+      label: NRC del curso
+      description: Ingresa el NRC del curso. Es el identificador único de la materia y el que utilizas al registrar una materia en SIIAU.
+      placeholder: 123456, 134567, 191234, etc.
+    validations:
+      required: true

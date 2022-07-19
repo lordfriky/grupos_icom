@@ -1,55 +1,97 @@
-# pip3 install validators
-from validators import url
+# pip3 install bs4 html5lib
+import argparse
+import os
+import re
 from sys import argv
-from os.path import exists, join, dirname
+from gen_web import generarPagina
+from get_offer import cargarMaterias, guardarMaterias
 
-if(len(argv) != 4):
-    print('Uso: python3 add_link.py *clave_de_materia* *nrc* *link_al_grupo*')
-    exit(1)
 
-clave = argv[1]
-nrc = argv[2]
-link = argv[3]
+RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
+RUTA_MATERIAS = os.path.join(RAIZ_WEB, "materias.json")
 
-if len(clave) != 5:
-    print('Error: La clave {} es inválida'.format(clave))
-    exit(1)
 
-if len(nrc) != 6:
-    print('Error: El NRC {} es inválido'.format(nrc))
-    exit(1)
+def verificarArgumentos():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("clave", help="La clave de la materia")
+    parser.add_argument("nrc", help="El NRC del grupo")
+    parser.add_argument("link", help="El enlace de invitación de WhatsApp")
 
-# Al parecer las instrucciones no fueron muy claras...
-if link.startswith('<'):
-    link = link[1:-1]
+    if os.environ.get("ISSUE_BODY"):
+        cuerpoIssue = os.environ.get("ISSUE_BODY")
+        pattern = "(?ism)### Enlace de invitación\n\n(.+)\n\n### Clave de la materia\n\n(\w+)\n\n### NRC del curso\n\n(\d+)"
+        matches = re.findall(pattern, cuerpoIssue, re.DOTALL)
+        if matches:
+            matches, = matches
+            link, clave, nrc = matches
+        else:
+            print('Los datos del Issue no tienen el formato esperado. Verificar')
+            exit(1)
 
-if not url(link): # To do: Quizás podamos validar que sea un link de WhatsApp, pero igual con esto basta mientras, supongo
-    print('Error: El link {} es inválido'.format(link))
-    exit(1)
+    else:
+        args = parser.parse_args()
+        clave, nrc, link = args.clave, args.nrc, args.link
 
-stringAReemplazar = '<a onclick="agregarGrupo(\'{}\', \'{}\')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a>'.format(clave, nrc)
-stringReemplazada = '<a href="{}" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a>'.format(link)
+    if not os.environ.get("GIT_USER"):
+        print("La variable de entorno 'GIT_USER' no está establecida. Se predetermina a lordfriky")
+        os.environ["GIT_USER"] = "lordfriky"
 
-ruta = dirname(__file__)
-ruta = join(ruta, '../index.md')
+    validaClaves = lambda clave, tam: len(
+        clave) == tam and clave.isascii() and clave.isalnum()
 
-if not exists(ruta):
-    print('Error: No se encontró el archivo index.md')
-    exit(1)
+    if not validaClaves(clave, 5):
+        print('Error: La clave {} es inválida.'.format(clave))
+        exit(1)
 
-with open(ruta, 'r') as file:
-    datos = file.readlines()
+    if not validaClaves(clave, 6):
+        print('Error: El NRC {} es inválido.'.format(nrc))
+        exit(1)
 
-for i in range(len(datos)):
-    if stringAReemplazar in datos[i]:
-        datos[i] = datos[i].replace(stringAReemplazar, stringReemplazada)
-        encontrado = True
-        break
+    # Limpiamos por si las instrucciones no fueron claras
+    link = link.strip("<>")
 
-if not encontrado:
-    print('Error: No se pudo encontrar la string en el archivo (Quizás el grupo ya fue añadido?)')
-    exit(1)
+    # Validamos que sea un link de WhatsApp
+    if re.match(r"^https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
+        print('Error: El link {} es inválido. Verifica que el link comience con HTTPS y no HTTP'.format(link))
+        exit(1)
 
-with open(ruta, 'w') as file:
-    file.writelines(datos)
-    
+    return clave, nrc, link
+
+
+def agregarEnlaceAMaterias(clave: str, nrc: str, link: str):
+    materias = cargarMaterias()
+    if not materias:
+        exit(1)
+
+    try:
+        if materias.get(clave, {}):
+            if materias[clave]["grupos"].get(nrc):
+                materias[clave]["grupos"][nrc]["url"] = link
+            else:
+                print(f"Error: El NRC {nrc} no existe en la base de datos.")
+                exit(1)
+        else:
+            print(f"Error: La clave {clave} no existe en la base de datos.")
+            exit(1)
+
+    except KeyError:
+        import traceback
+        print("Error interno: No se encontró un valor necesario para añadir el grupo.")
+        print("Detalles:")
+        print(traceback.format_exc())
+        exit(1)
+
+    if not guardarMaterias(materias):
+        exit(1)
+
+    return materias
+
+
+def main():
+    clave, nrc, link = verificarArgumentos()
+    materias = agregarEnlaceAMaterias(clave, nrc, link)
+    generarPagina(materias)
+
+
+if __name__ == "__main__":
+    main()
