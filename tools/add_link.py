@@ -1,15 +1,22 @@
 # pip3 install bs4 html5lib
-import json
+import argparse
 import os
 import re
 from sys import argv
-from .gen_web import generarPagina
+from gen_web import generarPagina
+from get_offer import cargarMaterias, guardarMaterias
 
 
 RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
 RUTA_MATERIAS = os.path.join(RAIZ_WEB, "materias.json")
 
-def verificarArgumentos(argumentos: list):
+
+def verificarArgumentos():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("clave", help="La clave de la materia")
+    parser.add_argument("nrc", help="El NRC del grupo")
+    parser.add_argument("link", help="El enlace de invitación de WhatsApp")
+
     if os.environ.get("ISSUE_BODY"):
         cuerpoIssue = os.environ.get("ISSUE_BODY")
         pattern = "(?ism)### Enlace de invitación\n\n(.+)\n\n### Clave de la materia\n\n(\w+)\n\n### NRC del curso\n\n(\d+)"
@@ -21,22 +28,22 @@ def verificarArgumentos(argumentos: list):
             print('Los datos del Issue no tienen el formato esperado. Verificar')
             exit(1)
 
-    elif len(argumentos) == 4:
-        clave, nrc, link = argv[1:4]
-
     else:
-        print('Uso: python3 add_link.py *clave_de_materia* *nrc* *link_al_grupo*')
-        exit(1)
+        args = parser.parse_args()
+        clave, nrc, link = args.clave, args.nrc, args.link
 
     if not os.environ.get("GIT_USER"):
-        print("La variable de entorno 'GIT_USER' no está establecida. Imposible continuar")
-        exit(1)
+        print("La variable de entorno 'GIT_USER' no está establecida. Se predetermina a lordfriky")
+        os.environ["GIT_USER"] = "lordfriky"
 
-    if len(clave) != 5:
+    validaClaves = lambda clave, tam: len(
+        clave) == tam and clave.isascii() and clave.isalnum()
+
+    if not validaClaves(clave, 5):
         print('Error: La clave {} es inválida.'.format(clave))
         exit(1)
 
-    if len(nrc) != 6:
+    if not validaClaves(clave, 6):
         print('Error: El NRC {} es inválido.'.format(nrc))
         exit(1)
 
@@ -44,7 +51,7 @@ def verificarArgumentos(argumentos: list):
     link = link.strip("<>")
 
     # Validamos que sea un link de WhatsApp
-    if re.match(r"https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
+    if re.match(r"^https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
         print('Error: El link {} es inválido. Verifica que el link comience con HTTPS y no HTTP'.format(link))
         exit(1)
 
@@ -80,43 +87,11 @@ def agregarEnlaceAMaterias(clave: str, nrc: str, link: str):
     return materias
 
 
-def cargarMaterias():
-    materias = {}
-    try:
-        with open(RUTA_MATERIAS, "r") as f:
-            materias = f.read()
-
-        materias = json.loads(materias)
-    except Exception:
-        import traceback
-        print("Error: No se pudieron cargar las materias del JSON")
-        print("Detalles:")
-        print(traceback.format_exc())
-
-    return materias
-
-
-def guardarMaterias(materias: dict):
-    correcto = True
-    try:
-        with open(RUTA_MATERIAS, "w") as f:
-            f.write(json.dumps(materias, indent=4))
-    except Exception:
-        correcto = False
-        import traceback
-        print("Error: No se pudieron guardar las materias en el JSON")
-        print("Detalles:")
-        print(traceback.format_exc())
-
-    return correcto
-
-
-def main(args):
-    clave, nrc, link = verificarArgumentos(args)
+def main():
+    clave, nrc, link = verificarArgumentos()
     materias = agregarEnlaceAMaterias(clave, nrc, link)
     generarPagina(materias)
 
 
 if __name__ == "__main__":
-    main(argv)
-    
+    main()

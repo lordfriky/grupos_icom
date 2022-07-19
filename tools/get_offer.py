@@ -5,7 +5,6 @@
 import argparse
 import os
 import re
-import sys
 import requests
 import bs4
 import json
@@ -15,20 +14,12 @@ SERVIDOR_SIIAU = 'http://consulta.siiau.udg.mx'
 APP_SIIAU = f'{SERVIDOR_SIIAU}/wco/sspseca.consulta_oferta'
 CICLO_ACTUAL = "202220"  # Calendario 22B
 CENTRO_DEF = "D"  # CUCEI
-CARR_DEF = "ICOM"  # Computación, técnicamente no es necesario pero de todos modos lo agrego
+PLAN_DEF = "ICOM"  # Computación, técnicamente no es necesario pero de todos modos lo agrego
 # Número de clases a mostrar, ponemos un valor exagerado para asegurarnos que nos muestre todos
 CANT_RESULT_DEF = 10000  # Índice clases
 # Ruta al catálogo de materias que contiene los links
 RUTA_CATALOGO_MATERIAS = os.path.join(
-    os.path.dirname(__file__), "materias.json")
-
-# parser = argparse.ArgumentParser(os.path.basename(__file__))
-# parser.add_argument("claves", action=)
-
-
-if len(sys.argv) < 2:
-    print('Uso: python3 get_offer.py *clave_de_materia1_* *clave_de_materia_2* ...')
-    exit()
+    os.path.dirname(os.path.dirname(__file__)), "materias.json")
 
 
 class Horario:
@@ -52,12 +43,13 @@ class Horario:
 
     def obtenerSesion(self):
         sesion = self.sesion
-        return int(sesion[1:])
+        sesion = sesion if isinstance(sesion, int) else int(sesion[1:])
+        return sesion
 
     def obtenerHoras(self):
         horas = self.horas
         textoHoras = horas
-        if textoHoras.find("-") != -1:
+        if textoHoras.find("-") != -1 and textoHoras.find(":") == -1:
             horasIni = f"{int(horas[0:2]):02d}:{int(horas[2:4]):02d}"
             horasFin = f"{int(horas[5:7]):02d}:{int(horas[7:9]):02d}"
             textoHoras = f"{horasIni} - {horasFin}"
@@ -65,33 +57,36 @@ class Horario:
         return textoHoras
 
     def obtenerDias(self):
-        diasSIIAU = self.dias
         dias = []
-        diasTexto = {
-            "L": "Lunes",
-            "M": "Martes",
-            "I": "Miércoles",
-            "J": "Jueves",
-            "V": "Viernes",
-            "S": "Sábado",
-        }
-        diasSIIAU = re.sub(r"[\.\s]+", "", diasSIIAU)
-        for letra in diasSIIAU:
-            if letra in diasTexto.keys():
-                dias.append(diasTexto[letra])
+        diasTexto = self.dias
+        if "." in diasTexto:
+            diasClave = {
+                "L": "Lunes",
+                "M": "Martes",
+                "I": "Miércoles",
+                "J": "Jueves",
+                "V": "Viernes",
+                "S": "Sábado",
+            }
+            diasSIIAU = re.sub(r"[\.\s]+", "", diasTexto)
+            for letra in diasSIIAU:
+                if letra in diasClave:
+                    dias.append(diasClave[letra])
+            diasTexto = ", ".join(dias)
 
-        return ", ".join(dias)
+        return diasTexto
 
     def obtenerEdificio(self):
         edificio = self.edificio
         centro = self.centro
-        coincVirt = re.match(fr"^{centro}ESV|^VIRTU\w*", edificio)
-        if coincVirt is not None:
-            edificio = re.sub(fr"^{centro}ESV|^VIRTU\w*", "", edificio)
-            edificio = f"Virtual {edificio}"
-        else:
-            edificio = re.sub(fr"^{centro}(ED)?", "", edificio)
-            edificio = f"Edificio {edificio}"
+        if not ("Edificio" in edificio and "Virtual" in edificio):
+            coincVirt = re.match(fr"^{centro}ESV|^VIRTU\w*", edificio)
+            if coincVirt is not None:
+                edificio = re.sub(fr"^{centro}ESV|^VIRTU\w*", "", edificio)
+                edificio = f"Virtual {edificio}"
+            else:
+                edificio = re.sub(fr"^{centro}(ED)?", "", edificio)
+                edificio = f"Edificio {edificio}"
         return edificio
 
     def obtenerAula(self):
@@ -106,11 +101,11 @@ class Horario:
         return textoAula
 
     def obtenerPeriodo(self):
-        periodo = self.periodo
-        return periodo
+        return self.periodo
 
 
 class Materia:
+    centro = str()
     nrc = str()
     clave = str()
     nombre = str()
@@ -120,19 +115,25 @@ class Materia:
     disponible = int()
     horarios = []
     profesor = str()
+    url = str()
+    eliminada = False
 
-    def __init__(self, nrc: int, clave: str, nombre: str, seccion: str,
-                 creditos: int, cupo: int, disponible: int, horarios: list,
-                 profesor: str = ""):
+    def __init__(self, centro: str, nrc: int, clave: str, nombre: str,
+                 seccion: str, creditos: int, cupo: int, disponible: int,
+                 horarios: list, profesor: str = "", eliminada: bool = False,
+                 url: str = ""):
+        self.centro = centro
         self.nrc = nrc
         self.clave = clave
-        self.nombre = nombre
+        self.nombre = nombre.upper()
         self.seccion = seccion
         self.creditos = creditos
         self.cupo = cupo
         self.disponible = disponible
         self.horarios = horarios
-        self.profesor = profesor
+        self.profesor = profesor.upper()
+        self.url = url
+        self.eliminada = eliminada
 
     def indiceValido(self, i, lista):
         return (i is not None and 0 <= i < len(lista))
@@ -219,11 +220,212 @@ class Materia:
                     periodos.append(horario.periodo)
         return periodos
 
+    def obtenerNombre(self):
+        return self.nombre.title()
+
     def obtenerProfesor(self):
         return self.profesor.title()
 
-    def obtenerNombre(self):
-        return self.nombre.title()
+    def obtenerVersionHumana(self):
+        """Devuelve un diccionario con los detalles de la materia en formato legible por humanos"""
+        mat_legible_por_humanos = {
+            "centro": self.centro,
+            "seccion": self.seccion,
+            "materia": self.obtenerNombre(),
+            "cupo": self.cupo,
+            "disponible": self.disponible,
+            "creditos": self.creditos,
+            "nrc": self.nrc,
+            "clave": self.clave,
+            "sesion": self.obtenerSesion(),
+            "horas": self.obtenerHoras(),
+            "dias": self.obtenerDias(),
+            "edificio": self.obtenerEdificio(),
+            "aula": self.obtenerAula(),
+            "periodo": self.obtenerPeriodo(),
+            "profesor": self.obtenerProfesor(),
+            "url": self.url,
+            "eliminada": self.eliminada,
+        }
+        return mat_legible_por_humanos
+
+
+def cargarMaterias(clasificarMaterias: bool = True, objetosMateria: bool = False):
+    materias_cargadas = {}
+    try:
+        if os.path.exists(RUTA_CATALOGO_MATERIAS):
+            with open(RUTA_CATALOGO_MATERIAS, "r") as f:
+                materias_cargadas = json.loads(f.read())
+            if objetosMateria or not clasificarMaterias:
+                materias_cargadas = aplanarDictMaterias(materias_cargadas)
+            if objetosMateria:
+                materias_cargadas = dictAMaterias(
+                    materias_cargadas, clasificarMaterias)
+
+    except Exception:
+        import traceback
+        print("Error: No se pudieron cargar las materias del JSON")
+        print("Detalles:")
+        print(traceback.format_exc())
+
+    return materias_cargadas
+
+
+def guardarMaterias(materiasAGuardar: dict | list):
+    """
+    Guarda una lista de objetos materia, una lista de dicts
+    de materias, o un dict con la estructura de catálogo
+    en el JSON de materias
+    """
+    correcto = True
+    try:
+        if isinstance(materiasAGuardar, list) and materiasAGuardar:
+            if materiasAGuardar and isinstance(materiasAGuardar[0], Materia):
+                materiasAGuardar = materiasADict(materiasAGuardar)
+            # Convertimos la lista de materias a un dict ordenado por clave y NRC
+            materiasAGuardar = clasificarMateriasEnDict(materiasAGuardar)
+        with open(RUTA_CATALOGO_MATERIAS, "w") as f:
+            f.write(json.dumps(materiasAGuardar, indent=4))
+
+    except Exception:
+        correcto = False
+        import traceback
+        print("Error: No se pudieron guardar las materias en el JSON")
+        print("Detalles:")
+        print(traceback.format_exc())
+
+    return correcto
+
+
+def materiasADict(materias: list, clasificarPorNrc: bool = False):
+    materias_dict = {} if clasificarPorNrc else []
+    for mat in materias:
+        if not isinstance(mat, Materia):
+            continue
+        mat_humana = mat.obtenerVersionHumana()
+        if clasificarPorNrc:
+            materias_dict[mat.nrc] = mat_humana
+        else:
+            materias_dict.append(mat_humana)
+    return materias_dict
+
+
+def dictAMaterias(materias: list, clasificarPorNrc: bool = False):
+    materias_obj = {} if clasificarPorNrc else []
+    for mat in materias:
+        req_keys = ['seccion', 'materia', 'cupo', 'disponible', 'creditos',
+                    'nrc', 'clave', 'sesion', 'horas', 'dias', 'edificio',
+                    'aula', 'periodo', 'profesor', 'url']
+        if not (isinstance(mat, dict) or req_keys in mat.keys()):
+            continue
+        horarios = []
+        # El valor por defecto no debería de obtenerse
+        centro = mat.get("centro", CENTRO_DEF)
+
+        for i in range(len(mat["sesion"])):
+            sesion = mat["sesion"][i]
+            horas = mat["horas"][i]
+            dias = mat["dias"][i]
+            edif = mat["edificio"][i]
+            aula = mat["aula"][i]
+            periodo = mat["periodo"][i]
+            horario = Horario(centro, sesion, horas, dias, edif, aula, periodo)
+            horarios.append(horario)
+
+        materia_obj = Materia(centro, mat["nrc"], mat["clave"],
+                              mat["materia"], mat["seccion"], mat["creditos"],
+                              mat["cupo"], mat["disponible"], horarios,
+                              mat["profesor"], mat.get("eliminada", False), mat["url"])
+        if clasificarPorNrc:
+            materias_obj[materia_obj.nrc] = materia_obj
+        else:
+            materias_obj.append(materia_obj)
+    return materias_obj
+
+
+def clasificarMateriasEnDict(listaMaterias: list):
+    materias_clasificadas = {}
+    for mat in listaMaterias:
+        if not materias_clasificadas.get(mat["clave"]):
+            materias_clasificadas[mat["clave"]] = {
+                "nombre": mat["materia"], "grupos": {}}
+        materias_clasificadas[mat["clave"]]["grupos"][mat["nrc"]] = mat
+    return materias_clasificadas
+
+
+def aplanarDictMaterias(dictMaterias: dict, retornarDict: bool = False):
+    materias_planas = {}
+    for materia in dictMaterias.values():
+        for grupo in materia["grupos"].values():
+            materias_planas[grupo["nrc"]] = grupo
+    return list(materias_planas.values()) if not retornarDict else materias_planas
+
+
+def obtenerMatsEliminadas(materiasAnteriores: dict, materiasActuales: dict):
+    materias_eliminadas = {}
+    # Iteramos sobre las materias actuales para ver cuáles ya no existen
+    for nrc, mat_ant in materiasAnteriores.items():
+        # Si no existe el NRC en las materias obtenidas de SIIAU, la borraron
+        if not nrc in materiasActuales.keys():
+            # Avisamos que la borraron
+            mat_ant.eliminada = True
+            # La añadimos a las que borraron
+            materias_eliminadas[nrc] = mat_ant
+
+    return materias_eliminadas
+
+
+def actualizarMaterias(materiasNuevas: dict, materiasAnteriores: dict):
+    materias_exportar = {}
+    # Iteramos sobre las materias nuevas para añadir/actualizar
+    for nrc, mat_nva in materiasNuevas.items():
+        # Verificamos si la materia nueva ya existía
+        # en la oferta para actualizarla
+
+        if nrc in materiasAnteriores.keys():
+            # Obtenemos la materia actual
+            mat_act = materiasAnteriores[nrc]
+            # Establecemos la url (o lo que tenía) la otra materia
+            mat_nva.url = mat_act.url
+            # Añadimos la materia
+            materias_exportar[nrc] = mat_nva
+
+        else:
+            # No existía, simplemente añadimos la materia
+            materias_exportar[nrc] = mat_nva
+
+    return materias_exportar
+
+
+def generarCatalogoMaterias(materiasNuevas: list, conservar_materias_eliminadas: bool = True):
+    # Hay catálogo de materias ya existente
+    if os.path.exists(RUTA_CATALOGO_MATERIAS):
+        # Indizamos las materias en un dict tipo {"nrc": materia...}
+        materias_actuales_obj = cargarMaterias(objetosMateria=True)
+        # Diccionario por comprensión
+        materias_nuevas_obj = {mat.nrc: mat for mat in materiasNuevas}
+        # Aquí se almacenarán las materias que vamos a exportar
+        materias_exportar = actualizarMaterias(
+            materias_nuevas_obj, materias_actuales_obj)
+
+        # Usualmente no queremos conservar las materias
+        # cuando ya empezó el ciclo y no las restablecieron
+        # De otro modo, puede que las restablezcan y hay que
+        # conservarlas
+        if conservar_materias_eliminadas:
+            materias_exportar.update(
+                obtenerMatsEliminadas(materias_actuales_obj,
+                                      materias_exportar))
+
+        # Convertimos el dict en lista para posterior procesamiento
+        materias = list(materias_exportar.values())
+
+    # No hay catálogo de materias y es el primero que generamos
+    else:
+        materias = materiasNuevas
+
+    # Guardamos el catálogo
+    guardarMaterias(materias)
 
 
 def extraerDatosFila(nodo: bs4.Tag):
@@ -255,13 +457,18 @@ def extraerDatosTabla(tabla: bs4.Tag | bs4.NavigableString, saltarFilasInvalidas
     return datosTabla
 
 
-def consultaSiiau(ciclo: str = CICLO_ACTUAL,
-                  centro: str = CENTRO_DEF,
-                  carrera: str = CARR_DEF,
-                  materia: str = "",
-                  cantResultados: int = CANT_RESULT_DEF,
-                  indiceInicio: int = 0):
-    materias = []
+def consultarSiiau(ciclo: str = CICLO_ACTUAL,
+                   centro: str = CENTRO_DEF,
+                   carrera: str = PLAN_DEF,
+                   materia: str = "",
+                   cantResultados: int = CANT_RESULT_DEF,
+                   indiceInicio: int = 0):
+    """
+    Realiza una consulta de oferta académica al SIIAU y retorna una lista con los resultados
+    - return: Una lista con objetos materia, convertibles a diccionarios
+    - rtype: Materia[]
+    """
+    materias_obtenidas = []
     datos_post = {
         'ciclop': ciclo,
         'cup': centro,
@@ -284,7 +491,6 @@ def consultaSiiau(ciclo: str = CICLO_ACTUAL,
         soup = bs4.BeautifulSoup(respuesta, "html5lib")
         table = soup.body.table
         datos = extraerDatosTabla(table)
-        materias_obj = []
 
         for entrada in datos:
             horarios = []
@@ -296,55 +502,53 @@ def consultaSiiau(ciclo: str = CICLO_ACTUAL,
 
             profesor = entrada[10][0][1] if entrada[10] else ""
 
-            materia_obj = Materia(int(entrada[0]), entrada[1], entrada[2],
-                                  entrada[3], int(entrada[4]), int(entrada[5]),
-                                  int(entrada[6]), horarios, profesor)
-            materias_obj.append(materia_obj)
+            materia_obj = Materia(centro, int(entrada[0]), entrada[1],
+                                  entrada[2], entrada[3], int(entrada[4]),
+                                  int(entrada[5]), int(entrada[6]),
+                                  horarios, profesor)
+            materias_obtenidas.append(materia_obj)
 
-        for mat in materias_obj:
-            mat_legible_por_humanos = {
-                "seccion": mat.seccion,
-                "materia": mat.obtenerNombre(),
-                "cupo": mat.cupo,
-                "disponible": mat.disponible,
-                "creditos": mat.creditos,
-                "nrc": mat.nrc,
-                "clave": mat.clave,
-                "sesion": mat.obtenerSesion(),
-                "horas": mat.obtenerHoras(),
-                "dias": mat.obtenerDias(),
-                "edificio": mat.obtenerEdificio(),
-                "aula": mat.obtenerAula(),
-                "periodo": mat.obtenerPeriodo(),
-                "profesor": mat.obtenerProfesor(),
-                "url": "",
-            }
-            materias.append(mat_legible_por_humanos)
-
-    return materias
+    return materias_obtenidas
 
 
-claves = []
-for i in sys.argv[1:]:
-    if len(i) == 5:
-        claves.append(i)
-    else:
-        print('Error: La clave {} es inválida'.format(i))
-        exit(1)
+def main():
+    letras_centros = ['3']
+    letras_centros.extend([chr(x) for x in range(65, 91)])
+    parser = argparse.ArgumentParser()
+    parser.add_argument("claves", help="La(s) clave(s) de la(s) materia(s)", nargs="*")
+    parser.add_argument("-c", "--centro",
+                        help="La letra identificadora del centro universitario a añadir",
+                        choices=letras_centros,
+                        default=CENTRO_DEF)
+    parser.add_argument("-2", "--ciclo",
+                        help="El ciclo escolar a buscar. Debe de estar en formato SIIAU (202210)",
+                        default=CICLO_ACTUAL)
+    parser.add_argument("-p", "--plan",
+                        help="El plan de estudios a buscar. Ej. ICOM, LQUI...",
+                        default=PLAN_DEF)
+    args = parser.parse_args()
 
-for clave in claves:
     materias = []
-    materias.extend(consultaSiiau(materia=clave))
-    materias_dict = {}
-    for mat in materias:
-        if not materias_dict.get(mat["clave"]):
-            materias_dict[mat["clave"]] = {
-                "nombre": mat["materia"], "grupos": {}}
 
-        materias_dict[mat["clave"]]["grupos"][mat["nrc"]] = mat
+    # Si hay claves, iteramos y obtenemos la oferta de cada una
+    if args.claves:
+        for clave in args.claves:
+            if len(clave) == 5 and clave.isascii() and clave.isalnum():
+                materias.extend(consultarSiiau(args.ciclo,
+                                               args.centro,
+                                               args.plan,
+                                               clave))
+            else:
+                print(f"Error: La clave '{clave}' es inválida. Saltando...")
 
-    with open(RUTA_CATALOGO_MATERIAS, "rw") as f:
-        datos = f.read()
-        datos = json.loads(datos)
-        datos.update(materias_dict)
-        f.write(json.dumps(datos))
+    # Sino, por defecto actualizamos el catálogo completo de ICOM
+    else:
+        materias.extend(consultarSiiau(args.ciclo, args.centro, args.plan))
+
+    generarCatalogoMaterias(materias)
+
+    print("Actualización finalizada")
+
+
+if __name__ == "__main__":
+    main()

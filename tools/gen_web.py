@@ -1,16 +1,19 @@
 # To do
 import os
+from urllib.parse import quote_plus
 from bs4 import BeautifulSoup
 from datetime import datetime
+from get_offer import cargarMaterias
 
 RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
+
 
 def obtenerMes(mes: int):
     meses = [
         "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
         "agosto", "septiembre", "octubre", "noviembre", "diciembre"
     ]
-    return meses[mes]
+    return meses[mes-1]
 
 
 def procesarMateriasAMarkup(materias: dict):
@@ -24,32 +27,61 @@ def procesarMateriasAMarkup(materias: dict):
         document.body.append("\n")
         document.body.append(h2)
         document.body.append("\n\n")
-        document.body.append("| NRC | Sección | Maestr@ | Horario | Dias | Edificio | Salón | Grupo de WhatsApp |\n")
-        document.body.append("| --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |\n")
+        document.body.append(
+            "| NRC | Sección | Maestr@ | Horario | Dias | Edificio | Salón | Grupo de WhatsApp | Eliminada de SIIAU |\n"
+            "| --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- | ------------------ |\n")
 
         for grupo in materia["grupos"].values():
-            url = grupo.pop("url")
-            if url:
+            if grupo.get("url"):
+                url = grupo.pop("url")
                 link = document.new_tag("a", href=url, target="_blank")
-                icono = document.new_tag("img", src="./res/whatsapp_available.png", width="18px")
+                icono = document.new_tag(
+                    "img", src="./res/whatsapp_available.png", width="18px")
                 link.append(icono)
                 link.append(" Enlace de invitación")
             else:
-                formatoUrl = "https://github.com/{}/grupos_icom/issues/new?labels=grupo&template=add_group.yml&title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&clave={}&nrc={}"
-                urlIssue = formatoUrl.format(os.environ.get("GIT_USER"), grupo["clave"], grupo["nrc"])
+                formatoUrl1 = f"https://github.com/{os.environ.get('GIT_USER', 'lordfriky')}/grupos_icom/issues/new"
+                formatoUrl2 = f"?labels=grupo&template=add_group.yml&title={quote_plus('[BOT] Añadir enlace de invitación')}"
+                formatoUrl3 = f'&clave={grupo["clave"]}&nrc={grupo["nrc"]}'
+                urlIssue = f"{formatoUrl1}{formatoUrl2}{formatoUrl3}"
                 link = document.new_tag("a", href=urlIssue, target="_blank")
-                icono = document.new_tag("img", src="./res/whatsapp_unavailable.png", width="18px")
+                icono = document.new_tag(
+                    "img", src="./res/whatsapp_unavailable.png", width="18px")
                 link.append(icono)
                 link.append(" Agregar")
 
-            formato = "| {} | {} | {} | {} | {} | {} | {} | "
+            texto = ""
             carSaltoLinea = "  "
+            texto_eliminada = "Eliminada de SIIAU"
+            texto_eliminada = texto_eliminada if grupo.get("eliminada") else ""
+            orden = [
+                grupo["nrc"],
+                grupo["seccion"],
+                grupo["profesor"],
+                grupo["horas"],
+                grupo["dias"],
+                grupo["edificio"],
+                grupo["aula"],
+            ]
 
-            texto = formato.format(grupo["nrc"], grupo["seccion"], grupo["profesor"], carSaltoLinea.join(grupo["horas"]),
-                                   carSaltoLinea.join(grupo["dias"]), carSaltoLinea.join(grupo["edificio"]), carSaltoLinea.join(grupo["aula"]))
+            for val in orden:
+                if val:
+                    if isinstance(val, list):
+                        # Por si se cuela algún número
+                        val = [str(x) for x in val]
+                        valor = carSaltoLinea.join(val)
+                    else:
+                        valor = val
+                else:
+                    valor = "N/D"
+                texto += f"| {valor} "
+
+            texto += "| "
 
             document.body.append(texto)
             document.body.append(link)
+            document.body.append(" | ")
+            document.body.append(texto_eliminada)
             document.body.append(" |\n")
 
     document.body.append("\n")
@@ -58,10 +90,9 @@ def procesarMateriasAMarkup(materias: dict):
     piePagina.string = "Datos actualizados al día "
 
     ahora = datetime.now()
-    mes = obtenerMes(ahora.month)
 
     fecha = document.new_tag("b")
-    fecha.string = datetime.strftime(ahora, f"{ahora.day} de {mes} de %Y")
+    fecha.string = f"{ahora.day} de {obtenerMes(ahora.month)} de {ahora.year}"
     piePagina.append(fecha)
 
     piePagina.append(" a las ")
@@ -88,3 +119,14 @@ def guardarPagina(pagina: str, archivo: str = 'index.md'):
 def generarPagina(materias: dict):
     paginaMarkup = procesarMateriasAMarkup(materias)
     guardarPagina(paginaMarkup)
+
+
+def main():
+    print("Generando web...")
+    materias = cargarMaterias()
+    generarPagina(materias)
+    print("Web estática generada correctamente")
+
+
+if __name__ == "__main__":
+    main()
