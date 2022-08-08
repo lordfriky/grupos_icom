@@ -38,7 +38,7 @@ layout: default
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
 | 194941 | D01 | VILLEGAS GONZALEZ, JOSE MARTIN | 19:00 - 20:55 | Lunes y Miércoles | DEDT | A002 | <a onclick="agregarGrupo('IL346', '194941')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194942 | D02 | GUILLEN BONILLA, JOSE TRINIDAD | 13:00 - 14:55 | Lunes y Miércoles | DEDT | A020 | <a onclick="agregarGrupo('IL346', '194942')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
-| 194943 | D03 | CARRILLO DIAZ, RAUL | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A011 | <a onclick="agregarGrupo('IL346', '194943')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194943 | D03 | CARRILLO DIAZ, RAUL | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A011 | <a href="https://chat.whatsapp.com/KK1pe3yP64aANnap5IkXcW" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 194944 | D04 | MEDINA VAZQUEZ, AGUSTIN SANTIAGO | 9:00 - 10:55 | Lunes y Miércoles | DEDT | A004 | <a href="https://chat.whatsapp.com/FqTwyPE5ZTUAvhMPpLTOv8" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 194945 | D05 | CAMPOS VILLARREAL, RODRIGO ANTONIO | 15:00 - 16:55 | Lunes y Miércoles | DEDT | A001 | <a onclick="agregarGrupo('IL346', '194945')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194946 | D06 | DE LA CRUZ SANDOVAL, GABRIEL | 16:00 - 19:55 | Viernes | DEDT | A001 | <a onclick="agregarGrupo('IL346', '194946')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
