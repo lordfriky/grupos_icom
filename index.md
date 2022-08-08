@@ -64,7 +64,7 @@ layout: default
 | --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- |
 | 194919 | D01 | FIGUEROA VEGA, LINKA VANESSA | 13:00 - 14:55 | Martes y Jueves | DESV1 | A044 | <a onclick="agregarGrupo('IL349', '194919')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194920 | D02 | CASILLAS ZAMORA, ANTONIO | 11:00 - 12:55 | Lunes y Miércoles | DEDX | A003 | <a href="https://chat.whatsapp.com/FG3EI7l1ZwtG7LFKuAClIL" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
-| 194921 | D03 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 13:00 - 14:55 | Lunes y Miércoles | DESV1 | A048 | <a onclick="agregarGrupo('IL349', '194921')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
+| 194921 | D03 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 13:00 - 14:55 | Lunes y Miércoles | DESV1 | A048 | <a href="https://chat.whatsapp.com/D9VAAyHytv8JL2izAXNAJF" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 194922 | D04 | GOMEZ RODRIGUEZ, PEDRO MISRAIM | 9:00 - 10:55 | Martes y Jueves | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '194922')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
 | 194923 | D05 | LOPEZ FRANCO, ADRIANA LISET | 9:00 - 10:55 | Lunes y Miércoles | DESV2 | A048 | <a href="https://chat.whatsapp.com/JP3KKmG15MtJyGLy7gZZ1A" target="_blank"><img src="./res/whatsapp_available.png" width="12"> Link</a> |
 | 194924 | D06 | LOPEZ FRANCO, ADRIANA LISET | 15:00 - 16:55 | Lunes y Miércoles | DESV2 | A048 | <a onclick="agregarGrupo('IL349', '194924')" style="cursor: pointer;"><img src="./res/whatsapp_unavailable.png" width="12"> Agregar</a> |
