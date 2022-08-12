@@ -40,11 +40,11 @@ def verificarArgumentos():
         clave) == tam and clave.isascii() and clave.isalnum()
 
     if not validaClaves(clave, 5):
-        print('Error: La clave {} es inválida.'.format(clave))
+        print(f'Error: La clave "{clave}" es inválida.')
         exit(1)
 
-    if not validaClaves(clave, 6):
-        print('Error: El NRC {} es inválido.'.format(nrc))
+    if not validaClaves(nrc, 6):
+        print(f'Error: El NRC "{nrc}" es inválido.')
         exit(1)
 
     # Limpiamos por si las instrucciones no fueron claras
@@ -52,7 +52,7 @@ def verificarArgumentos():
 
     # Validamos que sea un link de WhatsApp
     if re.match(r"^https://(?:www\.)?chat\.whatsapp\.com/[\w]+", link) is None:
-        print('Error: El link {} es inválido. Verifica que el link comience con HTTPS y no HTTP'.format(link))
+        print('Error: El link {} es inválido. Verifica que el link sea de WhatsApp y que comience con HTTPS y no HTTP'.format(link))
         exit(1)
 
     return clave, nrc, link
