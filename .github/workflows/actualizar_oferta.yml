@@ -20,7 +20,9 @@ jobs:
       run: pip3 install requests beautifulsoup4 html5lib
 
     - name: Update offer
-      run: python3 tools/get_offer.py
+      run: |
+        python3 tools/get_offer.py
+        python3 tools/gen_web.py
     - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions'

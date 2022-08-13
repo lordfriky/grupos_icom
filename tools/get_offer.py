@@ -37,9 +37,19 @@ class Horario:
         self.sesion = sesion
         self.horas = horas
         self.dias = dias
-        self.edificio = edificio
+        self.edificio = self._limpiarEdificio(edificio, centro)
         self.aula = aula
         self.periodo = periodo
+
+    def _limpiarEdificio(self, edificio: str, centro: str):
+        if "Edificio" in edificio or "Virtual" in edificio:
+            if "Virtual" in edificio:
+                edificio = edificio.split("Virtual")[-1].strip()
+                edificio = "{}ESV{}".format(centro, edificio)
+            else:
+                edificio = edificio.split("Edificio")[-1].strip()
+                edificio = "{}ED{}".format(centro, edificio)
+        return edificio
 
     def obtenerSesion(self):
         sesion = self.sesion
@@ -79,7 +89,7 @@ class Horario:
     def obtenerEdificio(self):
         edificio = self.edificio
         centro = self.centro
-        if not ("Edificio" in edificio and "Virtual" in edificio):
+        if not ("Edificio" in edificio or "Virtual" in edificio):
             coincVirt = re.match(fr"^{centro}ESV|^VIRTU\w*", edificio)
             if coincVirt is not None:
                 edificio = re.sub(fr"^{centro}ESV|^VIRTU\w*", "", edificio)
