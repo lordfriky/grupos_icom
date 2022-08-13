@@ -1,8 +1,8 @@
 # To do
 import os
+import datetime as dt
 from urllib.parse import quote_plus
 from bs4 import BeautifulSoup
-from datetime import datetime
 from get_offer import cargarMaterias
 
 RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
@@ -17,7 +17,7 @@ def obtenerMes(mes: int):
 
 
 def procesarMateriasAMarkup(materias: dict):
-    document = BeautifulSoup("", "html5lib")
+    document = BeautifulSoup("", "html5lib", from_encoding="utf-8")
     document.body.append("---\nlayout: default\n---\n")
 
     for clave, materia in materias.items():
@@ -28,13 +28,12 @@ def procesarMateriasAMarkup(materias: dict):
         document.body.append(h2)
         document.body.append("\n\n")
         document.body.append(
-            "| NRC | Sección | Maestr@ | Horario | Dias | Edificio | Salón | Grupo de WhatsApp | Eliminada de SIIAU |\n"
-            "| --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- | ------------------ |\n")
+            "| Maestr@ | Dias | Horario | Edificio | Salón | NRC | Sección | Grupo de WhatsApp | Eliminada de SIIAU |\n"
+            "| ------- | ---- | ------- | -------- | ----- | --- | ------- | ----------------- | ------------------ |\n")
 
         for grupo in materia["grupos"].values():
-            if grupo.get("url"):
-                url = grupo.pop("url")
-                link = document.new_tag("a", href=url, target="_blank")
+            if grupo.url:
+                link = document.new_tag("a", href=grupo.url, target="_blank")
                 icono = document.new_tag(
                     "img", src="./res/whatsapp_available.png", width="18px")
                 link.append(icono)
@@ -42,7 +41,7 @@ def procesarMateriasAMarkup(materias: dict):
             else:
                 formatoUrl1 = f"https://github.com/{os.environ.get('GIT_USER', 'lordfriky')}/grupos_icom/issues/new"
                 formatoUrl2 = f"?labels=grupo&template=add_group.yml&title={quote_plus('[BOT] Añadir enlace de invitación')}"
-                formatoUrl3 = f'&clave={grupo["clave"]}&nrc={grupo["nrc"]}'
+                formatoUrl3 = f'&clave={grupo.clave}&nrc={grupo.nrc}'
                 urlIssue = f"{formatoUrl1}{formatoUrl2}{formatoUrl3}"
                 link = document.new_tag("a", href=urlIssue, target="_blank")
                 icono = document.new_tag(
@@ -53,15 +52,15 @@ def procesarMateriasAMarkup(materias: dict):
             texto = ""
             carSaltoLinea = "  "
             texto_eliminada = "Eliminada de SIIAU"
-            texto_eliminada = texto_eliminada if grupo.get("eliminada") else ""
+            texto_eliminada = texto_eliminada if grupo.eliminada else ""
             orden = [
-                grupo["nrc"],
-                grupo["seccion"],
-                grupo["profesor"],
-                grupo["horas"],
-                grupo["dias"],
-                grupo["edificio"],
-                grupo["aula"],
+                grupo.obtenerProfesor(),
+                grupo.obtenerDias,
+                grupo.obtenerHoras(),
+                grupo.obtenerEdificio(),
+                grupo.obtenerAula(),
+                grupo.seccion,
+                grupo.nrc,
             ]
 
             for val in orden:
@@ -89,7 +88,8 @@ def procesarMateriasAMarkup(materias: dict):
     piePagina = document.new_tag("p", class_="text-center text-muted")
     piePagina.string = "Datos actualizados al día "
 
-    ahora = datetime.now()
+    zonaHoraria = dt.timezone(dt.timedelta(hours=-5))
+    ahora = dt.datetime.now(zonaHoraria)
 
     fecha = document.new_tag("b")
     fecha.string = f"{ahora.day} de {obtenerMes(ahora.month)} de {ahora.year}"
@@ -98,7 +98,7 @@ def procesarMateriasAMarkup(materias: dict):
     piePagina.append(" a las ")
 
     hora = document.new_tag("b")
-    hora.string = datetime.strftime(ahora, "%I:%M %p")
+    hora.string = dt.datetime.strftime(ahora, "%I:%M %p")
     piePagina.append(hora)
 
     document.body.append(piePagina)
@@ -123,7 +123,7 @@ def generarPagina(materias: dict):
 
 def main():
     print("Generando web...")
-    materias = cargarMaterias()
+    materias = cargarMaterias(objetosMateria=True)
     generarPagina(materias)
     print("Web estática generada correctamente")
 

@@ -8,6 +8,7 @@ import re
 import requests
 import bs4
 import json
+from datetime import time
 
 # Datos necesarios para obtener la oferta
 SERVIDOR_SIIAU = 'http://consulta.siiau.udg.mx'
@@ -51,18 +52,42 @@ class Horario:
                 edificio = "{}ED{}".format(centro, edificio)
         return edificio
 
+    def _procesarAmPm(self, hora: int, meridiano: str):
+        meridiano = meridiano.lower()
+        if hora == 12:
+            hora = 0 if "am" in meridiano else hora
+        elif "pm" in meridiano:
+            hora += 12
+        return hora
+
     def obtenerSesion(self):
         sesion = self.sesion
         sesion = sesion if isinstance(sesion, int) else int(sesion[1:])
         return sesion
 
     def obtenerHoras(self):
-        horas = self.horas
+        horas = self.horas.lower()
         textoHoras = horas
-        if textoHoras.find("-") != -1 and textoHoras.find(":") == -1:
-            horasIni = f"{int(horas[0:2]):02d}:{int(horas[2:4]):02d}"
-            horasFin = f"{int(horas[5:7]):02d}:{int(horas[7:9]):02d}"
-            textoHoras = f"{horasIni} - {horasFin}"
+        patronHoras = r"(?i)"
+        patronHoras += r"^(\d{2}):?(\d{2})\s?(?:(am|pm)?\s?)"
+        patronHoras += r"-"
+        patronHoras += r"\s?(\d{2}):?(\d{2})\s?(?:(am|pm)?\s?)"
+        coincidencia = re.match(patronHoras, horas)
+
+        if coincidencia:
+            coincHoras = [
+                int(x) if str(x).isdigit() else x
+                for x in coincidencia.groups()
+            ]
+            if coincHoras[2]:
+                coincHoras[0] = self._procesarAmPm(coincHoras[0],
+                                                   coincHoras[2])
+            if coincHoras[5]:
+                coincHoras[3] = self._procesarAmPm(coincHoras[3],
+                                                   coincHoras[5])
+            horasIni = time(coincHoras[0], coincHoras[1])
+            horasFin = time(coincHoras[3], coincHoras[4])
+            textoHoras = f'{horasIni.strftime("%I:%M %p")} - {horasFin.strftime("%I:%M %p")}'
 
         return textoHoras
 
@@ -320,8 +345,8 @@ def materiasADict(materias: list, clasificarPorNrc: bool = False):
     return materias_dict
 
 
-def dictAMaterias(materias: list, clasificarPorNrc: bool = False):
-    materias_obj = {} if clasificarPorNrc else []
+def dictAMaterias(materias: list, clasificarPorClave: bool = False):
+    materias_obj = {} if clasificarPorClave else []
     for mat in materias:
         req_keys = ['seccion', 'materia', 'cupo', 'disponible', 'creditos',
                     'nrc', 'clave', 'sesion', 'horas', 'dias', 'edificio',
@@ -342,14 +367,16 @@ def dictAMaterias(materias: list, clasificarPorNrc: bool = False):
             horario = Horario(centro, sesion, horas, dias, edif, aula, periodo)
             horarios.append(horario)
 
-        materia_obj = Materia(centro, mat["nrc"], mat["clave"],
+        mat_obj = Materia(centro, mat["nrc"], mat["clave"],
                               mat["materia"], mat["seccion"], mat["creditos"],
                               mat["cupo"], mat["disponible"], horarios,
                               mat["profesor"], mat.get("eliminada", False), mat["url"])
-        if clasificarPorNrc:
-            materias_obj[materia_obj.nrc] = materia_obj
+        if clasificarPorClave:
+            if materias_obj.get(mat_obj.clave) is None:
+                materias_obj[mat_obj.clave] = {"nombre": mat_obj.obtenerNombre(), "grupos": {}}
+            materias_obj[mat_obj.clave]["grupos"][mat_obj.nrc] = mat_obj
         else:
-            materias_obj.append(materia_obj)
+            materias_obj.append(mat_obj)
     return materias_obj
 
 
