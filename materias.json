@@ -1025,9 +1025,9 @@
                     "Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio Edificio U",
-                    "Edificio Edificio U",
-                    "Edificio Edificio U"
+                    "Edificio U",
+                    "Edificio U",
+                    "Edificio U"
                 ],
                 "aula": [
                     "A07",
@@ -4328,8 +4328,8 @@
                     "Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio Virtual 2",
-                    "Edificio Edificio U"
+                    "Virtual 2",
+                    "Edificio U"
                 ],
                 "aula": [
                     "A07",
@@ -4365,8 +4365,8 @@
                     "Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio Edificio U",
-                    "Edificio Edificio U"
+                    "Edificio U",
+                    "Edificio U"
                 ],
                 "aula": [
                     "A05",
@@ -6037,7 +6037,7 @@
                     "Lunes, Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio Edificio X"
+                    "Edificio X"
                 ],
                 "aula": [
                     "A06"
