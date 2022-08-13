@@ -1,0 +1,30 @@
+name: "Actualizar oferta"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3
+
+    - name: Setup Python Modules
+      run: pip3 install requests beautifulsoup4 html5lib
+
+    - name: Update offer
+      run: python3 tools/get_offer.py
+    - name: Commit changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'github-actions@users.noreply.github.com'
+        git add --all
+        git commit -am ":books: Actualizada oferta académica"
+        git push
