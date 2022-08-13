@@ -73,7 +73,7 @@ layout: default
 | 197381 | D03 | Fernandez Luna, Ma. Guadalupe | 15:00 - 16:55  15:00 - 16:55 | Lunes  Miércoles | Edificio V  Edificio V | A03  A06 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL347&amp;nrc=197381" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 | 197382 | D04 | Cervantes Lomeli, Adrian | 00:08 - 00:08  13:00 - 14:55 | Miércoles  Lunes | Virtual 1  Edificio U | A01  A09 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL347&amp;nrc=197382" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 | 197383 | D05 | Cervantes Lomeli, Adrian | 00:07 - 00:07 | Viernes | Virtual 1 | A01 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL347&amp;nrc=197383" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
-| 197384 | D06 | Vazquez Hernandez, Husai | 13:00 - 14:55 | Lunes, Miércoles | Edificio U | A11 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL347&amp;nrc=197384" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
+| 197384 | D06 | Vazquez Hernandez, Husai | 13:00 - 14:55 | Lunes, Miércoles | Edificio U | A11 | <a href="https://chat.whatsapp.com/GissXmeT6066LXrCMSbJpO" target="_blank"><img src="./res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> |  |
 
 <h2 style="text-align: center;">IL341 - Etica Y Legislacion</h2>
 
@@ -296,4 +296,4 @@ layout: default
 | 194956 | D08 | Villegas Gonzalez, Jose Martin | 07:00 - 08:55 | Lunes, Miércoles | Edificio T | A06 | <a href="https://chat.whatsapp.com/IIgiqeWx6WQ6L0Fq134Izj" target="_blank"><img src="./res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> |  |
 | 194957 | D09 | Sanchez Romero, Carlos Alberto | 07:00 - 08:55 | Martes, Jueves | Edificio T | A21 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL363&amp;nrc=194957" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>13 de agosto de 2022</b> a las <b>09:00 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>13 de agosto de 2022</b> a las <b>09:03 AM</b></p>
