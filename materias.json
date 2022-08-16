@@ -38,7 +38,7 @@
                 "seccion": "D02",
                 "materia": "Administracion",
                 "cupo": 40,
-                "disponible": 17,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 194920,
                 "clave": "IL349",
@@ -193,7 +193,7 @@
                 "seccion": "D07",
                 "materia": "Administracion",
                 "cupo": 40,
-                "disponible": 28,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 194925,
                 "clave": "IL349",
@@ -224,7 +224,7 @@
                 "seccion": "D08",
                 "materia": "Administracion",
                 "cupo": 40,
-                "disponible": 31,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 194926,
                 "clave": "IL349",
@@ -260,7 +260,7 @@
                 "seccion": "D01",
                 "materia": "Administracion De Proyectos Tecnologicos",
                 "cupo": 40,
-                "disponible": 16,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193713,
                 "clave": "IL353",
@@ -446,7 +446,7 @@
                 "seccion": "D07",
                 "materia": "Administracion De Proyectos Tecnologicos",
                 "cupo": 40,
-                "disponible": 27,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193719,
                 "clave": "IL353",
@@ -477,7 +477,7 @@
                 "seccion": "D08",
                 "materia": "Administracion De Proyectos Tecnologicos",
                 "cupo": 40,
-                "disponible": 9,
+                "disponible": -1,
                 "creditos": 8,
                 "nrc": 193720,
                 "clave": "IL353",
@@ -508,7 +508,7 @@
                 "seccion": "D09",
                 "materia": "Administracion De Proyectos Tecnologicos",
                 "cupo": 40,
-                "disponible": 14,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193736,
                 "clave": "IL353",
@@ -649,7 +649,7 @@
                 "seccion": "D04",
                 "materia": "Algebra Lineal",
                 "cupo": 20,
-                "disponible": 20,
+                "disponible": 19,
                 "creditos": 8,
                 "nrc": 197387,
                 "clave": "IB056",
@@ -723,7 +723,7 @@
                 "seccion": "D07",
                 "materia": "Algebra Lineal",
                 "cupo": 20,
-                "disponible": 19,
+                "disponible": 20,
                 "creditos": 8,
                 "nrc": 197390,
                 "clave": "IB056",
@@ -893,21 +893,27 @@
                 "nrc": 193994,
                 "clave": "IL344",
                 "sesion": [
+                    1,
                     1
                 ],
                 "horas": [
+                    "17:00 - 18:55",
                     "17:00 - 18:55"
                 ],
                 "dias": [
-                    "Martes, Jueves"
+                    "Martes",
+                    "Jueves"
                 ],
                 "edificio": [
-                    "Edificio U"
+                    "Edificio ",
+                    "Edificio V"
                 ],
                 "aula": [
-                    "A09"
+                    "",
+                    "A12"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
                 "profesor": "Plascencia Garcia, Cristyan Jeovany",
@@ -1101,7 +1107,7 @@
                     "Edificio T"
                 ],
                 "aula": [
-                    "A20"
+                    "A04"
                 ],
                 "periodo": [
                     "11/08/22 - 14/12/22"
@@ -1194,7 +1200,7 @@
                     "Edificio T"
                 ],
                 "aula": [
-                    "A01"
+                    "A17"
                 ],
                 "periodo": [
                     "11/08/22 - 14/12/22"
@@ -1311,21 +1317,27 @@
                 "nrc": 197380,
                 "clave": "IL347",
                 "sesion": [
+                    1,
                     1
                 ],
                 "horas": [
+                    "11:00 - 12:55",
                     "11:00 - 12:55"
                 ],
                 "dias": [
-                    "Lunes, Mi\u00e9rcoles"
+                    "Lunes",
+                    "Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio V"
+                    "Edificio U",
+                    "Edificio Z2"
                 ],
                 "aula": [
-                    "A19"
+                    "A02",
+                    "A13"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
                 "profesor": "De La Cruz Garcia, Elba Lilia",
@@ -1442,7 +1454,7 @@
                 "seccion": "D06",
                 "materia": "Ecuaciones Diferenciales",
                 "cupo": 20,
-                "disponible": 10,
+                "disponible": 9,
                 "creditos": 8,
                 "nrc": 197384,
                 "clave": "IL347",
@@ -1478,7 +1490,7 @@
                 "seccion": "D01",
                 "materia": "Etica Y Legislacion",
                 "cupo": 40,
-                "disponible": 21,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189608,
                 "clave": "IL341",
@@ -1602,7 +1614,7 @@
                 "seccion": "D05",
                 "materia": "Etica Y Legislacion",
                 "cupo": 40,
-                "disponible": 10,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189612,
                 "clave": "IL341",
@@ -1726,7 +1738,7 @@
                 "seccion": "D09",
                 "materia": "Etica Y Legislacion",
                 "cupo": 40,
-                "disponible": 0,
+                "disponible": -1,
                 "creditos": 8,
                 "nrc": 189616,
                 "clave": "IL341",
@@ -1757,7 +1769,7 @@
                 "seccion": "D10",
                 "materia": "Etica Y Legislacion",
                 "cupo": 40,
-                "disponible": 13,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189617,
                 "clave": "IL341",
@@ -1886,7 +1898,7 @@
                 "seccion": "D04",
                 "materia": "Expresion Oral Y Escrita",
                 "cupo": 40,
-                "disponible": 30,
+                "disponible": 0,
                 "creditos": 6,
                 "nrc": 193773,
                 "clave": "LT251",
@@ -1917,7 +1929,7 @@
                 "seccion": "D05",
                 "materia": "Expresion Oral Y Escrita",
                 "cupo": 40,
-                "disponible": 26,
+                "disponible": 0,
                 "creditos": 6,
                 "nrc": 193774,
                 "clave": "LT251",
@@ -1948,7 +1960,7 @@
                 "seccion": "D06",
                 "materia": "Expresion Oral Y Escrita",
                 "cupo": 40,
-                "disponible": 23,
+                "disponible": 0,
                 "creditos": 6,
                 "nrc": 193775,
                 "clave": "LT251",
@@ -2076,7 +2088,7 @@
                 "centro": "D",
                 "seccion": "D01",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
+                "cupo": 35,
                 "disponible": 0,
                 "creditos": 8,
                 "nrc": 189664,
@@ -2113,8 +2125,8 @@
                 "centro": "D",
                 "seccion": "D02",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
-                "disponible": -1,
+                "cupo": 35,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189665,
                 "clave": "IL340",
@@ -2150,7 +2162,7 @@
                 "centro": "D",
                 "seccion": "D03",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
+                "cupo": 35,
                 "disponible": 0,
                 "creditos": 8,
                 "nrc": 189666,
@@ -2181,8 +2193,8 @@
                 "centro": "D",
                 "seccion": "D04",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
-                "disponible": 0,
+                "cupo": 35,
+                "disponible": 18,
                 "creditos": 8,
                 "nrc": 189667,
                 "clave": "IL340",
@@ -2212,7 +2224,7 @@
                 "centro": "D",
                 "seccion": "D05",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
+                "cupo": 35,
                 "disponible": 0,
                 "creditos": 8,
                 "nrc": 189668,
@@ -2243,8 +2255,8 @@
                 "centro": "D",
                 "seccion": "D06",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
-                "disponible": 0,
+                "cupo": 35,
+                "disponible": 23,
                 "creditos": 8,
                 "nrc": 189669,
                 "clave": "IL340",
@@ -2274,7 +2286,7 @@
                 "centro": "D",
                 "seccion": "D07",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
+                "cupo": 36,
                 "disponible": 0,
                 "creditos": 8,
                 "nrc": 189670,
@@ -2289,10 +2301,10 @@
                     "Martes, Jueves"
                 ],
                 "edificio": [
-                    "Edificio V"
+                    "Edificio Z2"
                 ],
                 "aula": [
-                    "A06"
+                    "A12"
                 ],
                 "periodo": [
                     "11/08/22 - 14/12/22"
@@ -2305,8 +2317,8 @@
                 "centro": "D",
                 "seccion": "D08",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
-                "disponible": 0,
+                "cupo": 35,
+                "disponible": 5,
                 "creditos": 8,
                 "nrc": 189671,
                 "clave": "IL340",
@@ -2336,7 +2348,7 @@
                 "centro": "D",
                 "seccion": "D09",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
+                "cupo": 35,
                 "disponible": 0,
                 "creditos": 8,
                 "nrc": 189672,
@@ -2373,8 +2385,8 @@
                 "centro": "D",
                 "seccion": "D10",
                 "materia": "Fundamentos De Fisica",
-                "cupo": 3,
-                "disponible": 0,
+                "cupo": 35,
+                "disponible": 5,
                 "creditos": 8,
                 "nrc": 189673,
                 "clave": "IL340",
@@ -2602,7 +2614,7 @@
                 "seccion": "D07",
                 "materia": "Fundamentos De Programacion",
                 "cupo": 24,
-                "disponible": 0,
+                "disponible": 1,
                 "creditos": 8,
                 "nrc": 189625,
                 "clave": "I5288",
@@ -2664,7 +2676,7 @@
                 "seccion": "D09",
                 "materia": "Fundamentos De Programacion",
                 "cupo": 24,
-                "disponible": 0,
+                "disponible": -1,
                 "creditos": 8,
                 "nrc": 189627,
                 "clave": "I5288",
@@ -2788,7 +2800,7 @@
                 "seccion": "D13",
                 "materia": "Fundamentos De Programacion",
                 "cupo": 40,
-                "disponible": 15,
+                "disponible": 14,
                 "creditos": 8,
                 "nrc": 189631,
                 "clave": "I5288",
@@ -2886,7 +2898,7 @@
                 "seccion": "D01",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 40,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193721,
                 "clave": "IL351",
@@ -2917,7 +2929,7 @@
                 "seccion": "D02",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 40,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193747,
                 "clave": "IL351",
@@ -2948,7 +2960,7 @@
                 "seccion": "D03",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 40,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193748,
                 "clave": "IL351",
@@ -2979,7 +2991,7 @@
                 "seccion": "D04",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193749,
                 "clave": "IL351",
@@ -3010,7 +3022,7 @@
                 "seccion": "D05",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193750,
                 "clave": "IL351",
@@ -3041,7 +3053,7 @@
                 "seccion": "D06",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193751,
                 "clave": "IL351",
@@ -3072,7 +3084,7 @@
                 "seccion": "D07",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 37,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193752,
                 "clave": "IL351",
@@ -3103,7 +3115,7 @@
                 "seccion": "D08",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 31,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193754,
                 "clave": "IL351",
@@ -3134,7 +3146,7 @@
                 "seccion": "D09",
                 "materia": "Innovacion Y Tecnologia",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 193755,
                 "clave": "IL351",
@@ -3170,7 +3182,7 @@
                 "seccion": "D01",
                 "materia": "Introduccion A La Ingenieria",
                 "cupo": 40,
-                "disponible": 0,
+                "disponible": -1,
                 "creditos": 8,
                 "nrc": 189634,
                 "clave": "IL342",
@@ -3201,7 +3213,7 @@
                 "seccion": "D02",
                 "materia": "Introduccion A La Ingenieria",
                 "cupo": 40,
-                "disponible": 16,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189635,
                 "clave": "IL342",
@@ -3387,7 +3399,7 @@
                 "seccion": "D10",
                 "materia": "Introduccion A La Ingenieria",
                 "cupo": 20,
-                "disponible": 7,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 189643,
                 "clave": "IL342",
@@ -3449,7 +3461,7 @@
                 "seccion": "D12",
                 "materia": "Introduccion A La Ingenieria",
                 "cupo": 20,
-                "disponible": 9,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 194917,
                 "clave": "IL342",
@@ -3485,7 +3497,7 @@
                 "seccion": "D01",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 30,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193758,
                 "clave": "IL350",
@@ -3516,7 +3528,7 @@
                 "seccion": "D02",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 37,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193759,
                 "clave": "IL350",
@@ -3547,7 +3559,7 @@
                 "seccion": "D03",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 36,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193760,
                 "clave": "IL350",
@@ -3578,7 +3590,7 @@
                 "seccion": "D07",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 37,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193765,
                 "clave": "IL350",
@@ -3609,7 +3621,7 @@
                 "seccion": "D08",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 38,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193766,
                 "clave": "IL350",
@@ -3640,7 +3652,7 @@
                 "seccion": "D09",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 23,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193767,
                 "clave": "IL350",
@@ -3671,7 +3683,7 @@
                 "seccion": "D10",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193971,
                 "clave": "IL350",
@@ -3702,7 +3714,7 @@
                 "seccion": "D11",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 39,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193972,
                 "clave": "IL350",
@@ -3733,7 +3745,7 @@
                 "seccion": "D12",
                 "materia": "Liderazgo Y Emprendimiento",
                 "cupo": 40,
-                "disponible": 23,
+                "disponible": 0,
                 "creditos": 7,
                 "nrc": 193973,
                 "clave": "IL350",
@@ -3769,7 +3781,7 @@
                 "seccion": "D01",
                 "materia": "Logica Matematica",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": -2,
                 "creditos": 8,
                 "nrc": 189644,
                 "clave": "I5247",
@@ -3991,7 +4003,7 @@
                 "seccion": "D07",
                 "materia": "Logica Matematica",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": 1,
                 "creditos": 8,
                 "nrc": 189650,
                 "clave": "I5247",
@@ -4059,7 +4071,7 @@
                 "seccion": "D09",
                 "materia": "Logica Matematica",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": -2,
                 "creditos": 8,
                 "nrc": 197391,
                 "clave": "I5247",
@@ -4661,7 +4673,7 @@
                 "seccion": "D01",
                 "materia": "Precalculo",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": -1,
                 "creditos": 8,
                 "nrc": 189652,
                 "clave": "IG738",
@@ -4669,16 +4681,16 @@
                     1
                 ],
                 "horas": [
-                    "00:09 - 00:09"
+                    "09:00 - 10:55"
                 ],
                 "dias": [
-                    "Mi\u00e9rcoles"
+                    "Lunes"
                 ],
                 "edificio": [
-                    "Virtual 2"
+                    "Edificio U"
                 ],
                 "aula": [
-                    "A50"
+                    "A03"
                 ],
                 "periodo": [
                     "11/08/22 - 14/12/22"
@@ -4790,21 +4802,27 @@
                 "nrc": 189656,
                 "clave": "IG738",
                 "sesion": [
+                    1,
                     1
                 ],
                 "horas": [
-                    "00:06 - 00:06"
+                    "00:06 - 00:06",
+                    "00:09 - 00:09"
                 ],
                 "dias": [
-                    "Mi\u00e9rcoles"
+                    "Mi\u00e9rcoles",
+                    "Lunes"
                 ],
                 "edificio": [
+                    "Virtual 1",
                     "Virtual 1"
                 ],
                 "aula": [
-                    "A38"
+                    "A38",
+                    "A09"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
                 "profesor": "Mendoza Santos, Rosa Delia",
@@ -4816,7 +4834,7 @@
                 "seccion": "D06",
                 "materia": "Precalculo",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": 1,
                 "creditos": 8,
                 "nrc": 189657,
                 "clave": "IG738",
@@ -4989,7 +5007,7 @@
                 "seccion": "D11",
                 "materia": "Precalculo",
                 "cupo": 20,
-                "disponible": 0,
+                "disponible": -2,
                 "creditos": 8,
                 "nrc": 189662,
                 "clave": "IG738",
@@ -5006,11 +5024,11 @@
                     "Mi\u00e9rcoles"
                 ],
                 "edificio": [
-                    "Edificio U",
+                    "Edificio V",
                     "Edificio V"
                 ],
                 "aula": [
-                    "D01",
+                    "A01",
                     "A01"
                 ],
                 "periodo": [
@@ -5031,7 +5049,7 @@
                 "seccion": "D01",
                 "materia": "Probabilidad Y Estadistica",
                 "cupo": 25,
-                "disponible": 10,
+                "disponible": 0,
                 "creditos": 8,
                 "nrc": 112240,
                 "clave": "IB067",
@@ -5068,7 +5086,7 @@
                 "seccion": "D02",
                 "materia": "Probabilidad Y Estadistica",
                 "cupo": 25,
-                "disponible": 13,
+                "disponible": 3,
                 "creditos": 8,
                 "nrc": 178862,
                 "clave": "IB067",
@@ -5344,25 +5362,31 @@
                 "clave": "IL352",
                 "sesion": [
                     1,
+                    1,
                     1
                 ],
                 "horas": [
                     "09:00 - 10:55",
+                    "09:00 - 10:55",
                     "09:00 - 10:55"
                 ],
                 "dias": [
-                    "Lunes, Mi\u00e9rcoles",
+                    "Lunes",
+                    "Mi\u00e9rcoles",
                     "Viernes"
                 ],
                 "edificio": [
                     "Edificio UCT2",
+                    "Edificio UCT2",
                     "Edificio X"
                 ],
                 "aula": [
-                    "LC02",
+                    "LC06",
+                    "LC10",
                     "A07"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
@@ -5603,25 +5627,31 @@
                 "clave": "IL352",
                 "sesion": [
                     1,
+                    1,
                     1
                 ],
                 "horas": [
                     "09:00 - 10:55",
+                    "09:00 - 10:55",
                     "09:00 - 10:55"
                 ],
                 "dias": [
-                    "Lunes, Mi\u00e9rcoles",
+                    "Lunes",
+                    "Mi\u00e9rcoles",
                     "Viernes"
                 ],
                 "edificio": [
-                    "Edificio UCT1",
-                    "Edificio X"
+                    "Edificio UCT2",
+                    "Edificio X",
+                    "Edificio UCT2"
                 ],
                 "aula": [
                     "LC05",
-                    "A11"
+                    "A07",
+                    "LC09"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
@@ -5691,7 +5721,7 @@
                     "Edificio UCT1"
                 ],
                 "aula": [
-                    "A05",
+                    "A18",
                     "LC10"
                 ],
                 "periodo": [
