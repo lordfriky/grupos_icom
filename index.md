@@ -298,4 +298,4 @@ layout: default
 | 194956 | D08 | Villegas Gonzalez, Jose Martin | 07:00 - 08:55 | Lunes, Miércoles | Edificio T | A06 | <a href="https://chat.whatsapp.com/IIgiqeWx6WQ6L0Fq134Izj" target="_blank"><img src="./res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> |  |
 | 194957 | D09 | Sanchez Romero, Carlos Alberto | 07:00 - 08:55 | Martes, Jueves | Edificio T | A16 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL363&amp;nrc=194957" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>20 de agosto de 2022</b> a las <b>05:12 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>21 de agosto de 2022</b> a las <b>05:12 AM</b></p>
