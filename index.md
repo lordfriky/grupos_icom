@@ -39,7 +39,7 @@ layout: default
 | 197387 | D04 | Sanchez Najera, Abel Isai | 17:00 - 18:55  19:00 - 20:55 | Miércoles  Lunes | Edificio U  Edificio U | A05  A01 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB056&amp;nrc=197387" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 | 197388 | D05 | Beltran Aguirre, Fabiola Del Carmen | 13:00 - 14:55  13:00 - 14:55 | Lunes  Miércoles | Edificio U  Edificio U | A01  A03 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB056&amp;nrc=197388" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 | 197389 | D06 | Rodriguez Gutierrez, Jorge Luis | 00:09 - 00:09  00:17 - 00:17 | Jueves  Martes | Virtual 1  Virtual 1 | A01  A02 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB056&amp;nrc=197389" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
-| 197390 | D07 | Espino Rojas, Norma Elva | 11:00 - 12:55 | Lunes, Miércoles | Edificio P | A12 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB056&amp;nrc=197390" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
+| 197390 | D07 | Espino Rojas, Norma Elva | 11:00 - 12:55 | Lunes, Miércoles | Edificio P | A12 | <a href="https://chat.whatsapp.com/F6LH5AAl4NTInVPNQrmDbh" target="_blank"><img src="./res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> |  |
 
 <h2 style="text-align: center;">IL344 - Calculo Diferencial E Integral</h2>
 
@@ -298,4 +298,4 @@ layout: default
 | 194956 | D08 | Villegas Gonzalez, Jose Martin | 07:00 - 08:55 | Lunes, Miércoles | Edificio T | A06 | <a href="https://chat.whatsapp.com/IIgiqeWx6WQ6L0Fq134Izj" target="_blank"><img src="./res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> |  |
 | 194957 | D09 | Sanchez Romero, Carlos Alberto | 07:00 - 08:55 | Martes, Jueves | Edificio T | A16 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL363&amp;nrc=194957" target="_blank"><img src="./res/whatsapp_unavailable.png" width="18px"/> Agregar</a> |  |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>22 de agosto de 2022</b> a las <b>05:38 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>22 de agosto de 2022</b> a las <b>05:12 PM</b></p>
