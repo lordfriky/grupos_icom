@@ -3033,21 +3033,27 @@
                 "nrc": 193749,
                 "clave": "IL351",
                 "sesion": [
+                    1,
                     1
                 ],
                 "horas": [
-                    "13:00 - 14:55"
+                    "13:00 - 14:55",
+                    "15:00 - 16:55"
                 ],
                 "dias": [
+                    "Viernes",
                     "Viernes"
                 ],
                 "edificio": [
+                    "Virtual 2",
                     "Virtual 2"
                 ],
                 "aula": [
+                    "A32",
                     "A32"
                 ],
                 "periodo": [
+                    "11/08/22 - 14/12/22",
                     "11/08/22 - 14/12/22"
                 ],
                 "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
