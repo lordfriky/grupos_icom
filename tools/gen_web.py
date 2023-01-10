@@ -156,7 +156,8 @@ def generarPaginasSemestres(mallas: list[ET.Element], plan: str, rutaPlan: str):
             # Si al menos una materia tiene secciones, hacemos el semestre
             if any(list(materias.values())):
                 haySemestresAgregados = True
-                enlaceSemestre = document.new_tag("a", href=f"{rutaSemestre}/")
+                hrefSemestre = f"{idMalla}/{numSemestre}"
+                enlaceSemestre = document.new_tag("a", href=hrefSemestre)
                 enlaceSemestre.string = f"{numSemestre}º"
                 document.body.append("| ")
                 document.body.append(enlaceSemestre)
