@@ -54,43 +54,46 @@ def materiasAMarkup(materias: dict):
 
     for clave, materia in materias.items():
         h2 = document.new_tag("h2", style="text-align: center;")
-        h2.string = "{} - {}".format(clave, "materia.nombre".title())
 
         document.body.append("\n")
         document.body.append(h2)
         document.body.append("\n\n")
         document.body.append(
-            "| Maestr@ | Dias | Horario | Edificio | Salón | NRC | Sección | Grupo de WhatsApp | Eliminada de SIIAU |\n"
-            "| ------- | ---- | ------- | -------- | ----- | --- | ------- | ----------------- | ------------------ |\n")
+            "| Grupo de WhatsApp | Maestr@ | Edificio | Salón | Dias | Horario | Sección | NRC | ¿Eliminada de SIIAU? |\n"
+            "| ----------------- | ------- | -------- | ----- | ---- | ------- | ------- | --- | -------------------- |\n")
 
         for grupo in materia.values():
+            h2.string = "{} - {}".format(clave, grupo.obtenerNombre())
+            resourceRoot = "../../../../res/{}"
             if grupo.url:
-                link = document.new_tag("a", href=grupo.url, target="_blank")
-                icono = document.new_tag(
-                    "img", src="./res/whatsapp_available.png", width="18px")
-                link.append(icono)
-                link.append(" Enlace de invitación")
+                url = grupo.url
+                textoEnlace = " Enlace de invitación"
+                srcImg = "whatsapp_available.png"
+
             else:
                 formatoUrl1 = f"https://github.com/{os.environ.get('GIT_USER', 'lordfriky')}/grupos_icom/issues/new"
                 formatoUrl2 = f"?labels=grupo&template=add_group.yml&title={quote_plus('[BOT] Añadir enlace de invitación')}"
                 formatoUrl3 = f'&clave={grupo.clave}&nrc={grupo.nrc}'
-                urlIssue = f"{formatoUrl1}{formatoUrl2}{formatoUrl3}"
-                link = document.new_tag("a", href=urlIssue, target="_blank")
-                icono = document.new_tag(
-                    "img", src="./res/whatsapp_unavailable.png", width="18px")
-                link.append(icono)
-                link.append(" Agregar")
+                url = f"{formatoUrl1}{formatoUrl2}{formatoUrl3}"
+                textoEnlace = " Agregar"
+                srcImg = "whatsapp_unavailable.png"
 
-            texto = ""
+            link = document.new_tag("a", href=url, target="_blank")
+            icono = document.new_tag(
+                "img", src=resourceRoot.format(srcImg), width="18px")
+            link.append(icono)
+            link.append(textoEnlace)
+
+            texto = " "
             carSaltoLinea = "  "
-            texto_eliminada = "Eliminada de SIIAU"
+            texto_eliminada = "Eliminada"
             texto_eliminada = texto_eliminada if grupo.eliminada else ""
             orden = [
                 grupo.obtenerProfesor(),
-                grupo.obtenerDias,
-                grupo.obtenerHoras(),
                 grupo.obtenerEdificio(),
                 grupo.obtenerAula(),
+                grupo.obtenerDias(),
+                grupo.obtenerHoras(),
                 grupo.seccion,
                 grupo.nrc,
             ]
@@ -107,11 +110,11 @@ def materiasAMarkup(materias: dict):
                     valor = "N/D"
                 texto += f"| {valor} "
 
-            texto += "| "
+            texto += "|"
 
-            document.body.append(texto)
+            document.body.append("| ")
             document.body.append(link)
-            document.body.append(" | ")
+            document.body.append(texto)
             document.body.append(texto_eliminada)
             document.body.append(" |\n")
 
