@@ -129,4 +129,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL341&amp;nrc=199885" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Sanchez Sanchez, Oscar Didier | Edificio X | A10 | Lunes, Miércoles | 07:00 - 08:55 | D11 | 199885 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL341&amp;nrc=199922" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Silva Mares, Oscar Gregorio | Edificio X | A02 | Lunes, Miércoles | 13:00 - 14:55 | D12 | 199922 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>10 de enero de 2023</b> a las <b>10:44 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>10 de enero de 2023</b> a las <b>12:16 PM</b></p>
