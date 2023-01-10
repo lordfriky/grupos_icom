@@ -27,6 +27,6 @@ body:
     attributes:
       label: NRC del curso
       description: Ingresa el NRC del curso. Es el identificador único de la materia y el que utilizas al registrar una materia en SIIAU.
-      placeholder: 123456
+      placeholder: '123456'
     validations:
       required: true
