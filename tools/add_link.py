@@ -1,14 +1,15 @@
+#!/bin/python3
+# coding: utf-8
 # pip3 install bs4 html5lib
+
 import argparse
 import os
 import re
-from sys import argv
+
+from constantes import *
+
 from gen_web import generarPagina
-from get_offer import cargarMaterias, guardarMaterias
-
-
-RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
-RUTA_MATERIAS = os.path.join(RAIZ_WEB, "materias.json")
+from CatalogoMaterias import CatalogoMaterias
 
 
 def verificarArgumentos():
@@ -55,18 +56,25 @@ def verificarArgumentos():
         print('Error: El link {} es inválido. Verifica que el link sea de WhatsApp y que comience con HTTPS y no HTTP'.format(link))
         exit(1)
 
-    return clave, nrc, link
+    return clave, int(nrc), link
 
 
 def agregarEnlaceAMaterias(clave: str, nrc: str, link: str):
-    materias = cargarMaterias()
+    catalogo = CatalogoMaterias(PLAN_DEF)
+    materias = catalogo.obtenerTodo()
+    materia = None
+
     if not materias:
         exit(1)
 
     try:
         if materias.get(clave, {}):
-            if materias[clave]["grupos"].get(nrc):
-                materias[clave]["grupos"][nrc]["url"] = link
+            materia = materias[clave].get(nrc)
+
+            if materia:
+                materia.url = link
+                catalogo.actualizar(materia)
+
             else:
                 print(f"Error: El NRC {nrc} no existe en la base de datos.")
                 exit(1)
@@ -81,16 +89,13 @@ def agregarEnlaceAMaterias(clave: str, nrc: str, link: str):
         print(traceback.format_exc())
         exit(1)
 
-    if not guardarMaterias(materias):
-        exit(1)
-
     return materias
 
 
 def main():
     clave, nrc, link = verificarArgumentos()
-    materias = agregarEnlaceAMaterias(clave, nrc, link)
-    generarPagina(materias)
+    agregarEnlaceAMaterias(clave, nrc, link)
+    generarPagina()
 
 
 if __name__ == "__main__":

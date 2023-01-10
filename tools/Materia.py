@@ -1,9 +1,13 @@
 #!/bin/python3
 # coding: utf-8
 
+from constantes import *
+
+from Horario import Horario
+
 class Materia:
     centro = str()
-    nrc = str()
+    nrc = int()
     clave = str()
     nombre = str()
     seccion = str()
@@ -148,3 +152,28 @@ class Materia:
             "eliminada": self.eliminada,
         }
         return mat_legible_por_humanos
+
+    def obtenerDict(self):
+        """
+        Devuelve un diccionario con los detalles de la materia
+        """
+        dictMateria = {
+            "centro": self.centro,
+            "seccion": self.seccion,
+            "materia": self.nombre,
+            "cupo": self.cupo,
+            "disponible": self.disponible,
+            "creditos": self.creditos,
+            "nrc": self.nrc,
+            "clave": self.clave,
+            "sesion": self.obtenerSesion(legible_por_humanos=False),
+            "horas": self.obtenerHoras(legible_por_humanos=False),
+            "dias": self.obtenerDias(legible_por_humanos=False),
+            "edificio": self.obtenerEdificio(legible_por_humanos=False),
+            "aula": self.obtenerAula(legible_por_humanos=False),
+            "periodo": self.obtenerPeriodo(legible_por_humanos=False),
+            "profesor": self.obtenerProfesor(),
+            "url": self.url,
+            "eliminada": self.eliminada,
+        }
+        return dictMateria
