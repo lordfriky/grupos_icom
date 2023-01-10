@@ -13,9 +13,10 @@ En el caso del sistema para agregar los grupos de WhatsApp, se utiliza [GitHub A
 Con la funcionalidad actual de la página me basta para lo que quería hacer, sin embargo, si hay mucha demanda en alguno de los siguientes elementos *quizás* trabaje en ellos. De igual manera, los [PR](https://github.com/lordfriky/grupos_icom/compare) son **bienvenidos**.
 - [x] Agregar un sistema automatizado para generar la página web.
   - Completado
-- [ ] Agregar [octokit](https://github.com/khornberg/octokit.py) para interactuar mejor con los issues.
+- [x] Agregar [octokit](https://github.com/khornberg/octokit.py) para interactuar mejor con los issues. (Reemplazado por [hub](https://hub.github.com))
 - [x] Agregar los demás semestres.
-  - Completado. Queda pendiente subdividirlos
+  - [ ] Organizar mejor los semestres.
+- [ ] Nuevo diseño (Quizás basado en Bootstrap?)
 
 
 Créditos a SistemaRayoXP por sus aportaciones al repositorio 🤝.

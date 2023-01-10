@@ -1,14 +1,20 @@
-# To do
+#!/bin/python3
+# coding: utf-8
 import os
+import datetime as dt
+
+import xml.etree.ElementTree as ET
+
 from urllib.parse import quote_plus
 from bs4 import BeautifulSoup
-from datetime import datetime
-from get_offer import cargarMaterias
 
-RAIZ_WEB = os.path.dirname(os.path.dirname(__file__))
+from constantes import *
+from CatalogoMaterias import CatalogoMaterias
+
+from get_offer import obtenerPlanes
 
 
-def obtenerMes(mes: int):
+def obtenerNombreMes(mes: int):
     meses = [
         "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
         "agosto", "septiembre", "octubre", "noviembre", "diciembre"
@@ -16,25 +22,50 @@ def obtenerMes(mes: int):
     return meses[mes-1]
 
 
-def procesarMateriasAMarkup(materias: dict):
+def nuevoDocumentoBs():
     document = BeautifulSoup("", "html5lib")
     document.body.append("---\nlayout: default\n---\n")
+    
+    return document
+
+
+def obtenerPiePagina(documentoBs: BeautifulSoup):
+    piePagina = documentoBs.new_tag("p", class_="text-center text-muted")
+    piePagina.string = "Datos actualizados al día "
+
+    zonaHoraria = dt.timezone(dt.timedelta(hours=-5))
+    ahora = dt.datetime.now(zonaHoraria)
+
+    fecha = documentoBs.new_tag("b")
+    fecha.string = f"{ahora.day} de {obtenerNombreMes(ahora.month)} de {ahora.year}"
+    piePagina.append(fecha)
+
+    piePagina.append(" a las ")
+
+    hora = documentoBs.new_tag("b")
+    hora.string = dt.datetime.strftime(ahora, "%I:%M %p")
+    piePagina.append(hora)
+    
+    return piePagina
+
+
+def materiasAMarkup(materias: dict):
+    document = nuevoDocumentoBs()
 
     for clave, materia in materias.items():
         h2 = document.new_tag("h2", style="text-align: center;")
-        h2.string = "{} - {}".format(clave, materia["nombre"])
+        h2.string = "{} - {}".format(clave, "materia.nombre".title())
 
         document.body.append("\n")
         document.body.append(h2)
         document.body.append("\n\n")
         document.body.append(
-            "| NRC | Sección | Maestr@ | Horario | Dias | Edificio | Salón | Grupo de WhatsApp | Eliminada de SIIAU |\n"
-            "| --- | ------- | ------- | ------- | ---- | -------- | ----- | ----------------- | ------------------ |\n")
+            "| Maestr@ | Dias | Horario | Edificio | Salón | NRC | Sección | Grupo de WhatsApp | Eliminada de SIIAU |\n"
+            "| ------- | ---- | ------- | -------- | ----- | --- | ------- | ----------------- | ------------------ |\n")
 
-        for grupo in materia["grupos"].values():
-            if grupo.get("url"):
-                url = grupo.pop("url")
-                link = document.new_tag("a", href=url, target="_blank")
+        for grupo in materia.values():
+            if grupo.url:
+                link = document.new_tag("a", href=grupo.url, target="_blank")
                 icono = document.new_tag(
                     "img", src="./res/whatsapp_available.png", width="18px")
                 link.append(icono)
@@ -42,7 +73,7 @@ def procesarMateriasAMarkup(materias: dict):
             else:
                 formatoUrl1 = f"https://github.com/{os.environ.get('GIT_USER', 'lordfriky')}/grupos_icom/issues/new"
                 formatoUrl2 = f"?labels=grupo&template=add_group.yml&title={quote_plus('[BOT] Añadir enlace de invitación')}"
-                formatoUrl3 = f'&clave={grupo["clave"]}&nrc={grupo["nrc"]}'
+                formatoUrl3 = f'&clave={grupo.clave}&nrc={grupo.nrc}'
                 urlIssue = f"{formatoUrl1}{formatoUrl2}{formatoUrl3}"
                 link = document.new_tag("a", href=urlIssue, target="_blank")
                 icono = document.new_tag(
@@ -53,15 +84,15 @@ def procesarMateriasAMarkup(materias: dict):
             texto = ""
             carSaltoLinea = "  "
             texto_eliminada = "Eliminada de SIIAU"
-            texto_eliminada = texto_eliminada if grupo.get("eliminada") else ""
+            texto_eliminada = texto_eliminada if grupo.eliminada else ""
             orden = [
-                grupo["nrc"],
-                grupo["seccion"],
-                grupo["profesor"],
-                grupo["horas"],
-                grupo["dias"],
-                grupo["edificio"],
-                grupo["aula"],
+                grupo.obtenerProfesor(),
+                grupo.obtenerDias,
+                grupo.obtenerHoras(),
+                grupo.obtenerEdificio(),
+                grupo.obtenerAula(),
+                grupo.seccion,
+                grupo.nrc,
             ]
 
             for val in orden:
@@ -86,46 +117,121 @@ def procesarMateriasAMarkup(materias: dict):
 
     document.body.append("\n")
 
-    piePagina = document.new_tag("p", class_="text-center text-muted")
-    piePagina.string = "Datos actualizados al día "
+    document.body.append(obtenerPiePagina(document))
 
-    ahora = datetime.now()
-
-    fecha = document.new_tag("b")
-    fecha.string = f"{ahora.day} de {obtenerMes(ahora.month)} de {ahora.year}"
-    piePagina.append(fecha)
-
-    piePagina.append(" a las ")
-
-    hora = document.new_tag("b")
-    hora.string = datetime.strftime(ahora, "%I:%M %p")
-    piePagina.append(hora)
-
-    document.body.append(piePagina)
-
-    page = str(document.body)
-    page = page.replace("<body>", "").replace("</body>", "")
-
-    return page
+    return document
 
 
-def guardarPagina(pagina: str, archivo: str = 'index.md'):
+def generarPaginasSemestres(mallas: list[ET.Element], plan: str, rutaPlan: str):
+    document = nuevoDocumentoBs()
+    catalogo = CatalogoMaterias(plan)
+    haySemestresAgregados = False
+
+    for mallaTag in mallas:
+        nombreMalla = mallaTag.attrib['nombre']
+        idMalla = mallaTag.attrib['id']
+
+        h2 = document.new_tag("h2", style="text-align: center;")
+        h2.string = f"Malla {nombreMalla}"
+
+        document.body.append("\n")
+        document.body.append(h2)
+        document.body.append("\n\n")
+        document.body.append("| Semestre |\n"
+                             "| -------- |\n")
+        semestresMalla = mallaTag.findall("semestre")
+        semestresMalla = sorted(semestresMalla,
+                                key=lambda m: m.attrib["numero"])
+
+        for semestre in semestresMalla:
+            numSemestre = semestre.attrib['numero']
+            rutaSemestre = f"{rutaPlan}/{idMalla}/{numSemestre}"
+            claves = semestre.findall("materia")
+            claves = [c.text for c in claves]
+
+            materias = {
+                clave: catalogo.obtenerPorClave(clave) for clave in claves
+            }
+
+            # Si al menos una materia tiene secciones, hacemos el semestre
+            if any(list(materias.values())):
+                haySemestresAgregados = True
+                enlaceSemestre = document.new_tag("a", href=f"{rutaSemestre}/")
+                enlaceSemestre.string = f"{numSemestre}º"
+                document.body.append("| ")
+                document.body.append(enlaceSemestre)
+                document.body.append(" |\n")
+                documentoSemestre = materiasAMarkup(materias)
+                guardarPagina(documentoSemestre, f"{rutaSemestre}/index.md")
+
+            # Si ningún elemento tiene secciones,
+            # borramos la carpeta (si existe) y saltamos
+            else:
+                if os.path.exists(rutaSemestre):
+                    os.rmdir(rutaSemestre)
+                continue
+
+    document.body.append("\n")
+    document.body.append(obtenerPiePagina(document))
+    
+    return document if haySemestresAgregados else None
+
+
+def generarPlanes():
+    document = nuevoDocumentoBs()
+    planes = obtenerPlanes()
+
+    for planTag in planes:
+        idPlan = planTag.attrib["id"]
+        mallas = planTag.findall("malla")
+        rutaPlan = f"planes/{idPlan}"
+        enlacePlan = document.new_tag("a")
+        enlacePlan["style"] = "padding: 1rem;"
+        enlacePlan["href"] = f"{rutaPlan}/"
+        enlacePlan.string = idPlan
+        document.body.append(enlacePlan)
+
+        documentoSemestres = generarPaginasSemestres(mallas, idPlan, rutaPlan)
+        if documentoSemestres is not None:
+            guardarPagina(documentoSemestres, f"{rutaPlan}/index.md")
+
+    document.body.append("\n")
+    document.body.append(obtenerPiePagina(document))
+    
+    return document
+
+
+def generarPagina():
+    generacionCorrecta = True
+    try:
+        paginaPlanes = generarPlanes()
+        guardarPagina(paginaPlanes, "index.md")
+
+    except:
+        import traceback
+        print(traceback.format_exc())
+        generacionCorrecta = False
+
+    return generacionCorrecta
+
+
+def guardarPagina(documento: BeautifulSoup, archivo: str):
     ruta = os.path.join(RAIZ_WEB, archivo)
+    os.makedirs(os.path.dirname(ruta), exist_ok=True)
+
+    paginaMd = str(documento.body)
+    paginaMd = paginaMd.replace("<body>", "").replace("</body>", "")
 
     with open(ruta, 'w') as file:
-        file.write(pagina)
-
-
-def generarPagina(materias: dict):
-    paginaMarkup = procesarMateriasAMarkup(materias)
-    guardarPagina(paginaMarkup)
+        file.write(paginaMd)
 
 
 def main():
     print("Generando web...")
-    materias = cargarMaterias()
-    generarPagina(materias)
-    print("Web estática generada correctamente")
+    if generarPagina():
+        print("Archivos estáticos generados correctamente")
+    else:
+        print("Error al generar los archivos estáticos")
 
 
 if __name__ == "__main__":

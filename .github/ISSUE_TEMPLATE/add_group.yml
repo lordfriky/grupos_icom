@@ -5,7 +5,7 @@ labels: ["grupo"]
 body:
   - type: markdown
     attributes:
-      value: ¡Gracias por añadir un nuevo grupo a esta web!
+      value: ¡Gracias por tu interés en añadir un grupo a esta página!
   - type: input
     id: link
     attributes:
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Clave de la materia
       description: Ingresa la clave de la materia que quieres añadir. Es la que utilizas al buscar grupos en SIIAU.
-      placeholder: I3456, AB123, LT789, MA134, etc.
+      placeholder: AB123
     validations:
       required: true
   - type: input
@@ -27,6 +27,6 @@ body:
     attributes:
       label: NRC del curso
       description: Ingresa el NRC del curso. Es el identificador único de la materia y el que utilizas al registrar una materia en SIIAU.
-      placeholder: 123456, 134567, 191234, etc.
+      placeholder: 123456
     validations:
       required: true
