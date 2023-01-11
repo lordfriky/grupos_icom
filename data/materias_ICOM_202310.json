@@ -6694,21 +6694,27 @@
       "nrc": 193251,
       "clave": "IL343",
       "sesion": [
+        "01",
         "01"
       ],
       "horas": [
+        "1100-1255",
         "1100-1255"
       ],
       "dias": [
-        ". M . J . ."
+        ". M . . . .",
+        ". . . J . ."
       ],
       "edificio": [
+        "DEDV",
         "DEDV"
       ],
       "aula": [
+        "",
         ""
       ],
       "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Garcia Sanchez, Mayra Elizabeth",
