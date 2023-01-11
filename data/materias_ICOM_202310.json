@@ -3262,21 +3262,27 @@
       "nrc": 189666,
       "clave": "IL340",
       "sesion": [
+        "01",
         "01"
       ],
       "horas": [
+        "1500-1655",
         "1500-1655"
       ],
       "dias": [
-        ". M . J . ."
+        ". M . . . .",
+        ". . . J . ."
       ],
       "edificio": [
-        ""
+        "DEDV",
+        "DEDV"
       ],
       "aula": [
-        ""
+        "A011",
+        "A011"
       ],
       "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Vazquez Mercado, Liliana",
@@ -6706,12 +6712,12 @@
         ". . . J . ."
       ],
       "edificio": [
-        "DEDV",
-        "DEDV"
+        "DEDU",
+        "DEDU"
       ],
       "aula": [
-        "",
-        ""
+        "A024",
+        "A023"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -7554,8 +7560,8 @@
       "centro": "D",
       "seccion": "D01",
       "materia": "PROBABILIDAD Y ESTADISTICA",
-      "cupo": 20,
-      "disponible": 15,
+      "cupo": 25,
+      "disponible": 20,
       "creditos": 8,
       "nrc": 112240,
       "clave": "IB067",
@@ -7591,8 +7597,8 @@
       "centro": "D",
       "seccion": "D02",
       "materia": "PROBABILIDAD Y ESTADISTICA",
-      "cupo": 20,
-      "disponible": 15,
+      "cupo": 25,
+      "disponible": 20,
       "creditos": 8,
       "nrc": 178862,
       "clave": "IB067",
