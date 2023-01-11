@@ -1776,7 +1776,7 @@
       "seccion": "D04",
       "materia": "CIRCUITOS ELECTRONICOS Y ELECTROMAGNETISMO",
       "cupo": 30,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 194944,
       "clave": "IL346",
