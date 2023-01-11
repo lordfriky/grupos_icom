@@ -92,4 +92,4 @@ layout: default
 | <a href="https://chat.whatsapp.com/DKCxJxWDqn9C6KznbIk7cO" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Marquez Frausto, Luis Antonio | Edificio X | A17 | Martes, Jueves | 09:00 - 10:55 | D21 | 200670 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL350&amp;nrc=200671" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Marquez Frausto, Luis Antonio | Edificio X | A03 | Martes, Jueves | 15:00 - 16:55 | D22 | 200671 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>11 de enero de 2023</b> a las <b>06:14 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>11 de enero de 2023</b> a las <b>06:37 AM</b></p>
