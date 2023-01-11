@@ -80,4 +80,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL349&amp;nrc=194925" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Cedano Rodriguez, Alfredo | Edificio X | A02 | Martes, Jueves | 17:00 - 18:55 | D07 | 194925 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL349&amp;nrc=194926" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Cedano Rodriguez, Alfredo | Edificio X | A10 | Martes, Jueves | 19:00 - 20:55 | D08 | 194926 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>10 de enero de 2023</b> a las <b>12:38 PM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>10 de enero de 2023</b> a las <b>08:59 PM</b></p>
