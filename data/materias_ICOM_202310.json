@@ -6194,12 +6194,24 @@
       "creditos": 8,
       "nrc": 200721,
       "clave": "I5247",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1300-1455"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        ""
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
       "profesor": "Ortega Cordova, Raul",
       "url": "",
       "eliminada": false
