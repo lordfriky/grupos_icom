@@ -6194,24 +6194,12 @@
       "creditos": 8,
       "nrc": 200721,
       "clave": "I5247",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1255"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDV"
-      ],
-      "aula": [
-        "A010"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
       "profesor": "Ortega Cordova, Raul",
       "url": "",
       "eliminada": false
@@ -6229,16 +6217,16 @@
         "01"
       ],
       "horas": [
-        "1500-1655"
+        "1600-1755"
       ],
       "dias": [
-        ". M . J . ."
+        "L . . J . ."
       ],
       "edificio": [
-        "DEDV"
+        ""
       ],
       "aula": [
-        "A004"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -7511,16 +7499,16 @@
         "01"
       ],
       "horas": [
-        "0900-1055"
+        "0009-0009"
       ],
       "dias": [
         ". M . J . ."
       ],
       "edificio": [
-        "DEDV"
+        "DESV1"
       ],
       "aula": [
-        "A009"
+        "A003"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -7542,16 +7530,16 @@
         "01"
       ],
       "horas": [
-        "1300-1455"
+        "1400-1555"
       ],
       "dias": [
         ". M . J . ."
       ],
       "edificio": [
-        "DEDV"
+        ""
       ],
       "aula": [
-        "A010"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
