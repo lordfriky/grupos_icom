@@ -87,4 +87,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL353&amp;nrc=193736" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Galvez Lopez, Hector Alejandro | Virtual 2 | A42 | Martes, Jueves | 17:00 - 18:55 | D09 | 193736 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL353&amp;nrc=201853" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Maciel Castillo, Oscar Eduardo | N/D | N/D | N/D | N/D | D10 | 201853 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>12 de enero de 2023</b> a las <b>03:23 PM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>12 de enero de 2023</b> a las <b>03:24 PM</b></p>
