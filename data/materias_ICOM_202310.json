@@ -503,7 +503,7 @@
       "seccion": "D09",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": 16,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 193736,
       "clave": "IL353",
@@ -623,7 +623,7 @@
       "seccion": "D03",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 7,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 197386,
       "clave": "IB056",
@@ -2497,7 +2497,7 @@
       "seccion": "D01",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 30,
-      "disponible": 21,
+      "disponible": 19,
       "creditos": 8,
       "nrc": 189608,
       "clave": "IL341",
@@ -2590,7 +2590,7 @@
       "seccion": "D04",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 13,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 189611,
       "clave": "IL341",
@@ -2714,7 +2714,7 @@
       "seccion": "D08",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 189615,
       "clave": "IL341",
@@ -2745,7 +2745,7 @@
       "seccion": "D09",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 21,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 189616,
       "clave": "IL341",
@@ -2776,7 +2776,7 @@
       "seccion": "D10",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 32,
+      "disponible": 31,
       "creditos": 8,
       "nrc": 189617,
       "clave": "IL341",
@@ -2807,7 +2807,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 25,
+      "disponible": 22,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -3150,7 +3150,7 @@
       "seccion": "D10",
       "materia": "EXPRESION ORAL Y ESCRITA",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 6,
       "nrc": 200646,
       "clave": "LT251",
@@ -3810,7 +3810,7 @@
       "seccion": "D01",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 17,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 189619,
       "clave": "I5288",
@@ -3841,7 +3841,7 @@
       "seccion": "D02",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 14,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 189620,
       "clave": "I5288",
@@ -4027,7 +4027,7 @@
       "seccion": "D08",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 4,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 189626,
       "clave": "I5288",
@@ -4089,7 +4089,7 @@
       "seccion": "D10",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 15,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 189628,
       "clave": "I5288",
@@ -4312,7 +4312,7 @@
       "seccion": "D17",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 15,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 200266,
       "clave": "I5288",
@@ -4343,7 +4343,7 @@
       "seccion": "D18",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 10,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 200267,
       "clave": "I5288",
@@ -4374,7 +4374,7 @@
       "seccion": "D19",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 12,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 200268,
       "clave": "I5288",
@@ -4436,7 +4436,7 @@
       "seccion": "D21",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200270,
       "clave": "I5288",
@@ -4634,7 +4634,7 @@
       "seccion": "D27",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 12,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 200276,
       "clave": "I5288",
@@ -4665,7 +4665,7 @@
       "seccion": "D28",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200277,
       "clave": "I5288",
@@ -4921,7 +4921,7 @@
       "seccion": "D05",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 37,
+      "disponible": 36,
       "creditos": 8,
       "nrc": 193750,
       "clave": "IL351",
@@ -5076,7 +5076,7 @@
       "seccion": "D10",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 36,
+      "disponible": 35,
       "creditos": 8,
       "nrc": 200647,
       "clave": "IL351",
@@ -5140,7 +5140,7 @@
       "seccion": "D02",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 7,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189635,
       "clave": "IL342",
@@ -5171,7 +5171,7 @@
       "seccion": "D03",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 11,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 189636,
       "clave": "IL342",
@@ -5233,7 +5233,7 @@
       "seccion": "D05",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 31,
+      "disponible": 29,
       "creditos": 8,
       "nrc": 189638,
       "clave": "IL342",
@@ -5295,7 +5295,7 @@
       "seccion": "D09",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 7,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 189642,
       "clave": "IL342",
@@ -5388,7 +5388,7 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 31,
+      "disponible": 30,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
@@ -5886,7 +5886,7 @@
       "seccion": "D19",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 29,
+      "disponible": 28,
       "creditos": 7,
       "nrc": 200668,
       "clave": "IL350",
@@ -6402,68 +6402,6 @@
       "url": "",
       "eliminada": false
     },
-    "201858": {
-      "centro": "D",
-      "seccion": "D13",
-      "materia": "LOGICA MATEMATICA",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 201858,
-      "clave": "I5247",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1500-1655"
-      ],
-      "dias": [
-        "L . I . . ."
-      ],
-      "edificio": [
-        "DEDV"
-      ],
-      "aula": [
-        "A005"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Ramirez Moreno, Benjamin",
-      "url": "",
-      "eliminada": false
-    },
-    "201859": {
-      "centro": "D",
-      "seccion": "D14",
-      "materia": "LOGICA MATEMATICA",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 201859,
-      "clave": "I5247",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDV"
-      ],
-      "aula": [
-        "A009"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Ramirez Moreno, Benjamin",
-      "url": "",
-      "eliminada": false
-    },
     "201861": {
       "centro": "D",
       "seccion": "D16",
@@ -6556,6 +6494,68 @@
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
       "eliminada": false
+    },
+    "201858": {
+      "centro": "D",
+      "seccion": "D13",
+      "materia": "LOGICA MATEMATICA",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201858,
+      "clave": "I5247",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1500-1655"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        "DEDV"
+      ],
+      "aula": [
+        "A005"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Ramirez Moreno, Benjamin",
+      "url": "",
+      "eliminada": true
+    },
+    "201859": {
+      "centro": "D",
+      "seccion": "D14",
+      "materia": "LOGICA MATEMATICA",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201859,
+      "clave": "I5247",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDV"
+      ],
+      "aula": [
+        "A009"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Ramirez Moreno, Benjamin",
+      "url": "",
+      "eliminada": true
     }
   },
   "IL345": {
@@ -7722,7 +7722,7 @@
       "seccion": "D01",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "cupo": 25,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 112240,
       "clave": "IB067",
@@ -7790,7 +7790,7 @@
       "seccion": "D03",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "cupo": 30,
-      "disponible": 14,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 200065,
       "clave": "IB067",
