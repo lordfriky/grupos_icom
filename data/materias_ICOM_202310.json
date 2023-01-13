@@ -3591,28 +3591,16 @@
       "seccion": "D13",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 40,
-      "disponible": 35,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 201483,
       "clave": "IL340",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0000-0000"
-      ],
-      "dias": [
-        ". . . . . S"
-      ],
-      "edificio": [
-        "DESV2"
-      ],
-      "aula": [
-        "A001"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
       "profesor": "Rosalio Cuevas, Samuel",
       "url": "",
       "eliminada": false
@@ -3642,6 +3630,167 @@
         "A002"
       ],
       "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Mu\u00f1oz Villegas, Susana",
+      "url": "",
+      "eliminada": false
+    },
+    "201878": {
+      "centro": "D",
+      "seccion": "D15",
+      "materia": "FUNDAMENTOS DE FISICA",
+      "cupo": 30,
+      "disponible": 30,
+      "creditos": 8,
+      "nrc": 201878,
+      "clave": "IL340",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-0855"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        ""
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Pelayo Pelayo, Alma Lucia",
+      "url": "",
+      "eliminada": false
+    },
+    "201879": {
+      "centro": "D",
+      "seccion": "D16",
+      "materia": "FUNDAMENTOS DE FISICA",
+      "cupo": 30,
+      "disponible": 30,
+      "creditos": 8,
+      "nrc": 201879,
+      "clave": "IL340",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-0855"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        ""
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Rodriguez Dominguez, Alma Leticia",
+      "url": "",
+      "eliminada": false
+    },
+    "201880": {
+      "centro": "D",
+      "seccion": "D17",
+      "materia": "FUNDAMENTOS DE FISICA",
+      "cupo": 30,
+      "disponible": 30,
+      "creditos": 8,
+      "nrc": 201880,
+      "clave": "IL340",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0900-1055"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        ""
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Mu\u00f1oz Villegas, Susana",
+      "url": "",
+      "eliminada": false
+    },
+    "201881": {
+      "centro": "D",
+      "seccion": "D18",
+      "materia": "FUNDAMENTOS DE FISICA",
+      "cupo": 30,
+      "disponible": 30,
+      "creditos": 8,
+      "nrc": 201881,
+      "clave": "IL340",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-0855"
+      ],
+      "dias": [
+        ". M I . . ."
+      ],
+      "edificio": [
+        ""
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Sanchez Martinez, Araceli",
+      "url": "",
+      "eliminada": false
+    },
+    "201882": {
+      "centro": "D",
+      "seccion": "D19",
+      "materia": "FUNDAMENTOS DE FISICA",
+      "cupo": 30,
+      "disponible": 30,
+      "creditos": 8,
+      "nrc": 201882,
+      "clave": "IL340",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1500-1655",
+        "1500-1655"
+      ],
+      "dias": [
+        "L . . . . .",
+        ". . I . . ."
+      ],
+      "edificio": [
+        "DEDV",
+        "DEDV"
+      ],
+      "aula": [
+        "A011",
+        "A011"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Mu\u00f1oz Villegas, Susana",
@@ -4583,8 +4732,8 @@
       "centro": "D",
       "seccion": "D30",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "cupo": 0,
-      "disponible": 0,
+      "cupo": 20,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 200605,
       "clave": "I5288",
@@ -4614,7 +4763,7 @@
       "centro": "D",
       "seccion": "D31",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "cupo": 0,
+      "cupo": 20,
       "disponible": 0,
       "creditos": 8,
       "nrc": 200606,
@@ -6220,8 +6369,8 @@
       "centro": "D",
       "seccion": "D12",
       "materia": "LOGICA MATEMATICA",
-      "cupo": 0,
-      "disponible": 0,
+      "cupo": 40,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 200722,
       "clave": "I5247",
@@ -6483,7 +6632,7 @@
       "seccion": "D04",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193983,
       "clave": "IL345",
@@ -7511,16 +7660,16 @@
         "01"
       ],
       "horas": [
-        "0009-0009"
+        "1500-1655"
       ],
       "dias": [
         ". M . J . ."
       ],
       "edificio": [
-        "DESV1"
+        ""
       ],
       "aula": [
-        "A003"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -7533,7 +7682,7 @@
       "centro": "D",
       "seccion": "D13",
       "materia": "PRECALCULO",
-      "cupo": 0,
+      "cupo": 40,
       "disponible": 0,
       "creditos": 8,
       "nrc": 200724,
