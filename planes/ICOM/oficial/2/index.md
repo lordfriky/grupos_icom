@@ -86,4 +86,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=LT251&amp;nrc=193779" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Guerrero Contreras, Jose Luis | Virtual 2 | A47 | Sábado | 11:00 - 14:00 | D09 | 193779 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=LT251&amp;nrc=200646" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Avila Cardenas, Karla | Edificio X | A01 | Viernes | 13:00 - 15:55 | D10 | 200646 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>12:36 PM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>02:07 PM</b></p>
