@@ -42,7 +42,7 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB067&amp;nrc=200068" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Martinez Vazquez, Ricardo | Edificio U | A08 | Martes, Jueves | 15:00 - 16:55 | D06 | 200068 | |
 | <a href="https://chat.whatsapp.com/HwaqK5pidJL9DsdnmWUaef" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Ramirez Moreno, Benjamin | Virtual 1 | A11 | Martes, Jueves | 00:11 - 00:11 | D07 | 200069 | |
 | <a href="https://chat.whatsapp.com/BanT2OzAvuD176V5zmg1Gj" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Pantoja Espinoza, Deliazar | Virtual 1  Edificio R | A15  A02 | Viernes  Miércoles | 00:15 - 00:15  15:00 - 16:55 | D08 | 200070 | |
-| <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB067&amp;nrc=200071" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Corona Sanchez, Juan Carlos | Virtual 1 | A01 | Martes, Jueves | 00:11 - 00:11 | D09 | 200071 | |
+| <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IB067&amp;nrc=200071" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Corona Sanchez, Juan Carlos | Virtual 1 | A01 | Martes, Jueves | 00:11 - 00:11 | D09 | 200071 |Eliminada |
 
 <h2 style="text-align: center;">IL347 - Ecuaciones Diferenciales</h2>
 
@@ -80,4 +80,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL349&amp;nrc=194925" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Cedano Rodriguez, Alfredo | Edificio X | A02 | Martes, Jueves | 17:00 - 18:55 | D07 | 194925 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL349&amp;nrc=194926" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Cedano Rodriguez, Alfredo | Edificio X | A10 | Martes, Jueves | 19:00 - 20:55 | D08 | 194926 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>02:03 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>02:13 AM</b></p>
