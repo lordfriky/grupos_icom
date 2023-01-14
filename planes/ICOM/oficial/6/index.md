@@ -32,4 +32,4 @@ layout: default
 | Grupo de WhatsApp | Maestr@ | Edificio | Salón | Dias | Horario | Sección | NRC | ¿Eliminada de SIIAU? |
 | ----------------- | ------- | -------- | ----- | ---- | ------- | ------- | --- | -------------------- |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>06:12 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>14 de enero de 2023</b> a las <b>06:36 AM</b></p>
