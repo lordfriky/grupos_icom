@@ -59,8 +59,8 @@ def materiasAMarkup(materias: dict):
         document.body.append(h2)
         document.body.append("\n\n")
         document.body.append(
-            "| Grupo de WhatsApp | Maestr@ | Edificio | Salón | Dias | Horario | Sección | NRC | ¿Eliminada de SIIAU? |\n"
-            "| ----------------- | ------- | -------- | ----- | ---- | ------- | ------- | --- | -------------------- |\n")
+            "| Grupo de WhatsApp | Maestr@ | Dias | Horario | Edificio | Salón | Sección | NRC | ¿Eliminada de SIIAU? |\n"
+            "| ----------------- | ------- | ---- | ------- | -------- | ----- | ------- | --- | -------------------- |\n")
 
         for grupo in materia.values():
             h2.string = "{} - {}".format(clave, grupo.obtenerNombre())
@@ -90,10 +90,10 @@ def materiasAMarkup(materias: dict):
             texto_eliminada = texto_eliminada if grupo.eliminada else ""
             orden = [
                 grupo.obtenerProfesor(),
-                grupo.obtenerEdificio(),
-                grupo.obtenerAula(),
                 grupo.obtenerDias(),
                 grupo.obtenerHoras(),
+                grupo.obtenerEdificio(),
+                grupo.obtenerAula(),
                 grupo.seccion,
                 grupo.nrc,
             ]
