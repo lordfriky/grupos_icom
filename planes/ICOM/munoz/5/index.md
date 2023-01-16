@@ -51,4 +51,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL351&amp;nrc=193755" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Campa Molina, Jorge | Lunes, Miércoles | 07:00 - 08:55 | Edificio X | A02 | D09 | 193755 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL351&amp;nrc=200647" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Maciel Castillo, Oscar Eduardo | Viernes | 09:00 - 12:55 | Edificio X |  | D10 | 200647 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>16 de enero de 2023</b> a las <b>08:39 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>16 de enero de 2023</b> a las <b>08:55 AM</b></p>
