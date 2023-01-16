@@ -22,4 +22,4 @@ layout: default
 | <a href="munoz/4">4º</a> |
 | <a href="munoz/5">5º</a> |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>16 de enero de 2023</b> a las <b>12:31 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>16 de enero de 2023</b> a las <b>12:46 AM</b></p>
