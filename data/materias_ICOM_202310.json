@@ -995,7 +995,7 @@
       "seccion": "D06",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 14,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 200207,
       "clave": "IL365",
@@ -1396,7 +1396,7 @@
       "seccion": "D17",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 22,
+      "disponible": 21,
       "creditos": 8,
       "nrc": 200217,
       "clave": "IL365",
@@ -4141,7 +4141,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Barba Comparan, Andres",
+      "profesor": "Lopez Arce Delgado, Jorge Ernesto",
       "url": "",
       "eliminada": false
     },
@@ -5947,7 +5947,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 13,
+      "disponible": 10,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -6892,7 +6892,7 @@
       "seccion": "D03",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193251,
       "clave": "IL343",
@@ -8570,7 +8570,7 @@
         "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Barba Comparan, Andres",
+      "profesor": "Marquez Frausto, Teresa Gabriela",
       "url": "",
       "eliminada": false
     },
@@ -9582,7 +9582,7 @@
       "seccion": "D09",
       "materia": "SISTEMAS DIGITALES",
       "cupo": 30,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 194957,
       "clave": "IL363",
