@@ -124,6 +124,37 @@
       "url": "",
       "eliminada": false
     },
+    "194923": {
+      "centro": "D",
+      "seccion": "D05",
+      "materia": "ADMINISTRACION",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 194923,
+      "clave": "IL349",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0900-1055"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        "DESV2"
+      ],
+      "aula": [
+        "A048"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Valdivia Chavez, Dulce Angelica",
+      "url": "",
+      "eliminada": false
+    },
     "194924": {
       "centro": "D",
       "seccion": "D06",
@@ -216,37 +247,6 @@
       "profesor": "Cedano Rodriguez, Alfredo",
       "url": "",
       "eliminada": false
-    },
-    "194923": {
-      "centro": "D",
-      "seccion": "D05",
-      "materia": "ADMINISTRACION",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 194923,
-      "clave": "IL349",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0900-1055"
-      ],
-      "dias": [
-        "L . I . . ."
-      ],
-      "edificio": [
-        "DESV2"
-      ],
-      "aula": [
-        "A048"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Lopez Franco, Adriana Liset",
-      "url": "",
-      "eliminada": true
     }
   },
   "IL353": {
@@ -697,7 +697,7 @@
       "seccion": "D05",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 197388,
       "clave": "IB056",
@@ -1644,7 +1644,7 @@
       "seccion": "D08",
       "materia": "CALCULO DIFERENCIAL E INTEGRAL",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 9,
       "nrc": 193996,
       "clave": "IL344",
@@ -2872,9 +2872,9 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Silva Mares, Oscar Gregorio",
+      "profesor": "Torres Molina, Sergio Andres",
       "url": "",
-      "eliminada": true
+      "eliminada": false
     }
   },
   "LT251": {
@@ -4119,7 +4119,7 @@
       "seccion": "D10",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 11,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 189628,
       "clave": "I5288",
@@ -4311,7 +4311,7 @@
       "seccion": "D16",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 19,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 200265,
       "clave": "I5288",
@@ -4664,7 +4664,7 @@
       "seccion": "D27",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 200276,
       "clave": "I5288",
@@ -4951,7 +4951,7 @@
       "seccion": "D05",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193750,
       "clave": "IL351",
@@ -5075,7 +5075,7 @@
       "seccion": "D09",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193755,
       "clave": "IL351",
@@ -5823,7 +5823,7 @@
       "seccion": "D17",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200666,
       "clave": "IL350",
@@ -5947,7 +5947,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 14,
+      "disponible": 13,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -6233,7 +6233,7 @@
       "seccion": "D07",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189650,
       "clave": "I5247",
@@ -6270,7 +6270,7 @@
       "seccion": "D08",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189651,
       "clave": "I5247",
@@ -6344,7 +6344,7 @@
       "seccion": "D10",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 197392,
       "clave": "I5247",
@@ -6855,7 +6855,7 @@
       "seccion": "D02",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 3,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 193250,
       "clave": "IL343",
@@ -6892,7 +6892,7 @@
       "seccion": "D03",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 3,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193251,
       "clave": "IL343",
@@ -7228,7 +7228,7 @@
       "seccion": "D05",
       "materia": "METODOS NUMERICOS",
       "cupo": 30,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 200062,
       "clave": "IL348",
@@ -7290,7 +7290,7 @@
       "seccion": "D07",
       "materia": "METODOS NUMERICOS",
       "cupo": 30,
-      "disponible": 28,
+      "disponible": 29,
       "creditos": 8,
       "nrc": 200064,
       "clave": "IL348",
@@ -7708,10 +7708,10 @@
         ". M . J . ."
       ],
       "edificio": [
-        "DEDU"
+        "DEDZ2"
       ],
       "aula": [
-        "A003"
+        "A015"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -8536,7 +8536,7 @@
       "seccion": "D12",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 10,
       "nrc": 195135,
       "clave": "IL352",
@@ -8667,7 +8667,7 @@
       "seccion": "D01",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 5,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 195113,
       "clave": "I5289",
