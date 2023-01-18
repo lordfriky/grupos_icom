@@ -159,7 +159,7 @@
       "centro": "D",
       "seccion": "D06",
       "materia": "ADMINISTRACION",
-      "cupo": 40,
+      "cupo": 41,
       "disponible": 0,
       "creditos": 8,
       "nrc": 194924,
@@ -348,7 +348,7 @@
       "seccion": "D04",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193716,
       "clave": "IL353",
@@ -592,7 +592,7 @@
       "seccion": "D02",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 197385,
       "clave": "IB056",
@@ -3250,11 +3250,11 @@
       ],
       "edificio": [
         "DEDV",
-        "DEDW"
+        "DEDV"
       ],
       "aula": [
         "A018",
-        "A002"
+        "A012"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -4696,6 +4696,43 @@
       "url": "",
       "eliminada": false
     },
+    "200277": {
+      "centro": "D",
+      "seccion": "D28",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "cupo": 24,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 200277,
+      "clave": "I5288",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1500-1655",
+        "1500-1655"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "DEDX",
+        "DUCT2"
+      ],
+      "aula": [
+        "A006",
+        "LC05"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Mariscal Lugo, Luis Felipe",
+      "url": "",
+      "eliminada": false
+    },
     "200278": {
       "centro": "D",
       "seccion": "D29",
@@ -4782,43 +4819,6 @@
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
       "eliminada": false
-    },
-    "200277": {
-      "centro": "D",
-      "seccion": "D28",
-      "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "cupo": 24,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 200277,
-      "clave": "I5288",
-      "sesion": [
-        "01",
-        "01"
-      ],
-      "horas": [
-        "1500-1655",
-        "1500-1655"
-      ],
-      "dias": [
-        ". M . . . .",
-        ". . . J . ."
-      ],
-      "edificio": [
-        "DEDX",
-        "DUCT2"
-      ],
-      "aula": [
-        "A006",
-        "LC05"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23",
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Osorio Angel, Sonia",
-      "url": "",
-      "eliminada": true
     }
   },
   "IL351": {
@@ -4827,7 +4827,7 @@
       "seccion": "D01",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193721,
       "clave": "IL351",
@@ -4889,7 +4889,7 @@
       "seccion": "D03",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193748,
       "clave": "IL351",
@@ -5424,7 +5424,7 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 10,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
@@ -5520,12 +5520,43 @@
       "url": "",
       "eliminada": false
     },
+    "193760": {
+      "centro": "D",
+      "seccion": "D03",
+      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
+      "cupo": 40,
+      "disponible": 26,
+      "creditos": 7,
+      "nrc": 193760,
+      "clave": "IL350",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1500-1655"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        "DEDX"
+      ],
+      "aula": [
+        "A019"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Diaz Gonzalez, Jose Luis",
+      "url": "",
+      "eliminada": false
+    },
     "193765": {
       "centro": "D",
       "seccion": "D07",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 7,
       "nrc": 193765,
       "clave": "IL350",
@@ -5742,7 +5773,7 @@
       "seccion": "D14",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 7,
       "nrc": 200663,
       "clave": "IL350",
@@ -5959,7 +5990,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -5984,37 +6015,6 @@
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "",
       "eliminada": false
-    },
-    "193760": {
-      "centro": "D",
-      "seccion": "D03",
-      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
-      "cupo": 40,
-      "disponible": 25,
-      "creditos": 7,
-      "nrc": 193760,
-      "clave": "IL350",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0900-1055"
-      ],
-      "dias": [
-        "L . I . . ."
-      ],
-      "edificio": [
-        "DESV2"
-      ],
-      "aula": [
-        "A038"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Torres Molina, Sergio Andres",
-      "url": "",
-      "eliminada": true
     }
   },
   "I5247": {
@@ -6337,11 +6337,11 @@
       ],
       "edificio": [
         "DESV1",
-        "DEDV"
+        "DEDQ"
       ],
       "aula": [
         "A001",
-        "A010"
+        "A030"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -7141,7 +7141,7 @@
       "seccion": "D02",
       "materia": "METODOS NUMERICOS",
       "cupo": 30,
-      "disponible": 8,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 200059,
       "clave": "IL348",
@@ -7760,6 +7760,82 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Ortega Cordova, Raul",
+      "url": "",
+      "eliminada": false
+    },
+    "201865": {
+      "centro": "D",
+      "seccion": "D14",
+      "materia": "PRECALCULO",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201865,
+      "clave": "IG738",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Mejia Marin, Maria Esther",
+      "url": "",
+      "eliminada": false
+    },
+    "201869": {
+      "centro": "D",
+      "seccion": "D15",
+      "materia": "PRECALCULO",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201869,
+      "clave": "IG738",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Hernandez Arellano, Angelica Fabiola",
+      "url": "",
+      "eliminada": false
+    },
+    "201870": {
+      "centro": "D",
+      "seccion": "D16",
+      "materia": "PRECALCULO",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201870,
+      "clave": "IG738",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Abundis Sanchez, Miguel",
+      "url": "",
+      "eliminada": false
+    },
+    "201871": {
+      "centro": "D",
+      "seccion": "D17",
+      "materia": "PRECALCULO",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 201871,
+      "clave": "IG738",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Pantoja Espinoza, Deliazar",
       "url": "",
       "eliminada": false
     }
@@ -8548,7 +8624,7 @@
       "seccion": "D12",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 9,
+      "disponible": 8,
       "creditos": 10,
       "nrc": 195135,
       "clave": "IL352",
@@ -8634,7 +8710,7 @@
       "seccion": "D14",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 10,
       "nrc": 195143,
       "clave": "IL352",
@@ -9214,7 +9290,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION PARA INTERNET",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 7,
       "nrc": 199892,
       "clave": "IL362",
