@@ -92,4 +92,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL350&amp;nrc=200671" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Marquez Frausto, Luis Antonio | Martes, Jueves | 15:00 - 16:55 | Edificio X | A03 | D22 | 200671 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL350&amp;nrc=193760" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Torres Molina, Sergio Andres | Lunes, Miércoles | 09:00 - 10:55 | Virtual 2 | A38 | D03 | 193760 |Eliminada |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>18 de enero de 2023</b> a las <b>02:36 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>18 de enero de 2023</b> a las <b>04:16 AM</b></p>
