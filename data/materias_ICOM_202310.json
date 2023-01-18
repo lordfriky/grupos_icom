@@ -36,7 +36,7 @@
       "seccion": "D02",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 194920,
       "clave": "IL349",
@@ -98,7 +98,7 @@
       "seccion": "D04",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 194922,
       "clave": "IL349",
@@ -129,7 +129,7 @@
       "seccion": "D05",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 194923,
       "clave": "IL349",
@@ -190,8 +190,8 @@
       "centro": "D",
       "seccion": "D07",
       "materia": "ADMINISTRACION",
-      "cupo": 40,
-      "disponible": 0,
+      "cupo": 41,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 194925,
       "clave": "IL349",
@@ -623,7 +623,7 @@
       "seccion": "D03",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 197386,
       "clave": "IB056",
@@ -660,7 +660,7 @@
       "seccion": "D04",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 197387,
       "clave": "IB056",
@@ -697,7 +697,7 @@
       "seccion": "D05",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 197388,
       "clave": "IB056",
@@ -958,7 +958,7 @@
       "seccion": "D05",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 17,
+      "disponible": 14,
       "creditos": 8,
       "nrc": 200206,
       "clave": "IL365",
@@ -995,7 +995,7 @@
       "seccion": "D06",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 200207,
       "clave": "IL365",
@@ -1032,7 +1032,7 @@
       "seccion": "D07",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 14,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 200208,
       "clave": "IL365",
@@ -1069,7 +1069,7 @@
       "seccion": "D08",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 20,
+      "disponible": 19,
       "creditos": 8,
       "nrc": 200218,
       "clave": "IL365",
@@ -1137,7 +1137,7 @@
       "seccion": "D10",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 4,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200210,
       "clave": "IL365",
@@ -1174,7 +1174,7 @@
       "seccion": "D11",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 15,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 200211,
       "clave": "IL365",
@@ -1248,7 +1248,7 @@
       "seccion": "D13",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 17,
+      "disponible": 16,
       "creditos": 8,
       "nrc": 200213,
       "clave": "IL365",
@@ -1344,7 +1344,7 @@
       ],
       "aula": [
         "LC03",
-        "A017"
+        "A020"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -1396,7 +1396,7 @@
       "seccion": "D17",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 21,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 200217,
       "clave": "IL365",
@@ -1689,7 +1689,7 @@
       "seccion": "D01",
       "materia": "CIRCUITOS ELECTRONICOS Y ELECTROMAGNETISMO",
       "cupo": 30,
-      "disponible": 10,
+      "disponible": 9,
       "creditos": 8,
       "nrc": 194941,
       "clave": "IL346",
@@ -2324,7 +2324,7 @@
       ],
       "aula": [
         "LC08",
-        "A017",
+        "A023",
         ""
       ],
       "periodo": [
@@ -2509,7 +2509,7 @@
       "seccion": "D01",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189608,
       "clave": "IL341",
@@ -2695,7 +2695,7 @@
       "seccion": "D07",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189614,
       "clave": "IL341",
@@ -3100,7 +3100,7 @@
       "seccion": "D08",
       "materia": "EXPRESION ORAL Y ESCRITA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -2,
       "creditos": 6,
       "nrc": 193778,
       "clave": "LT251",
@@ -3368,7 +3368,7 @@
       "seccion": "D06",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 35,
-      "disponible": 13,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 189669,
       "clave": "IL340",
@@ -3775,21 +3775,27 @@
       "nrc": 201881,
       "clave": "IL340",
       "sesion": [
+        "01",
         "01"
       ],
       "horas": [
+        "0700-0855",
         "0700-0855"
       ],
       "dias": [
-        ". M I . . ."
+        ". M . . . .",
+        ". . I . . ."
       ],
       "edificio": [
-        ""
+        "DEDU",
+        "DEDU"
       ],
       "aula": [
-        ""
+        "A014",
+        "A015"
       ],
       "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Sanchez Martinez, Araceli",
@@ -4079,7 +4085,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Vega Maldonado, Sabrina Lizbeth",
+      "profesor": "Ortiz Pimentel, Belen Anabett",
       "url": "",
       "eliminada": false
     },
@@ -4119,7 +4125,7 @@
       "seccion": "D10",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 10,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 189628,
       "clave": "I5288",
@@ -4311,7 +4317,7 @@
       "seccion": "D16",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 18,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 200265,
       "clave": "I5288",
@@ -4664,7 +4670,7 @@
       "seccion": "D27",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200276,
       "clave": "I5288",
@@ -4687,43 +4693,6 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Covarrubias Qui\u00f1ones, Sandra Elizabeth",
-      "url": "",
-      "eliminada": false
-    },
-    "200277": {
-      "centro": "D",
-      "seccion": "D28",
-      "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "cupo": 24,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 200277,
-      "clave": "I5288",
-      "sesion": [
-        "01",
-        "01"
-      ],
-      "horas": [
-        "1500-1655",
-        "1500-1655"
-      ],
-      "dias": [
-        ". M . . . .",
-        ". . . J . ."
-      ],
-      "edificio": [
-        "DEDX",
-        "DUCT2"
-      ],
-      "aula": [
-        "A006",
-        "LC05"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23",
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Osorio Angel, Sonia",
       "url": "",
       "eliminada": false
     },
@@ -4813,6 +4782,43 @@
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
       "eliminada": false
+    },
+    "200277": {
+      "centro": "D",
+      "seccion": "D28",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "cupo": 24,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 200277,
+      "clave": "I5288",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1500-1655",
+        "1500-1655"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "DEDX",
+        "DUCT2"
+      ],
+      "aula": [
+        "A006",
+        "LC05"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Osorio Angel, Sonia",
+      "url": "",
+      "eliminada": true
     }
   },
   "IL351": {
@@ -4852,7 +4858,7 @@
       "seccion": "D02",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193747,
       "clave": "IL351",
@@ -4914,7 +4920,7 @@
       "seccion": "D04",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193749,
       "clave": "IL351",
@@ -4982,7 +4988,7 @@
       "seccion": "D06",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193751,
       "clave": "IL351",
@@ -5013,7 +5019,7 @@
       "seccion": "D07",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193752,
       "clave": "IL351",
@@ -5044,7 +5050,7 @@
       "seccion": "D08",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193754,
       "clave": "IL351",
@@ -5231,7 +5237,7 @@
       "centro": "D",
       "seccion": "D04",
       "materia": "INTRODUCCION A LA INGENIERIA",
-      "cupo": 40,
+      "cupo": 41,
       "disponible": 0,
       "creditos": 8,
       "nrc": 189637,
@@ -5418,31 +5424,37 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 30,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
       "sesion": [
+        "01",
         "01"
       ],
       "horas": [
-        "1500-1655"
+        "1100-1255",
+        "1100-1255"
       ],
       "dias": [
-        "L . I . . ."
+        "L . . . . .",
+        ". . I . . ."
       ],
       "edificio": [
+        "DEDX",
         "DEDX"
       ],
       "aula": [
-        "A019"
+        "A019",
+        ""
       ],
       "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Morales Casta\u00f1eda, Juan Bernardo",
+      "profesor": "Zamora Ramos, Victor Manuel",
       "url": "",
-      "eliminada": true
+      "eliminada": false
     }
   },
   "IL350": {
@@ -5730,7 +5742,7 @@
       "seccion": "D14",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 7,
       "nrc": 200663,
       "clave": "IL350",
@@ -5792,7 +5804,7 @@
       "seccion": "D16",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200665,
       "clave": "IL350",
@@ -5823,7 +5835,7 @@
       "seccion": "D17",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 7,
       "nrc": 200666,
       "clave": "IL350",
@@ -5947,7 +5959,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 10,
+      "disponible": 0,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -6344,7 +6356,7 @@
       "seccion": "D10",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 197392,
       "clave": "I5247",
@@ -6437,7 +6449,7 @@
       "seccion": "D13",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 5,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 201858,
       "clave": "I5247",
@@ -6600,7 +6612,7 @@
       "seccion": "D02",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193981,
       "clave": "IL345",
@@ -6855,7 +6867,7 @@
       "seccion": "D02",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193250,
       "clave": "IL343",
@@ -6966,7 +6978,7 @@
       "seccion": "D05",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 193253,
       "clave": "IL343",
@@ -7034,7 +7046,7 @@
       "seccion": "D07",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 193255,
       "clave": "IL343",
@@ -7065,7 +7077,7 @@
       "seccion": "D08",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 193256,
       "clave": "IL343",
@@ -7674,11 +7686,11 @@
         ". . I . . ."
       ],
       "edificio": [
-        "DEDP",
+        "DEDU",
         "DEDV"
       ],
       "aula": [
-        "A017",
+        "A003",
         "A003"
       ],
       "periodo": [
@@ -7826,7 +7838,7 @@
       "seccion": "D03",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "cupo": 30,
-      "disponible": 11,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 200065,
       "clave": "IB067",
@@ -7894,7 +7906,7 @@
       "seccion": "D05",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "cupo": 30,
-      "disponible": 17,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 200067,
       "clave": "IB067",
@@ -7961,7 +7973,7 @@
       "centro": "D",
       "seccion": "D07",
       "materia": "PROBABILIDAD Y ESTADISTICA",
-      "cupo": 30,
+      "cupo": 31,
       "disponible": 0,
       "creditos": 8,
       "nrc": 200069,
@@ -8097,7 +8109,7 @@
         "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Parra Escamilla, Geliztle Alejandra",
+      "profesor": "Camacho Santillan, Veronica",
       "url": "",
       "eliminada": false
     },
@@ -8269,7 +8281,7 @@
         "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Vega Maldonado, Sabrina Lizbeth",
+      "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
       "url": "",
       "eliminada": false
     },
@@ -8536,7 +8548,7 @@
       "seccion": "D12",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 12,
+      "disponible": 9,
       "creditos": 10,
       "nrc": 195135,
       "clave": "IL352",
@@ -8751,7 +8763,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Morales Lopez, Luis Angel",
+      "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
       "eliminada": false
     },
@@ -8760,7 +8772,7 @@
       "seccion": "D04",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 195116,
       "clave": "I5289",
@@ -8782,7 +8794,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Morales Lopez, Luis Angel",
+      "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
       "eliminada": false
     },
@@ -8822,7 +8834,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 10,
+      "disponible": 11,
       "creditos": 8,
       "nrc": 195119,
       "clave": "I5289",
@@ -8884,7 +8896,7 @@
       "seccion": "D08",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 195122,
       "clave": "I5289",
@@ -9073,6 +9085,37 @@
       "url": "",
       "eliminada": false
     },
+    "199889": {
+      "centro": "D",
+      "seccion": "D02",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 24,
+      "disponible": 0,
+      "creditos": 7,
+      "nrc": 199889,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1455"
+      ],
+      "dias": [
+        ". . . . V ."
+      ],
+      "edificio": [
+        "DUCT2"
+      ],
+      "aula": [
+        "LC03"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Maldonado Mercado, Jose Ruben",
+      "url": "",
+      "eliminada": false
+    },
     "199890": {
       "centro": "D",
       "seccion": "D03",
@@ -9197,12 +9240,43 @@
       "url": "https://chat.whatsapp.com/GLzd3MGgFaNC3D7fySIx2L",
       "eliminada": false
     },
+    "199899": {
+      "centro": "D",
+      "seccion": "D13",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 24,
+      "disponible": 1,
+      "creditos": 7,
+      "nrc": 199899,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DUCT1"
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Maldonado Mercado, Jose Ruben",
+      "url": "https://chat.whatsapp.com/IAB2Malu99GGZ99XvfVuWz",
+      "eliminada": false
+    },
     "199900": {
       "centro": "D",
       "seccion": "D14",
       "materia": "PROGRAMACION PARA INTERNET",
       "cupo": 24,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 7,
       "nrc": 199900,
       "clave": "IL362",
@@ -9264,68 +9338,6 @@
       "profesor": "Morales Gonzalez, Leopoldo",
       "url": "https://chat.whatsapp.com/EgMa4Dua7xC2zmPFX5BBcZ",
       "eliminada": false
-    },
-    "199889": {
-      "centro": "D",
-      "seccion": "D02",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 24,
-      "disponible": 0,
-      "creditos": 7,
-      "nrc": 199889,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1455"
-      ],
-      "dias": [
-        ". . . . V ."
-      ],
-      "edificio": [
-        "DUCT2"
-      ],
-      "aula": [
-        "LC03"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Maldonado Mercado, Jose Ruben",
-      "url": "",
-      "eliminada": true
-    },
-    "199899": {
-      "centro": "D",
-      "seccion": "D13",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 24,
-      "disponible": 0,
-      "creditos": 7,
-      "nrc": 199899,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1355"
-      ],
-      "dias": [
-        ". . . . V ."
-      ],
-      "edificio": [
-        "DUCT1"
-      ],
-      "aula": [
-        "LC08"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Sanchez Sanchez, Oscar Didier",
-      "url": "https://chat.whatsapp.com/IAB2Malu99GGZ99XvfVuWz",
-      "eliminada": true
     }
   },
   "IL363": {
@@ -9396,7 +9408,7 @@
       "seccion": "D03",
       "materia": "SISTEMAS DIGITALES",
       "cupo": 30,
-      "disponible": 18,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 194951,
       "clave": "IL363",
@@ -9582,7 +9594,7 @@
       "seccion": "D09",
       "materia": "SISTEMAS DIGITALES",
       "cupo": 30,
-      "disponible": 15,
+      "disponible": 14,
       "creditos": 8,
       "nrc": 194957,
       "clave": "IL363",
