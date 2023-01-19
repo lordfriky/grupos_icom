@@ -255,7 +255,7 @@
       "seccion": "D01",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 193713,
       "clave": "IL353",
@@ -825,12 +825,12 @@
         ". . . J . ."
       ],
       "edificio": [
-        "",
-        ""
+        "DEDV",
+        "DEDV"
       ],
       "aula": [
-        "",
-        ""
+        "A010",
+        "A004"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -2751,7 +2751,7 @@
       "seccion": "D07",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189614,
       "clave": "IL341",
@@ -5829,7 +5829,7 @@
       "seccion": "D14",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200663,
       "clave": "IL350",
@@ -6046,7 +6046,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -6841,7 +6841,7 @@
       "seccion": "D07",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 20,
-      "disponible": 20,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 193986,
       "clave": "IL345",
@@ -6858,12 +6858,12 @@
         ". . . J . ."
       ],
       "edificio": [
-        "",
-        ""
+        "DEDW",
+        "DEDV"
       ],
       "aula": [
-        "",
-        ""
+        "A001",
+        "A006"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -7164,7 +7164,7 @@
       "seccion": "D07",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193255,
       "clave": "IL343",
@@ -7614,7 +7614,7 @@
       "seccion": "D06",
       "materia": "PRECALCULO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189657,
       "clave": "IG738",
@@ -7886,7 +7886,7 @@
       "seccion": "D14",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 12,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 201865,
       "clave": "IG738",
@@ -7954,7 +7954,7 @@
       "seccion": "D16",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 14,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 201870,
       "clave": "IG738",
@@ -7985,7 +7985,7 @@
       "seccion": "D17",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 11,
+      "disponible": 9,
       "creditos": 8,
       "nrc": 201871,
       "clave": "IG738",
@@ -9307,7 +9307,7 @@
       "seccion": "D01",
       "materia": "PROGRAMACION PARA INTERNET",
       "cupo": 24,
-      "disponible": 7,
+      "disponible": 8,
       "creditos": 7,
       "nrc": 199888,
       "clave": "IL362",
@@ -9656,7 +9656,7 @@
       "seccion": "D03",
       "materia": "SISTEMAS DIGITALES",
       "cupo": 30,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 194951,
       "clave": "IL363",
