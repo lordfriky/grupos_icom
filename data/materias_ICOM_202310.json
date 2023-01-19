@@ -592,7 +592,7 @@
       "seccion": "D02",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 197385,
       "clave": "IB056",
@@ -800,6 +800,62 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Espino Rojas, Norma Elva",
+      "url": "",
+      "eliminada": false
+    },
+    "202032": {
+      "centro": "D",
+      "seccion": "D08",
+      "materia": "ALGEBRA LINEAL",
+      "cupo": 20,
+      "disponible": 20,
+      "creditos": 8,
+      "nrc": 202032,
+      "clave": "IB056",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1500-1655",
+        "1500-1655"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "",
+        ""
+      ],
+      "aula": [
+        "",
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Real Guerrero, Maria Del Socorro",
+      "url": "",
+      "eliminada": false
+    },
+    "202033": {
+      "centro": "D",
+      "seccion": "D09",
+      "materia": "ALGEBRA LINEAL",
+      "cupo": 20,
+      "disponible": 20,
+      "creditos": 8,
+      "nrc": 202033,
+      "clave": "IB056",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Elizalde Camino, Fernando",
       "url": "",
       "eliminada": false
     }
@@ -1069,7 +1125,7 @@
       "seccion": "D08",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 17,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 200218,
       "clave": "IL365",
@@ -5928,7 +5984,7 @@
       "seccion": "D19",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200668,
       "clave": "IL350",
@@ -6382,6 +6438,37 @@
       "url": "",
       "eliminada": false
     },
+    "200721": {
+      "centro": "D",
+      "seccion": "D11",
+      "materia": "LOGICA MATEMATICA",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 200721,
+      "clave": "I5247",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1300-1455"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        "DEDU"
+      ],
+      "aula": [
+        "A021"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Flores Sandoval, Miriam Ileana",
+      "url": "",
+      "eliminada": false
+    },
     "200722": {
       "centro": "D",
       "seccion": "D12",
@@ -6548,37 +6635,6 @@
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
       "eliminada": false
-    },
-    "200721": {
-      "centro": "D",
-      "seccion": "D11",
-      "materia": "LOGICA MATEMATICA",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 200721,
-      "clave": "I5247",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1300-1455"
-      ],
-      "dias": [
-        "L . I . . ."
-      ],
-      "edificio": [
-        "DEDU"
-      ],
-      "aula": [
-        "A021"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Beltran Aguirre, Fabiola Del Carmen",
-      "url": "",
-      "eliminada": true
     },
     "201859": {
       "centro": "D",
@@ -6758,6 +6814,62 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Macias Ramos, Jose Apolinar",
+      "url": "",
+      "eliminada": false
+    },
+    "193985": {
+      "centro": "D",
+      "seccion": "D06",
+      "materia": "MATEMATICAS DISCRETAS",
+      "cupo": 20,
+      "disponible": 20,
+      "creditos": 8,
+      "nrc": 193985,
+      "clave": "IL345",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Cordova Gonzalez, Veronica Iliana",
+      "url": "",
+      "eliminada": false
+    },
+    "193986": {
+      "centro": "D",
+      "seccion": "D07",
+      "materia": "MATEMATICAS DISCRETAS",
+      "cupo": 20,
+      "disponible": 20,
+      "creditos": 8,
+      "nrc": 193986,
+      "clave": "IL345",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1100-1155",
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "",
+        ""
+      ],
+      "aula": [
+        "",
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Hernandez Ortiz, Carlos Alberto",
       "url": "",
       "eliminada": false
     },
@@ -6984,7 +7096,7 @@
       "seccion": "D05",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193253,
       "clave": "IL343",
@@ -7774,7 +7886,7 @@
       "seccion": "D14",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 14,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 201865,
       "clave": "IG738",
@@ -7873,7 +7985,7 @@
       "seccion": "D17",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 14,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 201871,
       "clave": "IG738",
@@ -8684,7 +8796,7 @@
       "seccion": "D12",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 9,
+      "disponible": 8,
       "creditos": 10,
       "nrc": 195135,
       "clave": "IL352",
@@ -9350,7 +9462,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION PARA INTERNET",
       "cupo": 24,
-      "disponible": 2,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 199892,
       "clave": "IL362",
