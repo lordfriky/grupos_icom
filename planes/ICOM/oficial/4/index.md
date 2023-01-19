@@ -39,7 +39,7 @@ layout: default
 | <a href="https://chat.whatsapp.com/Cr09lX3bBdiGdWsVcV6DlN" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Valdivia Bautista, Sandra Minerva | Miércoles  Lunes | 00:07 - 00:07  07:00 - 08:55 | Virtual 1  Edificio V | A07  A03 | D03 | 200060 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL348&amp;nrc=200061" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Pantoja Espinoza, Deliazar | Martes, Jueves | 15:00 - 16:55 | Edificio V | A06 | D04 | 200061 | |
 | <a href="https://chat.whatsapp.com/FfXfKHOUFqG8k8lm6kE9bE" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Gonzalez Solis, Fernando Renan | Lunes, Miércoles | 17:00 - 18:55 | Edificio U | A03 | D05 | 200062 | |
-| <a href="https://chat.whatsapp.com/LfTTFbXQmzF4nbt02wLs88" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Hernandez Ortiz, Carlos Alberto | Martes, Jueves | 17:00 - 18:55 | Edificio V | A10 | D06 | 200063 | |
+| <a href="https://chat.whatsapp.com/LfTTFbXQmzF4nbt02wLs88" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Hernandez Ortiz, Carlos Alberto | Martes, Jueves | 17:00 - 18:55 | Edificio R | A01 | D06 | 200063 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL348&amp;nrc=200064" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Abundis Sanchez, Miguel | Lunes, Miércoles | 07:00 - 08:55 | Edificio V | A10 | D07 | 200064 | |
 
 <h2 style="text-align: center;">IL365 - Arquitectura De Computadoras</h2>
@@ -101,4 +101,4 @@ layout: default
 | <a href="https://chat.whatsapp.com/DKCxJxWDqn9C6KznbIk7cO" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Marquez Frausto, Luis Antonio | Martes, Jueves | 09:00 - 10:55 | Edificio X | A17 | D21 | 200670 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL350&amp;nrc=200671" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Marquez Frausto, Luis Antonio | Martes, Jueves | 15:00 - 16:55 | Edificio X | A03 | D22 | 200671 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>18 de enero de 2023</b> a las <b>12:36 PM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>19 de enero de 2023</b> a las <b>02:15 AM</b></p>
