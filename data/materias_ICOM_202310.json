@@ -36,7 +36,7 @@
       "seccion": "D02",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 194920,
       "clave": "IL349",
@@ -98,7 +98,7 @@
       "seccion": "D04",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 194922,
       "clave": "IL349",
@@ -129,7 +129,7 @@
       "seccion": "D05",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": -2,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 194923,
       "clave": "IL349",
@@ -160,7 +160,7 @@
       "seccion": "D06",
       "materia": "ADMINISTRACION",
       "cupo": 41,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 194924,
       "clave": "IL349",
@@ -191,7 +191,7 @@
       "seccion": "D07",
       "materia": "ADMINISTRACION",
       "cupo": 41,
-      "disponible": 0,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 194925,
       "clave": "IL349",
@@ -222,7 +222,7 @@
       "seccion": "D08",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 194926,
       "clave": "IL349",
@@ -255,7 +255,7 @@
       "seccion": "D01",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": -2,
+      "disponible": -3,
       "creditos": 8,
       "nrc": 193713,
       "clave": "IL353",
@@ -348,7 +348,7 @@
       "seccion": "D04",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193716,
       "clave": "IL353",
@@ -503,7 +503,7 @@
       "seccion": "D09",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": -3,
+      "disponible": -5,
       "creditos": 8,
       "nrc": 193736,
       "clave": "IL353",
@@ -697,7 +697,7 @@
       "seccion": "D05",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 197388,
       "clave": "IB056",
@@ -849,12 +849,24 @@
       "creditos": 8,
       "nrc": 202033,
       "clave": "IB056",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDQ"
+      ],
+      "aula": [
+        "A025"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
       "eliminada": false
@@ -866,7 +878,7 @@
       "seccion": "D01",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 24,
+      "disponible": 23,
       "creditos": 8,
       "nrc": 200202,
       "clave": "IL365",
@@ -1051,7 +1063,7 @@
       "seccion": "D06",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 12,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 200207,
       "clave": "IL365",
@@ -1088,7 +1100,7 @@
       "seccion": "D07",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 11,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 200208,
       "clave": "IL365",
@@ -1125,7 +1137,7 @@
       "seccion": "D08",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 18,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 200218,
       "clave": "IL365",
@@ -1193,7 +1205,7 @@
       "seccion": "D10",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 200210,
       "clave": "IL365",
@@ -1230,7 +1242,7 @@
       "seccion": "D11",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 200211,
       "clave": "IL365",
@@ -2081,7 +2093,7 @@
       "seccion": "D04",
       "materia": "ECUACIONES DIFERENCIALES",
       "cupo": 40,
-      "disponible": 17,
+      "disponible": 16,
       "creditos": 8,
       "nrc": 197382,
       "clave": "IL347",
@@ -2565,7 +2577,7 @@
       "seccion": "D01",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": -2,
+      "disponible": -4,
       "creditos": 8,
       "nrc": 189608,
       "clave": "IL341",
@@ -2689,7 +2701,7 @@
       "seccion": "D05",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189612,
       "clave": "IL341",
@@ -2782,7 +2794,7 @@
       "seccion": "D08",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189615,
       "clave": "IL341",
@@ -2875,7 +2887,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -2969,7 +2981,7 @@
       "centro": "D",
       "seccion": "D02",
       "materia": "EXPRESION ORAL Y ESCRITA",
-      "cupo": 40,
+      "cupo": 41,
       "disponible": 0,
       "creditos": 6,
       "nrc": 193771,
@@ -3156,7 +3168,7 @@
       "seccion": "D08",
       "materia": "EXPRESION ORAL Y ESCRITA",
       "cupo": 42,
-      "disponible": -2,
+      "disponible": -1,
       "creditos": 6,
       "nrc": 193778,
       "clave": "LT251",
@@ -3362,7 +3374,7 @@
       "seccion": "D04",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 35,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 189667,
       "clave": "IL340",
@@ -3424,7 +3436,7 @@
       "seccion": "D06",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 35,
-      "disponible": 9,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 189669,
       "clave": "IL340",
@@ -3696,7 +3708,7 @@
       "seccion": "D14",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 8,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 201492,
       "clave": "IL340",
@@ -4404,7 +4416,7 @@
       "seccion": "D17",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 10,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 200266,
       "clave": "I5288",
@@ -4883,7 +4895,7 @@
       "seccion": "D01",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 193721,
       "clave": "IL351",
@@ -4913,7 +4925,7 @@
       "centro": "D",
       "seccion": "D02",
       "materia": "INNOVACION Y TECNOLOGIA",
-      "cupo": 40,
+      "cupo": 41,
       "disponible": 0,
       "creditos": 8,
       "nrc": 193747,
@@ -5106,7 +5118,7 @@
       "seccion": "D08",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -3,
       "creditos": 8,
       "nrc": 193754,
       "clave": "IL351",
@@ -5480,7 +5492,7 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
@@ -5519,7 +5531,7 @@
       "seccion": "D01",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 193758,
       "clave": "IL350",
@@ -5550,7 +5562,7 @@
       "seccion": "D02",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 193759,
       "clave": "IL350",
@@ -5581,7 +5593,7 @@
       "seccion": "D03",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 30,
+      "disponible": 31,
       "creditos": 7,
       "nrc": 193760,
       "clave": "IL350",
@@ -5705,7 +5717,7 @@
       "seccion": "D10",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 7,
       "nrc": 193971,
       "clave": "IL350",
@@ -5798,7 +5810,7 @@
       "seccion": "D13",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200662,
       "clave": "IL350",
@@ -5984,7 +5996,7 @@
       "seccion": "D19",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200668,
       "clave": "IL350",
@@ -6008,6 +6020,37 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
+      "eliminada": false
+    },
+    "200669": {
+      "centro": "D",
+      "seccion": "D20",
+      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
+      "cupo": 40,
+      "disponible": 11,
+      "creditos": 7,
+      "nrc": 200669,
+      "clave": "IL350",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0900-1055"
+      ],
+      "dias": [
+        "L . I . . ."
+      ],
+      "edificio": [
+        "DESV2"
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Lopez Franco, Adriana Liset",
+      "url": "",
       "eliminada": false
     },
     "200670": {
@@ -6046,7 +6089,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 2,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -6474,7 +6517,7 @@
       "seccion": "D12",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 200722,
       "clave": "I5247",
@@ -6505,7 +6548,7 @@
       "seccion": "D13",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 201858,
       "clave": "I5247",
@@ -6534,6 +6577,37 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
+      "url": "",
+      "eliminada": false
+    },
+    "201859": {
+      "centro": "D",
+      "seccion": "D14",
+      "materia": "LOGICA MATEMATICA",
+      "cupo": 40,
+      "disponible": 2,
+      "creditos": 8,
+      "nrc": 201859,
+      "clave": "I5247",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDQ"
+      ],
+      "aula": [
+        "A006"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Espino Rojas, Norma Elva",
       "url": "",
       "eliminada": false
     },
@@ -6635,37 +6709,6 @@
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
       "eliminada": false
-    },
-    "201859": {
-      "centro": "D",
-      "seccion": "D14",
-      "materia": "LOGICA MATEMATICA",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 201859,
-      "clave": "I5247",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDV"
-      ],
-      "aula": [
-        "A009"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Ramirez Moreno, Benjamin",
-      "url": "",
-      "eliminada": true
     }
   },
   "IL345": {
@@ -6711,7 +6754,7 @@
       "seccion": "D03",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 193982,
       "clave": "IL345",
@@ -6822,16 +6865,28 @@
       "seccion": "D06",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 20,
-      "disponible": 20,
+      "disponible": 17,
       "creditos": 8,
       "nrc": 193985,
       "clave": "IL345",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1500-1655"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDW"
+      ],
+      "aula": [
+        "A001"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
       "eliminada": false
@@ -6841,7 +6896,7 @@
       "seccion": "D07",
       "materia": "MATEMATICAS DISCRETAS",
       "cupo": 20,
-      "disponible": 18,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 193986,
       "clave": "IL345",
@@ -6965,11 +7020,11 @@
         ". . I . . ."
       ],
       "edificio": [
-        "DEDCS",
+        "DEDV",
         "DEDV"
       ],
       "aula": [
-        "LFS07",
+        "A011",
         "A016"
       ],
       "periodo": [
@@ -7096,7 +7151,7 @@
       "seccion": "D05",
       "materia": "MECANICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193253,
       "clave": "IL343",
@@ -7614,7 +7669,7 @@
       "seccion": "D06",
       "materia": "PRECALCULO",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 189657,
       "clave": "IG738",
@@ -7682,7 +7737,7 @@
       "seccion": "D08",
       "materia": "PRECALCULO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189659,
       "clave": "IG738",
@@ -7886,7 +7941,7 @@
       "seccion": "D14",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 8,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 201865,
       "clave": "IG738",
@@ -7954,7 +8009,7 @@
       "seccion": "D16",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 7,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 201870,
       "clave": "IG738",
@@ -7985,7 +8040,7 @@
       "seccion": "D17",
       "materia": "PRECALCULO",
       "cupo": 20,
-      "disponible": 8,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 201871,
       "clave": "IG738",
@@ -7999,10 +8054,10 @@
         ". M . J . ."
       ],
       "edificio": [
-        ""
+        "DEDU"
       ],
       "aula": [
-        ""
+        "A019"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -8018,7 +8073,7 @@
       "seccion": "D01",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "cupo": 25,
-      "disponible": 12,
+      "disponible": 11,
       "creditos": 8,
       "nrc": 112240,
       "clave": "IB067",
@@ -8796,7 +8851,7 @@
       "seccion": "D12",
       "materia": "PROGRAMACION ESTRUCTURADA",
       "cupo": 24,
-      "disponible": 8,
+      "disponible": 7,
       "creditos": 10,
       "nrc": 195135,
       "clave": "IL352",
@@ -9020,7 +9075,7 @@
       "seccion": "D04",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 40,
-      "disponible": 7,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 195116,
       "clave": "I5289",
@@ -9082,7 +9137,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 11,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 195119,
       "clave": "I5289",
@@ -9113,7 +9168,7 @@
       "seccion": "D07",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 40,
-      "disponible": 27,
+      "disponible": 24,
       "creditos": 8,
       "nrc": 195121,
       "clave": "I5289",
@@ -9175,7 +9230,7 @@
       "seccion": "D09",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 21,
+      "disponible": 19,
       "creditos": 8,
       "nrc": 195124,
       "clave": "I5289",
@@ -9206,7 +9261,7 @@
       "seccion": "D11",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 9,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 195127,
       "clave": "I5289",
@@ -9268,7 +9323,7 @@
       "seccion": "D13",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 14,
+      "disponible": 13,
       "creditos": 8,
       "nrc": 195130,
       "clave": "I5289",
