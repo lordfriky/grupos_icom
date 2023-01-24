@@ -286,7 +286,7 @@
       "seccion": "D02",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193714,
       "clave": "IL353",
@@ -814,7 +814,7 @@
       "seccion": "D08",
       "materia": "ALGEBRA LINEAL",
       "cupo": 20,
-      "disponible": 20,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 202032,
       "clave": "IB056",
@@ -851,7 +851,7 @@
       "seccion": "D09",
       "materia": "ALGEBRA LINEAL",
       "cupo": 20,
-      "disponible": 20,
+      "disponible": 16,
       "creditos": 8,
       "nrc": 202033,
       "clave": "IB056",
@@ -2893,7 +2893,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -5093,7 +5093,7 @@
       "seccion": "D07",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": -4,
+      "disponible": -5,
       "creditos": 8,
       "nrc": 193752,
       "clave": "IL351",
@@ -5155,7 +5155,7 @@
       "seccion": "D09",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193755,
       "clave": "IL351",
@@ -5964,8 +5964,8 @@
       "centro": "D",
       "seccion": "D18",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
-      "cupo": 0,
-      "disponible": 0,
+      "cupo": 40,
+      "disponible": 40,
       "creditos": 7,
       "nrc": 200667,
       "clave": "IL350",
@@ -5979,10 +5979,10 @@
         ". M . J . ."
       ],
       "edificio": [
-        "DEDX"
+        ""
       ],
       "aula": [
-        "A010"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
@@ -8057,7 +8057,7 @@
         "DEDU"
       ],
       "aula": [
-        "A019"
+        "A010"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
