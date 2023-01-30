@@ -29,7 +29,7 @@
       ],
       "profesor": "Valdivia Chavez, Dulce Angelica",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194920": {
       "centro": "D",
@@ -60,7 +60,7 @@
       ],
       "profesor": "Casillas Zamora, Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194921": {
       "centro": "D",
@@ -91,7 +91,7 @@
       ],
       "profesor": "Gomez Rodriguez, Pedro Misraim",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194922": {
       "centro": "D",
@@ -122,7 +122,7 @@
       ],
       "profesor": "Gomez Rodriguez, Pedro Misraim",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194923": {
       "centro": "D",
@@ -153,7 +153,7 @@
       ],
       "profesor": "Valdivia Chavez, Dulce Angelica",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194924": {
       "centro": "D",
@@ -184,7 +184,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194925": {
       "centro": "D",
@@ -215,7 +215,7 @@
       ],
       "profesor": "Cedano Rodriguez, Alfredo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194926": {
       "centro": "D",
@@ -246,7 +246,7 @@
       ],
       "profesor": "Cedano Rodriguez, Alfredo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL353": {
@@ -279,7 +279,7 @@
       ],
       "profesor": "Guzman Montes, Carlos Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193714": {
       "centro": "D",
@@ -310,7 +310,7 @@
       ],
       "profesor": "Avila Cardenas, Karla",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193715": {
       "centro": "D",
@@ -341,7 +341,7 @@
       ],
       "profesor": "Arreola Gonzalez, Mauricio Rodolfo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193716": {
       "centro": "D",
@@ -372,7 +372,7 @@
       ],
       "profesor": "Arreola Gonzalez, Mauricio Rodolfo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193717": {
       "centro": "D",
@@ -403,7 +403,7 @@
       ],
       "profesor": "Avila Cardenas, Karla",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193718": {
       "centro": "D",
@@ -434,7 +434,7 @@
       ],
       "profesor": "Gil Rivera, Ruben Adrian",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193719": {
       "centro": "D",
@@ -465,7 +465,7 @@
       ],
       "profesor": "Gil Rivera, Ruben Adrian",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193720": {
       "centro": "D",
@@ -496,7 +496,7 @@
       ],
       "profesor": "Gil Rivera, Ruben Adrian",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193736": {
       "centro": "D",
@@ -533,7 +533,7 @@
       ],
       "profesor": "Galvez Lopez, Hector Alejandro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201853": {
       "centro": "D",
@@ -552,7 +552,7 @@
       "periodo": [],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IB056": {
@@ -591,7 +591,7 @@
       ],
       "profesor": "Lopez Alcala, Maritza Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197385": {
       "centro": "D",
@@ -622,7 +622,7 @@
       ],
       "profesor": "Gonzalez Solis, Fernando Renan",
       "url": "https://chat.whatsapp.com/ByKAhxZPllz6m7j2XVVKHq",
-      "eliminada": false
+      "eliminada": true
     },
     "197386": {
       "centro": "D",
@@ -659,7 +659,7 @@
       ],
       "profesor": "Sanchez Najera, Abel Isai",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197387": {
       "centro": "D",
@@ -696,7 +696,7 @@
       ],
       "profesor": "Sanchez Najera, Abel Isai",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197388": {
       "centro": "D",
@@ -733,7 +733,7 @@
       ],
       "profesor": "Vera Soria, Francisco",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197389": {
       "centro": "D",
@@ -770,7 +770,7 @@
       ],
       "profesor": "Villalobos Jimenez, Sara Edith",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197390": {
       "centro": "D",
@@ -807,7 +807,7 @@
       ],
       "profesor": "Espino Rojas, Norma Elva",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "202032": {
       "centro": "D",
@@ -844,7 +844,7 @@
       ],
       "profesor": "Real Guerrero, Maria Del Socorro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "202033": {
       "centro": "D",
@@ -875,7 +875,7 @@
       ],
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL365": {
@@ -908,7 +908,7 @@
       ],
       "profesor": "Sanchez Romero, Carlos Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200203": {
       "centro": "D",
@@ -945,7 +945,7 @@
       ],
       "profesor": "Lopez Arce Delgado, Jorge Ernesto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200204": {
       "centro": "D",
@@ -982,7 +982,7 @@
       ],
       "profesor": "Lopez Arce Delgado, Jorge Ernesto",
       "url": "https://chat.whatsapp.com/JeFNIYbE53H9DLA2q3poBE",
-      "eliminada": false
+      "eliminada": true
     },
     "200205": {
       "centro": "D",
@@ -1019,7 +1019,7 @@
       ],
       "profesor": "Meza Espinosa, Jose Juan",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200206": {
       "centro": "D",
@@ -1056,7 +1056,7 @@
       ],
       "profesor": "Meza Espinosa, Jose Juan",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200207": {
       "centro": "D",
@@ -1093,7 +1093,7 @@
       ],
       "profesor": "Camarena Mendez, Jose Octavio",
       "url": "https://chat.whatsapp.com/DdlFzlDGZ4UAtasF72t7uV",
-      "eliminada": false
+      "eliminada": true
     },
     "200208": {
       "centro": "D",
@@ -1130,7 +1130,7 @@
       ],
       "profesor": "Mu\u00f1oz Mendoza, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200218": {
       "centro": "D",
@@ -1167,7 +1167,7 @@
       ],
       "profesor": "Mu\u00f1oz Mendoza, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200209": {
       "centro": "D",
@@ -1198,7 +1198,7 @@
       ],
       "profesor": "Navarro Velazquez, Mario Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200210": {
       "centro": "D",
@@ -1235,7 +1235,7 @@
       ],
       "profesor": "Garcia Hernandez, Martin",
       "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
-      "eliminada": false
+      "eliminada": true
     },
     "200211": {
       "centro": "D",
@@ -1272,7 +1272,7 @@
       ],
       "profesor": "Barba Venegas, Miguel Angel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200212": {
       "centro": "D",
@@ -1291,7 +1291,7 @@
       "periodo": [],
       "profesor": "Pati\u00f1o Ruiz, Roberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200213": {
       "centro": "D",
@@ -1328,7 +1328,7 @@
       ],
       "profesor": "Pati\u00f1o Ruiz, Roberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200214": {
       "centro": "D",
@@ -1365,7 +1365,7 @@
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
       "url": "https://chat.whatsapp.com/IzzSIbsnxzrJi37z1pQBeC",
-      "eliminada": false
+      "eliminada": true
     },
     "200215": {
       "centro": "D",
@@ -1402,7 +1402,7 @@
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
       "url": "https://chat.whatsapp.com/B6HNLwkIltBEiFiXPF1Ecn",
-      "eliminada": false
+      "eliminada": true
     },
     "200216": {
       "centro": "D",
@@ -1439,7 +1439,7 @@
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
       "url": "https://chat.whatsapp.com/EC3EHOAtFknDfd4wU4mG02",
-      "eliminada": false
+      "eliminada": true
     },
     "200217": {
       "centro": "D",
@@ -1476,7 +1476,7 @@
       ],
       "profesor": "Nu\u00f1ez Ortega, Ruben",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL344": {
@@ -1521,7 +1521,7 @@
       ],
       "profesor": "Velazquez Ortega, Ana Betty",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193991": {
       "centro": "D",
@@ -1564,7 +1564,7 @@
       ],
       "profesor": "Macias Sandoval, Omar Vladimir",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193992": {
       "centro": "D",
@@ -1607,7 +1607,7 @@
       ],
       "profesor": "Lopez Alcala, Maritza Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193994": {
       "centro": "D",
@@ -1650,7 +1650,7 @@
       ],
       "profesor": "Plascencia Garcia, Cristyan Jeovany",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193995": {
       "centro": "D",
@@ -1693,7 +1693,7 @@
       ],
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193996": {
       "centro": "D",
@@ -1736,7 +1736,7 @@
       ],
       "profesor": "Huerta Cisneros, Federico Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL346": {
@@ -1769,7 +1769,7 @@
       ],
       "profesor": "Ruvalcaba Becerra, Carlos Mario",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194942": {
       "centro": "D",
@@ -1806,7 +1806,7 @@
       ],
       "profesor": "Guillen Bonilla, Jose Trinidad",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194943": {
       "centro": "D",
@@ -1837,7 +1837,7 @@
       ],
       "profesor": "Carrillo Diaz, Raul",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194944": {
       "centro": "D",
@@ -1868,7 +1868,7 @@
       ],
       "profesor": "Almaguer Gomez, Citlalli",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194945": {
       "centro": "D",
@@ -1899,7 +1899,7 @@
       ],
       "profesor": "Campos Villarreal, Rodrigo Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194946": {
       "centro": "D",
@@ -1930,7 +1930,7 @@
       ],
       "profesor": "De La Cruz Sandoval, Gabriel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194947": {
       "centro": "D",
@@ -1967,7 +1967,7 @@
       ],
       "profesor": "Gonzalez Rojas, Jose Manuel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL347": {
@@ -2006,7 +2006,7 @@
       ],
       "profesor": "Beltran Aguirre, Fabiola Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197380": {
       "centro": "D",
@@ -2043,7 +2043,7 @@
       ],
       "profesor": "De La Cruz Garcia, Elba Lilia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197381": {
       "centro": "D",
@@ -2074,7 +2074,7 @@
       ],
       "profesor": "Fernandez Luna, Ma. Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197382": {
       "centro": "D",
@@ -2111,7 +2111,7 @@
       ],
       "profesor": "Cervantes Lomeli, Adrian",
       "url": "https://chat.whatsapp.com/Gj2jlSGwdZ9Fx7npayLPl6",
-      "eliminada": false
+      "eliminada": true
     },
     "197383": {
       "centro": "D",
@@ -2142,7 +2142,7 @@
       ],
       "profesor": "Cervantes Lomeli, Adrian",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197384": {
       "centro": "D",
@@ -2173,7 +2173,7 @@
       ],
       "profesor": "Vazquez Hernandez, Husai",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL354": {
@@ -2218,7 +2218,7 @@
       ],
       "profesor": "Gutierrez Hernandez, Alfredo",
       "url": "https://chat.whatsapp.com/IFLB1Ogus46FGiQubSTmks",
-      "eliminada": false
+      "eliminada": true
     },
     "200220": {
       "centro": "D",
@@ -2261,7 +2261,7 @@
       ],
       "profesor": "Guerrero Carlos, Ana Jazmin",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200221": {
       "centro": "D",
@@ -2304,7 +2304,7 @@
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
       "url": "https://chat.whatsapp.com/Be4BSGh0MgZAS654BCde0w",
-      "eliminada": false
+      "eliminada": true
     },
     "200222": {
       "centro": "D",
@@ -2347,7 +2347,7 @@
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
       "url": "https://chat.whatsapp.com/Lt2qy95WCSzD8As8LzOSPr",
-      "eliminada": false
+      "eliminada": true
     },
     "200223": {
       "centro": "D",
@@ -2390,7 +2390,7 @@
       ],
       "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
       "url": "https://chat.whatsapp.com/FajOb1cRM7lCixVe7QGnzn",
-      "eliminada": false
+      "eliminada": true
     },
     "200227": {
       "centro": "D",
@@ -2433,7 +2433,7 @@
       ],
       "profesor": "Galvez Lopez, Hector Alejandro",
       "url": "https://chat.whatsapp.com/FEEtzS2CM0jEEM5xUW5oHP",
-      "eliminada": false
+      "eliminada": true
     },
     "200224": {
       "centro": "D",
@@ -2476,7 +2476,7 @@
       ],
       "profesor": "Lupercio Coronel, Ramiro",
       "url": "https://chat.whatsapp.com/LRVsZSmmxKE9d3s67QLrIH",
-      "eliminada": false
+      "eliminada": true
     },
     "200225": {
       "centro": "D",
@@ -2513,7 +2513,7 @@
       ],
       "profesor": "Hinojosa Cervantes, Salvador Miguel",
       "url": "https://chat.whatsapp.com/GwtX96G7JBDC2pa8Cb5d9x",
-      "eliminada": false
+      "eliminada": true
     },
     "200226": {
       "centro": "D",
@@ -2556,7 +2556,7 @@
       ],
       "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL341": {
@@ -2589,7 +2589,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189609": {
       "centro": "D",
@@ -2620,7 +2620,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189610": {
       "centro": "D",
@@ -2651,7 +2651,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189611": {
       "centro": "D",
@@ -2682,7 +2682,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189612": {
       "centro": "D",
@@ -2713,7 +2713,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189613": {
       "centro": "D",
@@ -2744,7 +2744,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189614": {
       "centro": "D",
@@ -2775,7 +2775,7 @@
       ],
       "profesor": "Galvez Lopez, Hector Alejandro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189615": {
       "centro": "D",
@@ -2806,7 +2806,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189616": {
       "centro": "D",
@@ -2837,7 +2837,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189617": {
       "centro": "D",
@@ -2868,7 +2868,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "199885": {
       "centro": "D",
@@ -2899,7 +2899,7 @@
       ],
       "profesor": "Sanchez Sanchez, Oscar Didier",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "199922": {
       "centro": "D",
@@ -2930,7 +2930,7 @@
       ],
       "profesor": "Torres Molina, Sergio Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "LT251": {
@@ -2963,7 +2963,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193771": {
       "centro": "D",
@@ -2994,7 +2994,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193772": {
       "centro": "D",
@@ -3025,7 +3025,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193773": {
       "centro": "D",
@@ -3056,7 +3056,7 @@
       ],
       "profesor": "Sandoval Alvarez, Norma Estela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193774": {
       "centro": "D",
@@ -3087,7 +3087,7 @@
       ],
       "profesor": "Sandoval Alvarez, Norma Estela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193775": {
       "centro": "D",
@@ -3118,7 +3118,7 @@
       ],
       "profesor": "Sandoval Alvarez, Norma Estela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193776": {
       "centro": "D",
@@ -3149,7 +3149,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193778": {
       "centro": "D",
@@ -3180,7 +3180,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193779": {
       "centro": "D",
@@ -3211,7 +3211,7 @@
       ],
       "profesor": "Guerrero Contreras, Jose Luis",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200646": {
       "centro": "D",
@@ -3242,7 +3242,7 @@
       ],
       "profesor": "Avila Cardenas, Karla",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL340": {
@@ -3281,7 +3281,7 @@
       ],
       "profesor": "De Alba Martinez, Durruty Jesus",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189665": {
       "centro": "D",
@@ -3318,7 +3318,7 @@
       ],
       "profesor": "Salazar Zepeda, Martin Hugo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189666": {
       "centro": "D",
@@ -3355,7 +3355,7 @@
       ],
       "profesor": "Vazquez Mercado, Liliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189667": {
       "centro": "D",
@@ -3386,7 +3386,7 @@
       ],
       "profesor": "Guzman Hernandez, Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189668": {
       "centro": "D",
@@ -3417,7 +3417,7 @@
       ],
       "profesor": "Guzman Hernandez, Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189669": {
       "centro": "D",
@@ -3448,7 +3448,7 @@
       ],
       "profesor": "De Anda Ramirez, Francisco Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189670": {
       "centro": "D",
@@ -3485,7 +3485,7 @@
       ],
       "profesor": "Mulato Gomez, Diego Fernando",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189671": {
       "centro": "D",
@@ -3516,7 +3516,7 @@
       ],
       "profesor": "Alfaro Garces, Juan",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189672": {
       "centro": "D",
@@ -3553,7 +3553,7 @@
       ],
       "profesor": "Mu\u00f1oz Villegas, Susana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189673": {
       "centro": "D",
@@ -3590,7 +3590,7 @@
       ],
       "profesor": "Alcala Gutierrez, Jaime",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200766": {
       "centro": "D",
@@ -3621,7 +3621,7 @@
       ],
       "profesor": "Ulloa Godinez, Hector Hugo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200767": {
       "centro": "D",
@@ -3658,7 +3658,7 @@
       ],
       "profesor": "Marquez Lugo, Ramon Alejandro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201483": {
       "centro": "D",
@@ -3689,7 +3689,7 @@
       ],
       "profesor": "Rosalio Cuevas, Samuel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201492": {
       "centro": "D",
@@ -3720,7 +3720,7 @@
       ],
       "profesor": "Mu\u00f1oz Villegas, Susana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201878": {
       "centro": "D",
@@ -3751,7 +3751,7 @@
       ],
       "profesor": "Pelayo Pelayo, Alma Lucia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201879": {
       "centro": "D",
@@ -3782,7 +3782,7 @@
       ],
       "profesor": "Rodriguez Dominguez, Alma Leticia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201880": {
       "centro": "D",
@@ -3819,7 +3819,7 @@
       ],
       "profesor": "Mu\u00f1oz Villegas, Susana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201881": {
       "centro": "D",
@@ -3856,7 +3856,7 @@
       ],
       "profesor": "Sanchez Martinez, Araceli",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201882": {
       "centro": "D",
@@ -3893,7 +3893,7 @@
       ],
       "profesor": "Mu\u00f1oz Villegas, Susana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "I5288": {
@@ -3926,7 +3926,7 @@
       ],
       "profesor": "Campos Serrano, Eduardo Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189620": {
       "centro": "D",
@@ -3957,7 +3957,7 @@
       ],
       "profesor": "Campos Serrano, Eduardo Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189621": {
       "centro": "D",
@@ -3988,7 +3988,7 @@
       ],
       "profesor": "Campos Serrano, Eduardo Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189622": {
       "centro": "D",
@@ -4019,7 +4019,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189623": {
       "centro": "D",
@@ -4050,7 +4050,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189624": {
       "centro": "D",
@@ -4081,7 +4081,7 @@
       ],
       "profesor": "Campos Serrano, Eduardo Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189625": {
       "centro": "D",
@@ -4112,7 +4112,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189626": {
       "centro": "D",
@@ -4143,7 +4143,7 @@
       ],
       "profesor": "Ortiz Pimentel, Belen Anabett",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189627": {
       "centro": "D",
@@ -4174,7 +4174,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189628": {
       "centro": "D",
@@ -4205,7 +4205,7 @@
       ],
       "profesor": "Barba Comparan, Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189629": {
       "centro": "D",
@@ -4236,7 +4236,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189630": {
       "centro": "D",
@@ -4267,7 +4267,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189631": {
       "centro": "D",
@@ -4304,7 +4304,7 @@
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189632": {
       "centro": "D",
@@ -4335,7 +4335,7 @@
       ],
       "profesor": "Aranguren Navarro, Itzel Niasandiu",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189633": {
       "centro": "D",
@@ -4366,7 +4366,7 @@
       ],
       "profesor": "Lopez Cisneros, Juan Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200265": {
       "centro": "D",
@@ -4397,7 +4397,7 @@
       ],
       "profesor": "Barba Comparan, Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200266": {
       "centro": "D",
@@ -4428,7 +4428,7 @@
       ],
       "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200267": {
       "centro": "D",
@@ -4459,7 +4459,7 @@
       ],
       "profesor": "Parra Escamilla, Geliztle Alejandra",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200268": {
       "centro": "D",
@@ -4490,7 +4490,7 @@
       ],
       "profesor": "Parra Escamilla, Geliztle Alejandra",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200269": {
       "centro": "D",
@@ -4521,7 +4521,7 @@
       ],
       "profesor": "Parra Escamilla, Geliztle Alejandra",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200270": {
       "centro": "D",
@@ -4552,7 +4552,7 @@
       ],
       "profesor": "Ramirez Gaytan, Gonzalo Alejandro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200271": {
       "centro": "D",
@@ -4583,7 +4583,7 @@
       ],
       "profesor": "Morales Lopez, Luis Angel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200272": {
       "centro": "D",
@@ -4614,7 +4614,7 @@
       ],
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200273": {
       "centro": "D",
@@ -4651,7 +4651,7 @@
       ],
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200274": {
       "centro": "D",
@@ -4688,7 +4688,7 @@
       ],
       "profesor": "Sanchez Rosario, Patricia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200275": {
       "centro": "D",
@@ -4719,7 +4719,7 @@
       ],
       "profesor": "Covarrubias Qui\u00f1ones, Sandra Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200276": {
       "centro": "D",
@@ -4750,7 +4750,7 @@
       ],
       "profesor": "Covarrubias Qui\u00f1ones, Sandra Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200277": {
       "centro": "D",
@@ -4787,7 +4787,7 @@
       ],
       "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200278": {
       "centro": "D",
@@ -4824,7 +4824,7 @@
       ],
       "profesor": "Marquez Frausto, Teresa Gabriela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200605": {
       "centro": "D",
@@ -4855,7 +4855,7 @@
       ],
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200606": {
       "centro": "D",
@@ -4874,7 +4874,7 @@
       "periodo": [],
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL351": {
@@ -4907,7 +4907,7 @@
       ],
       "profesor": "Galvez Lopez, Hector Alejandro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193747": {
       "centro": "D",
@@ -4938,7 +4938,7 @@
       ],
       "profesor": "Morales Casta\u00f1eda, Juan Bernardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193748": {
       "centro": "D",
@@ -4969,7 +4969,7 @@
       ],
       "profesor": "Morales Casta\u00f1eda, Juan Bernardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193749": {
       "centro": "D",
@@ -5006,7 +5006,7 @@
       ],
       "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
       "url": "https://chat.whatsapp.com/FnhGyPhwjVTGqCBooMmz94",
-      "eliminada": false
+      "eliminada": true
     },
     "193750": {
       "centro": "D",
@@ -5037,7 +5037,7 @@
       ],
       "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193751": {
       "centro": "D",
@@ -5068,7 +5068,7 @@
       ],
       "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193752": {
       "centro": "D",
@@ -5099,7 +5099,7 @@
       ],
       "profesor": "Campos Villarreal, Rodrigo Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193754": {
       "centro": "D",
@@ -5130,7 +5130,7 @@
       ],
       "profesor": "Campos Villarreal, Rodrigo Antonio",
       "url": "https://chat.whatsapp.com/HbpLyixDYCoE4VhrY26IKs",
-      "eliminada": false
+      "eliminada": true
     },
     "193755": {
       "centro": "D",
@@ -5161,7 +5161,7 @@
       ],
       "profesor": "Campa Molina, Jorge",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200647": {
       "centro": "D",
@@ -5192,7 +5192,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL342": {
@@ -5225,7 +5225,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189635": {
       "centro": "D",
@@ -5256,7 +5256,7 @@
       ],
       "profesor": "Vega Maldonado, Sabrina Lizbeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189636": {
       "centro": "D",
@@ -5287,7 +5287,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189637": {
       "centro": "D",
@@ -5318,7 +5318,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189638": {
       "centro": "D",
@@ -5349,7 +5349,7 @@
       ],
       "profesor": "Rivera Aguilar, Janeth Gabriela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189639": {
       "centro": "D",
@@ -5380,7 +5380,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189642": {
       "centro": "D",
@@ -5411,7 +5411,7 @@
       ],
       "profesor": "De La Cruz Sandoval, Gabriel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189643": {
       "centro": "D",
@@ -5442,7 +5442,7 @@
       ],
       "profesor": "De La Cruz Sandoval, Gabriel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194916": {
       "centro": "D",
@@ -5473,7 +5473,7 @@
       ],
       "profesor": "Alvarez Carreon, Jesus Gilberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194917": {
       "centro": "D",
@@ -5504,7 +5504,7 @@
       ],
       "profesor": "Zamora Ramos, Victor Manuel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL350": {
@@ -5537,7 +5537,7 @@
       ],
       "profesor": "Ramirez Alba, Cecilia Erika",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193759": {
       "centro": "D",
@@ -5568,7 +5568,7 @@
       ],
       "profesor": "Ramirez Alba, Cecilia Erika",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193765": {
       "centro": "D",
@@ -5599,7 +5599,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193766": {
       "centro": "D",
@@ -5630,7 +5630,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193767": {
       "centro": "D",
@@ -5661,7 +5661,7 @@
       ],
       "profesor": "Morgan Franco, Rocio Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193971": {
       "centro": "D",
@@ -5692,7 +5692,7 @@
       ],
       "profesor": "Torres Molina, Sergio Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193972": {
       "centro": "D",
@@ -5723,7 +5723,7 @@
       ],
       "profesor": "Torres Molina, Sergio Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193973": {
       "centro": "D",
@@ -5754,7 +5754,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200662": {
       "centro": "D",
@@ -5785,7 +5785,7 @@
       ],
       "profesor": "Casillas Zamora, Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200663": {
       "centro": "D",
@@ -5816,7 +5816,7 @@
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200664": {
       "centro": "D",
@@ -5847,7 +5847,7 @@
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "https://chat.whatsapp.com/J51UKUTpthyJDf6Re1Dgpg",
-      "eliminada": false
+      "eliminada": true
     },
     "200665": {
       "centro": "D",
@@ -5878,7 +5878,7 @@
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200666": {
       "centro": "D",
@@ -5909,7 +5909,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200667": {
       "centro": "D",
@@ -5940,7 +5940,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200668": {
       "centro": "D",
@@ -5971,7 +5971,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
-      "eliminada": false
+      "eliminada": true
     },
     "200669": {
       "centro": "D",
@@ -6002,7 +6002,7 @@
       ],
       "profesor": "Lopez Franco, Adriana Liset",
       "url": "https://chat.whatsapp.com/EpAMj3pn2d7BUvA0M0ckYJ",
-      "eliminada": false
+      "eliminada": true
     },
     "200670": {
       "centro": "D",
@@ -6033,7 +6033,7 @@
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "https://chat.whatsapp.com/DKCxJxWDqn9C6KznbIk7cO",
-      "eliminada": false
+      "eliminada": true
     },
     "200671": {
       "centro": "D",
@@ -6064,7 +6064,7 @@
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193760": {
       "centro": "D",
@@ -6134,7 +6134,7 @@
       ],
       "profesor": "Flores Sandoval, Miriam Ileana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189645": {
       "centro": "D",
@@ -6171,7 +6171,7 @@
       ],
       "profesor": "Ortega Cordova, Raul",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189646": {
       "centro": "D",
@@ -6208,7 +6208,7 @@
       ],
       "profesor": "Santiago Hernandez, Eloisa",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189647": {
       "centro": "D",
@@ -6245,7 +6245,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189648": {
       "centro": "D",
@@ -6282,7 +6282,7 @@
       ],
       "profesor": "Santiago Hernandez, Eloisa",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189649": {
       "centro": "D",
@@ -6319,7 +6319,7 @@
       ],
       "profesor": "Flores Sandoval, Miriam Ileana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189650": {
       "centro": "D",
@@ -6356,7 +6356,7 @@
       ],
       "profesor": "Villegas Ruvalcaba, Mario",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189651": {
       "centro": "D",
@@ -6393,7 +6393,7 @@
       ],
       "profesor": "Beltran Aguirre, Fabiola Del Carmen",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197391": {
       "centro": "D",
@@ -6430,7 +6430,7 @@
       ],
       "profesor": "Aceves Fernandez, Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "197392": {
       "centro": "D",
@@ -6461,7 +6461,7 @@
       ],
       "profesor": "Sanchez Alvarez, Miguel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200721": {
       "centro": "D",
@@ -6492,7 +6492,7 @@
       ],
       "profesor": "Flores Sandoval, Miriam Ileana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200722": {
       "centro": "D",
@@ -6523,7 +6523,7 @@
       ],
       "profesor": "Ortega Cordova, Raul",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201858": {
       "centro": "D",
@@ -6560,7 +6560,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201859": {
       "centro": "D",
@@ -6591,7 +6591,7 @@
       ],
       "profesor": "Ramirez Moreno, Benjamin",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201861": {
       "centro": "D",
@@ -6622,7 +6622,7 @@
       ],
       "profesor": "Corona Sanchez, Juan Carlos",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201862": {
       "centro": "D",
@@ -6653,7 +6653,7 @@
       ],
       "profesor": "Villalobos Jimenez, Sara Edith",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201863": {
       "centro": "D",
@@ -6690,7 +6690,7 @@
       ],
       "profesor": "Elizalde Camino, Fernando",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL345": {
@@ -6729,7 +6729,7 @@
       ],
       "profesor": "Garcia Nava, Dalmiro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193982": {
       "centro": "D",
@@ -6766,7 +6766,7 @@
       ],
       "profesor": "Villalobos Jimenez, Sara Edith",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193983": {
       "centro": "D",
@@ -6803,7 +6803,7 @@
       ],
       "profesor": "Plascencia Garcia, Cristyan Jeovany",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193984": {
       "centro": "D",
@@ -6840,7 +6840,7 @@
       ],
       "profesor": "Macias Ramos, Jose Apolinar",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193985": {
       "centro": "D",
@@ -6871,7 +6871,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193986": {
       "centro": "D",
@@ -6908,7 +6908,7 @@
       ],
       "profesor": "Hernandez Ortiz, Carlos Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193987": {
       "centro": "D",
@@ -6945,7 +6945,7 @@
       ],
       "profesor": "Garcia Nava, Dalmiro",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193988": {
       "centro": "D",
@@ -6976,7 +6976,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL343": {
@@ -7015,7 +7015,7 @@
       ],
       "profesor": "Vazquez Inzunza, Carlos Daniel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193250": {
       "centro": "D",
@@ -7052,7 +7052,7 @@
       ],
       "profesor": "Pelayo Pelayo, Alma Lucia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193251": {
       "centro": "D",
@@ -7089,7 +7089,7 @@
       ],
       "profesor": "Garcia Sanchez, Mayra Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193252": {
       "centro": "D",
@@ -7126,7 +7126,7 @@
       ],
       "profesor": "De Anda Ramirez, Francisco Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193253": {
       "centro": "D",
@@ -7163,7 +7163,7 @@
       ],
       "profesor": "Vazquez Inzunza, Carlos Daniel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193254": {
       "centro": "D",
@@ -7194,7 +7194,7 @@
       ],
       "profesor": "Avi\u00f1a Ramirez, Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193255": {
       "centro": "D",
@@ -7225,7 +7225,7 @@
       ],
       "profesor": "Gonzalez Ochoa, Hector Octavio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193256": {
       "centro": "D",
@@ -7256,7 +7256,7 @@
       ],
       "profesor": "Vargas Rodriguez, Elvira Susana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL348": {
@@ -7289,7 +7289,7 @@
       ],
       "profesor": "Mendoza Santos, Rosa Delia",
       "url": "https://chat.whatsapp.com/GBT4pYmYtPo9NuprprN5fb",
-      "eliminada": false
+      "eliminada": true
     },
     "200059": {
       "centro": "D",
@@ -7320,7 +7320,7 @@
       ],
       "profesor": "Mendoza Santos, Rosa Delia",
       "url": "https://chat.whatsapp.com/BswYBGbHi7B1Dcc38QjMpM",
-      "eliminada": false
+      "eliminada": true
     },
     "200060": {
       "centro": "D",
@@ -7357,7 +7357,7 @@
       ],
       "profesor": "Valdivia Bautista, Sandra Minerva",
       "url": "https://chat.whatsapp.com/Cr09lX3bBdiGdWsVcV6DlN",
-      "eliminada": false
+      "eliminada": true
     },
     "200061": {
       "centro": "D",
@@ -7388,7 +7388,7 @@
       ],
       "profesor": "Pantoja Espinoza, Deliazar",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200062": {
       "centro": "D",
@@ -7419,7 +7419,7 @@
       ],
       "profesor": "Gonzalez Solis, Fernando Renan",
       "url": "https://chat.whatsapp.com/FfXfKHOUFqG8k8lm6kE9bE",
-      "eliminada": false
+      "eliminada": true
     },
     "200063": {
       "centro": "D",
@@ -7450,7 +7450,7 @@
       ],
       "profesor": "Hernandez Ortiz, Carlos Alberto",
       "url": "https://chat.whatsapp.com/LfTTFbXQmzF4nbt02wLs88",
-      "eliminada": false
+      "eliminada": true
     },
     "200064": {
       "centro": "D",
@@ -7514,7 +7514,7 @@
       ],
       "profesor": "Valdivia Bautista, Sandra Minerva",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189653": {
       "centro": "D",
@@ -7545,7 +7545,7 @@
       ],
       "profesor": "Velazquez Ortega, Ana Betty",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189654": {
       "centro": "D",
@@ -7576,7 +7576,7 @@
       ],
       "profesor": "Marquez Frausto, Teresa Gabriela",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189655": {
       "centro": "D",
@@ -7607,7 +7607,7 @@
       ],
       "profesor": "Solis Rodriguez, Jose",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189656": {
       "centro": "D",
@@ -7644,7 +7644,7 @@
       ],
       "profesor": "Mendoza Santos, Rosa Delia",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189657": {
       "centro": "D",
@@ -7675,7 +7675,7 @@
       ],
       "profesor": "Montes Navarro, Mariana Sarahi",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189658": {
       "centro": "D",
@@ -7712,7 +7712,7 @@
       ],
       "profesor": "Hernandez Arellano, Angelica Fabiola",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189659": {
       "centro": "D",
@@ -7743,7 +7743,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189660": {
       "centro": "D",
@@ -7780,7 +7780,7 @@
       ],
       "profesor": "Cordova Gonzalez, Veronica Iliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189661": {
       "centro": "D",
@@ -7817,7 +7817,7 @@
       ],
       "profesor": "Rodriguez Medina, Guadalupe Isabel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "189662": {
       "centro": "D",
@@ -7854,7 +7854,7 @@
       ],
       "profesor": "Fernandez Luna, Ma. Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200723": {
       "centro": "D",
@@ -7885,7 +7885,7 @@
       ],
       "profesor": "Corona Sanchez, Juan Carlos",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200724": {
       "centro": "D",
@@ -7916,7 +7916,7 @@
       ],
       "profesor": "Ortega Cordova, Raul",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201865": {
       "centro": "D",
@@ -7947,7 +7947,7 @@
       ],
       "profesor": "Mejia Marin, Maria Esther",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201869": {
       "centro": "D",
@@ -7984,7 +7984,7 @@
       ],
       "profesor": "Hernandez Arellano, Angelica Fabiola",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201870": {
       "centro": "D",
@@ -8015,7 +8015,7 @@
       ],
       "profesor": "Abundis Sanchez, Miguel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "201871": {
       "centro": "D",
@@ -8046,7 +8046,7 @@
       ],
       "profesor": "Pantoja Espinoza, Deliazar",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IB067": {
@@ -8085,7 +8085,7 @@
       ],
       "profesor": "Vera Soria, Francisco",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "178862": {
       "centro": "D",
@@ -8116,7 +8116,7 @@
       ],
       "profesor": "Santiago Hernandez, Eloisa",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200065": {
       "centro": "D",
@@ -8147,7 +8147,7 @@
       ],
       "profesor": "Ramirez Moreno, Benjamin",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200066": {
       "centro": "D",
@@ -8184,7 +8184,7 @@
       ],
       "profesor": "Aceves Fernandez, Elizabeth",
       "url": "https://chat.whatsapp.com/IYm92YRIkmO5AmoQGyJv5y",
-      "eliminada": false
+      "eliminada": true
     },
     "200067": {
       "centro": "D",
@@ -8221,7 +8221,7 @@
       ],
       "profesor": "Muela Lopez, Maria Cristina",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "200068": {
       "centro": "D",
@@ -8252,7 +8252,7 @@
       ],
       "profesor": "Martinez Vazquez, Ricardo",
       "url": "https://chat.whatsapp.com/KGofU6ewAsq2a7aRuLjKQa",
-      "eliminada": false
+      "eliminada": true
     },
     "200069": {
       "centro": "D",
@@ -8283,7 +8283,7 @@
       ],
       "profesor": "Ramirez Moreno, Benjamin",
       "url": "https://chat.whatsapp.com/HwaqK5pidJL9DsdnmWUaef",
-      "eliminada": false
+      "eliminada": true
     },
     "200070": {
       "centro": "D",
@@ -8320,7 +8320,7 @@
       ],
       "profesor": "Pantoja Espinoza, Deliazar",
       "url": "https://chat.whatsapp.com/BanT2OzAvuD176V5zmg1Gj",
-      "eliminada": false
+      "eliminada": true
     },
     "200071": {
       "centro": "D",
@@ -8351,7 +8351,7 @@
       ],
       "profesor": "Montes Navarro, Mariana Sarahi",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL352": {
@@ -8396,7 +8396,7 @@
       ],
       "profesor": "Camacho Santillan, Veronica",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193704": {
       "centro": "D",
@@ -8439,7 +8439,7 @@
       ],
       "profesor": "Vazquez Narez, Alma Gloria",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193705": {
       "centro": "D",
@@ -8482,7 +8482,7 @@
       ],
       "profesor": "Vazquez Narez, Alma Gloria",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193706": {
       "centro": "D",
@@ -8525,7 +8525,7 @@
       ],
       "profesor": "Vazquez Narez, Alma Gloria",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193707": {
       "centro": "D",
@@ -8568,7 +8568,7 @@
       ],
       "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193708": {
       "centro": "D",
@@ -8611,7 +8611,7 @@
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193709": {
       "centro": "D",
@@ -8654,7 +8654,7 @@
       ],
       "profesor": "Esquivel Torres, Sara",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193710": {
       "centro": "D",
@@ -8697,7 +8697,7 @@
       ],
       "profesor": "Martinez Soltero, Erasmo Gabriel",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193711": {
       "centro": "D",
@@ -8740,7 +8740,7 @@
       ],
       "profesor": "Vazquez Narez, Alma Gloria",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "193712": {
       "centro": "D",
@@ -8783,7 +8783,7 @@
       ],
       "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195134": {
       "centro": "D",
@@ -8826,7 +8826,7 @@
       ],
       "profesor": "Camacho Santillan, Veronica",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195135": {
       "centro": "D",
@@ -8869,7 +8869,7 @@
       ],
       "profesor": "Barba Comparan, Andres",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195136": {
       "centro": "D",
@@ -8912,7 +8912,7 @@
       ],
       "profesor": "Sanchez Romero, Carlos Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195143": {
       "centro": "D",
@@ -8955,7 +8955,7 @@
       ],
       "profesor": "Sanchez Romero, Carlos Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "I5289": {
@@ -8988,7 +8988,7 @@
       ],
       "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195114": {
       "centro": "D",
@@ -9019,7 +9019,7 @@
       ],
       "profesor": "Vega Maldonado, Sabrina Lizbeth",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195115": {
       "centro": "D",
@@ -9050,7 +9050,7 @@
       ],
       "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195116": {
       "centro": "D",
@@ -9081,7 +9081,7 @@
       ],
       "profesor": "Mariscal Lugo, Luis Felipe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195117": {
       "centro": "D",
@@ -9112,7 +9112,7 @@
       ],
       "profesor": "Ortega Sanchez, Noe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195119": {
       "centro": "D",
@@ -9143,7 +9143,7 @@
       ],
       "profesor": "Ortega Sanchez, Noe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195121": {
       "centro": "D",
@@ -9174,7 +9174,7 @@
       ],
       "profesor": "Esquivel Torres, Sara",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195122": {
       "centro": "D",
@@ -9205,7 +9205,7 @@
       ],
       "profesor": "Ortega Sanchez, Noe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195124": {
       "centro": "D",
@@ -9236,7 +9236,7 @@
       ],
       "profesor": "Herrera Lujan, Zoila Liliana",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195127": {
       "centro": "D",
@@ -9267,7 +9267,7 @@
       ],
       "profesor": "Valdivia Gonzalez, Arturo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195129": {
       "centro": "D",
@@ -9298,7 +9298,7 @@
       ],
       "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "195130": {
       "centro": "D",
@@ -9335,7 +9335,7 @@
       ],
       "profesor": "Rodriguez Pimienta, Cristina Guadalupe",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL362": {
@@ -9368,7 +9368,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "199889": {
       "centro": "D",
@@ -9399,7 +9399,7 @@
       ],
       "profesor": "Maldonado Mercado, Jose Ruben",
       "url": "https://chat.whatsapp.com/DgbxdJ2kLNQ32U5bdjDAEC",
-      "eliminada": false
+      "eliminada": true
     },
     "199890": {
       "centro": "D",
@@ -9430,7 +9430,7 @@
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
       "url": "https://chat.whatsapp.com/G2BuQUNjUDxAGSc0tWsu4l",
-      "eliminada": false
+      "eliminada": true
     },
     "199891": {
       "centro": "D",
@@ -9461,7 +9461,7 @@
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "199902": {
       "centro": "D",
@@ -9492,7 +9492,7 @@
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
       "url": "https://chat.whatsapp.com/FHMF98fkWNmCuvz5XuoijB",
-      "eliminada": false
+      "eliminada": true
     },
     "199892": {
       "centro": "D",
@@ -9523,7 +9523,7 @@
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
       "url": "https://chat.whatsapp.com/GLzd3MGgFaNC3D7fySIx2L",
-      "eliminada": false
+      "eliminada": true
     },
     "199899": {
       "centro": "D",
@@ -9554,7 +9554,7 @@
       ],
       "profesor": "Maldonado Mercado, Jose Ruben",
       "url": "https://chat.whatsapp.com/IAB2Malu99GGZ99XvfVuWz",
-      "eliminada": false
+      "eliminada": true
     },
     "199900": {
       "centro": "D",
@@ -9591,7 +9591,7 @@
       ],
       "profesor": "Morales Gonzalez, Leopoldo",
       "url": "https://chat.whatsapp.com/Ig5MlwlLZDbFD8BVT6XBSD",
-      "eliminada": false
+      "eliminada": true
     },
     "199901": {
       "centro": "D",
@@ -9622,7 +9622,7 @@
       ],
       "profesor": "Morales Gonzalez, Leopoldo",
       "url": "https://chat.whatsapp.com/EgMa4Dua7xC2zmPFX5BBcZ",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL363": {
@@ -9655,7 +9655,7 @@
       ],
       "profesor": "Higashi Minami, Sergio Ramon Itsuo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194950": {
       "centro": "D",
@@ -9686,7 +9686,7 @@
       ],
       "profesor": "Higashi Minami, Sergio Ramon Itsuo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194951": {
       "centro": "D",
@@ -9717,7 +9717,7 @@
       ],
       "profesor": "Higashi Minami, Sergio Ramon Itsuo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194952": {
       "centro": "D",
@@ -9748,7 +9748,7 @@
       ],
       "profesor": "Velazquez Mora, Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194953": {
       "centro": "D",
@@ -9779,7 +9779,7 @@
       ],
       "profesor": "Velazquez Mora, Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194954": {
       "centro": "D",
@@ -9810,7 +9810,7 @@
       ],
       "profesor": "Garcia Gutierrez, Victor",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194955": {
       "centro": "D",
@@ -9841,7 +9841,7 @@
       ],
       "profesor": "Cordova Soltero, Hector Javier",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194956": {
       "centro": "D",
@@ -9872,7 +9872,7 @@
       ],
       "profesor": "Villegas Gonzalez, Jose Martin",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     },
     "194957": {
       "centro": "D",
@@ -9903,7 +9903,7 @@
       ],
       "profesor": "Higashi Minami, Sergio Ramon Itsuo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   }
 }
