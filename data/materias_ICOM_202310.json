@@ -3696,7 +3696,7 @@
       "seccion": "D14",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 40,
-      "disponible": 26,
+      "disponible": 25,
       "creditos": 8,
       "nrc": 201492,
       "clave": "IL340",
@@ -6548,11 +6548,11 @@
       ],
       "edificio": [
         "DEDU",
-        "DEDV"
+        "DEDP"
       ],
       "aula": [
         "A010",
-        "A001"
+        "A021"
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
