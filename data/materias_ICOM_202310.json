@@ -1200,43 +1200,6 @@
       "url": "",
       "eliminada": false
     },
-    "200210": {
-      "centro": "D",
-      "seccion": "D10",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 24,
-      "disponible": 6,
-      "creditos": 8,
-      "nrc": 200210,
-      "clave": "IL365",
-      "sesion": [
-        "01",
-        "01"
-      ],
-      "horas": [
-        "1300-1455",
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . . . .",
-        ". . . J . ."
-      ],
-      "edificio": [
-        "DUCT2",
-        "DEDX"
-      ],
-      "aula": [
-        "LC03",
-        "A021"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23",
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Garcia Hernandez, Martin",
-      "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
-      "eliminada": false
-    },
     "200211": {
       "centro": "D",
       "seccion": "D11",
@@ -1477,6 +1440,43 @@
       "profesor": "Nu\u00f1ez Ortega, Ruben",
       "url": "",
       "eliminada": false
+    },
+    "200210": {
+      "centro": "D",
+      "seccion": "D10",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "cupo": 24,
+      "disponible": 6,
+      "creditos": 8,
+      "nrc": 200210,
+      "clave": "IL365",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1300-1455",
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "DUCT2",
+        "DEDX"
+      ],
+      "aula": [
+        "LC03",
+        "A021"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Garcia Hernandez, Martin",
+      "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
+      "eliminada": true
     }
   },
   "IL344": {
