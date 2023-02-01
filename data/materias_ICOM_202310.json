@@ -1480,6 +1480,25 @@
     }
   },
   "IL344": {
+    "193989": {
+      "centro": "D",
+      "seccion": "D01",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 9,
+      "nrc": 193989,
+      "clave": "IL344",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Macias Sandoval, Omar Vladimir",
+      "url": "",
+      "eliminada": false
+    },
     "193990": {
       "centro": "D",
       "seccion": "D02",
@@ -4872,9 +4891,9 @@
       "edificio": [],
       "aula": [],
       "periodo": [],
-      "profesor": "Romero Gastelu, Maria Elena",
+      "profesor": "Navarro Velazquez, Mario Alberto",
       "url": "",
-      "eliminada": true
+      "eliminada": false
     }
   },
   "IL351": {
