@@ -851,7 +851,7 @@
       "seccion": "D09",
       "materia": "ALGEBRA LINEAL",
       "cupo": 20,
-      "disponible": 5,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 202033,
       "clave": "IB056",
@@ -4874,7 +4874,7 @@
       "periodo": [],
       "profesor": "Romero Gastelu, Maria Elena",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL351": {
