@@ -191,7 +191,7 @@
       "seccion": "D07",
       "materia": "ADMINISTRACION",
       "cupo": 41,
-      "disponible": 11,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 194925,
       "clave": "IL349",
@@ -814,7 +814,7 @@
       "seccion": "D08",
       "materia": "ALGEBRA LINEAL",
       "cupo": 20,
-      "disponible": 4,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 202032,
       "clave": "IB056",
@@ -851,7 +851,7 @@
       "seccion": "D09",
       "materia": "ALGEBRA LINEAL",
       "cupo": 20,
-      "disponible": 2,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 202033,
       "clave": "IB056",
@@ -1200,6 +1200,43 @@
       "url": "",
       "eliminada": false
     },
+    "200210": {
+      "centro": "D",
+      "seccion": "D10",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "cupo": 24,
+      "disponible": 6,
+      "creditos": 8,
+      "nrc": 200210,
+      "clave": "IL365",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1300-1455",
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "DUCT2",
+        "DEDX"
+      ],
+      "aula": [
+        "LC03",
+        "A021"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Navarro Velazquez, Mario Alberto",
+      "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
+      "eliminada": false
+    },
     "200211": {
       "centro": "D",
       "seccion": "D11",
@@ -1440,43 +1477,6 @@
       "profesor": "Nu\u00f1ez Ortega, Ruben",
       "url": "",
       "eliminada": false
-    },
-    "200210": {
-      "centro": "D",
-      "seccion": "D10",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 24,
-      "disponible": 6,
-      "creditos": 8,
-      "nrc": 200210,
-      "clave": "IL365",
-      "sesion": [
-        "01",
-        "01"
-      ],
-      "horas": [
-        "1300-1455",
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . . . .",
-        ". . . J . ."
-      ],
-      "edificio": [
-        "DUCT2",
-        "DEDX"
-      ],
-      "aula": [
-        "LC03",
-        "A021"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23",
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Garcia Hernandez, Martin",
-      "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
-      "eliminada": true
     }
   },
   "IL344": {
@@ -2013,7 +2013,7 @@
       "seccion": "D02",
       "materia": "ECUACIONES DIFERENCIALES",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 197380,
       "clave": "IL347",
@@ -2225,7 +2225,7 @@
       "seccion": "D02",
       "materia": "ESTRUCTURAS DE DATOS",
       "cupo": 24,
-      "disponible": 2,
+      "disponible": 3,
       "creditos": 10,
       "nrc": 200220,
       "clave": "IL354",
@@ -2875,7 +2875,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 9,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -4181,7 +4181,7 @@
       "seccion": "D10",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 7,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 189628,
       "clave": "I5288",
@@ -4831,7 +4831,7 @@
       "seccion": "D30",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 20,
-      "disponible": -1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200605,
       "clave": "I5288",
@@ -4914,7 +4914,7 @@
       "seccion": "D02",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 43,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 193747,
       "clave": "IL351",
@@ -5581,7 +5581,7 @@
       "seccion": "D07",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": -5,
+      "disponible": -4,
       "creditos": 7,
       "nrc": 193765,
       "clave": "IL350",
@@ -9407,130 +9407,6 @@
       "url": "https://chat.whatsapp.com/DgbxdJ2kLNQ32U5bdjDAEC",
       "eliminada": false
     },
-    "199890": {
-      "centro": "D",
-      "seccion": "D03",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 24,
-      "disponible": 1,
-      "creditos": 7,
-      "nrc": 199890,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DUCT1"
-      ],
-      "aula": [
-        "LC04"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "https://chat.whatsapp.com/G2BuQUNjUDxAGSc0tWsu4l",
-      "eliminada": false
-    },
-    "199891": {
-      "centro": "D",
-      "seccion": "D04",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 24,
-      "disponible": 0,
-      "creditos": 7,
-      "nrc": 199891,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0700-0855"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DUCT1"
-      ],
-      "aula": [
-        "LC07"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "",
-      "eliminada": false
-    },
-    "199902": {
-      "centro": "D",
-      "seccion": "D05",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 30,
-      "disponible": 1,
-      "creditos": 7,
-      "nrc": 199902,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1255"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DESV1"
-      ],
-      "aula": [
-        ""
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "https://chat.whatsapp.com/FHMF98fkWNmCuvz5XuoijB",
-      "eliminada": false
-    },
-    "199892": {
-      "centro": "D",
-      "seccion": "D06",
-      "materia": "PROGRAMACION PARA INTERNET",
-      "cupo": 24,
-      "disponible": 2,
-      "creditos": 7,
-      "nrc": 199892,
-      "clave": "IL362",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1700-1855"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DUCT1"
-      ],
-      "aula": [
-        "LC03"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "https://chat.whatsapp.com/GLzd3MGgFaNC3D7fySIx2L",
-      "eliminada": false
-    },
     "199899": {
       "centro": "D",
       "seccion": "D13",
@@ -9629,6 +9505,130 @@
       "profesor": "Morales Gonzalez, Leopoldo",
       "url": "https://chat.whatsapp.com/EgMa4Dua7xC2zmPFX5BBcZ",
       "eliminada": false
+    },
+    "199890": {
+      "centro": "D",
+      "seccion": "D03",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 24,
+      "disponible": 1,
+      "creditos": 7,
+      "nrc": 199890,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DUCT1"
+      ],
+      "aula": [
+        "LC04"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Silva Mares, Oscar Gregorio",
+      "url": "https://chat.whatsapp.com/G2BuQUNjUDxAGSc0tWsu4l",
+      "eliminada": true
+    },
+    "199891": {
+      "centro": "D",
+      "seccion": "D04",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 24,
+      "disponible": 0,
+      "creditos": 7,
+      "nrc": 199891,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-0855"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DUCT1"
+      ],
+      "aula": [
+        "LC07"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Silva Mares, Oscar Gregorio",
+      "url": "",
+      "eliminada": true
+    },
+    "199902": {
+      "centro": "D",
+      "seccion": "D05",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 30,
+      "disponible": 1,
+      "creditos": 7,
+      "nrc": 199902,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DESV1"
+      ],
+      "aula": [
+        ""
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Silva Mares, Oscar Gregorio",
+      "url": "https://chat.whatsapp.com/FHMF98fkWNmCuvz5XuoijB",
+      "eliminada": true
+    },
+    "199892": {
+      "centro": "D",
+      "seccion": "D06",
+      "materia": "PROGRAMACION PARA INTERNET",
+      "cupo": 24,
+      "disponible": 2,
+      "creditos": 7,
+      "nrc": 199892,
+      "clave": "IL362",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1700-1855"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DUCT1"
+      ],
+      "aula": [
+        "LC03"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Silva Mares, Oscar Gregorio",
+      "url": "https://chat.whatsapp.com/GLzd3MGgFaNC3D7fySIx2L",
+      "eliminada": true
     }
   },
   "IL363": {
