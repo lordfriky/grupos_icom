@@ -102,4 +102,4 @@ layout: default
 | <a href="https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Maciel Castillo, Oscar Eduardo | Martes, Jueves | 11:00 - 12:55 | Edificio X | A17 | D19 | 200668 |Eliminada |
 | <a href="https://chat.whatsapp.com/JEtqVBrtuLW1rwfsvTQE4J" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Diaz Gonzalez, Jose Luis | Lunes, Miércoles | 15:00 - 16:55 | Edificio X | A19 | D03 | 193760 |Eliminada |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>2 de febrero de 2023</b> a las <b>04:16 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>2 de febrero de 2023</b> a las <b>04:37 AM</b></p>
