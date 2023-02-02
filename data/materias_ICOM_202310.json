@@ -286,7 +286,7 @@
       "seccion": "D02",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": -2,
       "creditos": 8,
       "nrc": 193714,
       "clave": "IL353",
@@ -629,7 +629,7 @@
       "seccion": "D03",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 5,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 197386,
       "clave": "IB056",
@@ -703,7 +703,7 @@
       "seccion": "D05",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 197388,
       "clave": "IB056",
@@ -1504,7 +1504,7 @@
       "seccion": "D02",
       "materia": "CALCULO DIFERENCIAL E INTEGRAL",
       "cupo": 40,
-      "disponible": -3,
+      "disponible": -4,
       "creditos": 9,
       "nrc": 193990,
       "clave": "IL344",
@@ -2894,7 +2894,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 10,
+      "disponible": 11,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -4414,7 +4414,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Barba Comparan, Andres",
+      "profesor": "Rosales Martinez, Javier",
       "url": "",
       "eliminada": false
     },
@@ -4885,12 +4885,24 @@
       "creditos": 8,
       "nrc": 200606,
       "clave": "I5288",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1400-1755"
+      ],
+      "dias": [
+        ". . . . V ."
+      ],
+      "edificio": [
+        "DUCT1"
+      ],
+      "aula": [
+        "LC02"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
       "profesor": "Navarro Velazquez, Mario Alberto",
       "url": "",
       "eliminada": false
@@ -5063,7 +5075,7 @@
       "seccion": "D06",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": -2,
+      "disponible": -3,
       "creditos": 8,
       "nrc": 193751,
       "clave": "IL351",
@@ -5211,7 +5223,7 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IL342": {
@@ -5817,7 +5829,7 @@
       "seccion": "D14",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 7,
       "nrc": 200663,
       "clave": "IL350",
@@ -5905,37 +5917,6 @@
       "url": "",
       "eliminada": false
     },
-    "200666": {
-      "centro": "D",
-      "seccion": "D17",
-      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
-      "cupo": 40,
-      "disponible": 1,
-      "creditos": 7,
-      "nrc": 200666,
-      "clave": "IL350",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0700-0855"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDX"
-      ],
-      "aula": [
-        "A010"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Maciel Castillo, Oscar Eduardo",
-      "url": "",
-      "eliminada": false
-    },
     "200667": {
       "centro": "D",
       "seccion": "D18",
@@ -5965,37 +5946,6 @@
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
-    },
-    "200668": {
-      "centro": "D",
-      "seccion": "D19",
-      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 7,
-      "nrc": 200668,
-      "clave": "IL350",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1255"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDX"
-      ],
-      "aula": [
-        "A017"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Maciel Castillo, Oscar Eduardo",
-      "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
       "eliminada": false
     },
     "200669": {
@@ -6090,6 +6040,68 @@
       "profesor": "Marquez Frausto, Luis Antonio",
       "url": "",
       "eliminada": false
+    },
+    "200666": {
+      "centro": "D",
+      "seccion": "D17",
+      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
+      "cupo": 40,
+      "disponible": 1,
+      "creditos": 7,
+      "nrc": 200666,
+      "clave": "IL350",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-0855"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDX"
+      ],
+      "aula": [
+        "A010"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Maciel Castillo, Oscar Eduardo",
+      "url": "",
+      "eliminada": true
+    },
+    "200668": {
+      "centro": "D",
+      "seccion": "D19",
+      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 7,
+      "nrc": 200668,
+      "clave": "IL350",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDX"
+      ],
+      "aula": [
+        "A017"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Maciel Castillo, Oscar Eduardo",
+      "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
+      "eliminada": true
     },
     "193760": {
       "centro": "D",
@@ -7411,7 +7423,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Pantoja Espinoza, Deliazar",
+      "profesor": "Roblero Mendez, Eli Vanney",
       "url": "",
       "eliminada": false
     },
@@ -8016,7 +8028,7 @@
       "seccion": "D16",
       "materia": "PRECALCULO",
       "cupo": 30,
-      "disponible": 7,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 201870,
       "clave": "IG738",
