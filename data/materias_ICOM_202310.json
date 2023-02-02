@@ -2950,6 +2950,25 @@
       "profesor": "Torres Molina, Sergio Andres",
       "url": "",
       "eliminada": false
+    },
+    "202212": {
+      "centro": "D",
+      "seccion": "D13",
+      "materia": "ETICA Y LEGISLACION",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 202212,
+      "clave": "IL341",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Cruz Vera, Karla Adriana",
+      "url": "",
+      "eliminada": false
     }
   },
   "LT251": {
