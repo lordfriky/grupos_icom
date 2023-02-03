@@ -1136,33 +1136,27 @@
       "centro": "D",
       "seccion": "D10",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 24,
-      "disponible": -5,
+      "cupo": 29,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 200210,
       "clave": "IL365",
       "sesion": [
-        "01",
         "01"
       ],
       "horas": [
-        "1300-1455",
         "1300-1455"
       ],
       "dias": [
-        ". M . . . .",
-        ". . . J . ."
+        ". M . J . ."
       ],
       "edificio": [
-        "DUCT2",
         "DEDX"
       ],
       "aula": [
-        "LC03",
-        "A021"
+        "A005"
       ],
       "periodo": [
-        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Navarro Velazquez, Mario Alberto",
@@ -2794,7 +2788,7 @@
       "seccion": "D07",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189614,
       "clave": "IL341",
@@ -2918,7 +2912,7 @@
       "seccion": "D11",
       "materia": "ETICA Y LEGISLACION",
       "cupo": 40,
-      "disponible": 11,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 199885,
       "clave": "IL341",
@@ -3758,7 +3752,7 @@
       "seccion": "D14",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 40,
-      "disponible": 23,
+      "disponible": 22,
       "creditos": 8,
       "nrc": 201492,
       "clave": "IL340",
@@ -3995,7 +3989,7 @@
       "seccion": "D02",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 4,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 189620,
       "clave": "I5288",
@@ -6001,21 +5995,27 @@
       "nrc": 200668,
       "clave": "IL350",
       "sesion": [
+        "01",
         "01"
       ],
       "horas": [
+        "1100-1255",
         "1100-1255"
       ],
       "dias": [
-        ". M . J . ."
+        ". M . . . .",
+        ". . . J . ."
       ],
       "edificio": [
-        "DEDX"
+        "DEDX",
+        "DESV1"
       ],
       "aula": [
-        "A017"
+        "A017",
+        ""
       ],
       "periodo": [
+        "16/01/23 - 31/05/23",
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Estrada Gil, Omar Oswaldo",
@@ -6443,7 +6443,7 @@
       "seccion": "D08",
       "materia": "LOGICA MATEMATICA",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189651,
       "clave": "I5247",
@@ -7867,7 +7867,7 @@
       "seccion": "D10",
       "materia": "PRECALCULO",
       "cupo": 40,
-      "disponible": 5,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 189661,
       "clave": "IG738",
