@@ -348,7 +348,7 @@
       "seccion": "D04",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193716,
       "clave": "IL353",
@@ -552,7 +552,7 @@
       "periodo": [],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": false
+      "eliminada": true
     }
   },
   "IB056": {
@@ -1058,43 +1058,6 @@
       "url": "",
       "eliminada": false
     },
-    "200207": {
-      "centro": "D",
-      "seccion": "D06",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 24,
-      "disponible": 8,
-      "creditos": 8,
-      "nrc": 200207,
-      "clave": "IL365",
-      "sesion": [
-        "01",
-        "01"
-      ],
-      "horas": [
-        "1300-1455",
-        "1300-1455"
-      ],
-      "dias": [
-        ". M . . . .",
-        ". . . J . ."
-      ],
-      "edificio": [
-        "DUCT2",
-        "DEDX"
-      ],
-      "aula": [
-        "LC07",
-        "A013"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23",
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Camarena Mendez, Jose Octavio",
-      "url": "https://chat.whatsapp.com/DdlFzlDGZ4UAtasF72t7uV",
-      "eliminada": false
-    },
     "200208": {
       "centro": "D",
       "seccion": "D07",
@@ -1169,43 +1132,12 @@
       "url": "",
       "eliminada": false
     },
-    "200209": {
-      "centro": "D",
-      "seccion": "D09",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 24,
-      "disponible": 24,
-      "creditos": 8,
-      "nrc": 200209,
-      "clave": "IL365",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "0700-1055"
-      ],
-      "dias": [
-        ". . . . V ."
-      ],
-      "edificio": [
-        "DUCT2"
-      ],
-      "aula": [
-        "LC09"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Navarro Velazquez, Mario Alberto",
-      "url": "",
-      "eliminada": false
-    },
     "200210": {
       "centro": "D",
       "seccion": "D10",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 6,
+      "disponible": -5,
       "creditos": 8,
       "nrc": 200210,
       "clave": "IL365",
@@ -1271,25 +1203,6 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Barba Venegas, Miguel Angel",
-      "url": "",
-      "eliminada": false
-    },
-    "200212": {
-      "centro": "D",
-      "seccion": "D12",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "cupo": 0,
-      "disponible": 0,
-      "creditos": 8,
-      "nrc": 200212,
-      "clave": "IL365",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
-      "profesor": "Pati\u00f1o Ruiz, Roberto",
       "url": "",
       "eliminada": false
     },
@@ -1477,6 +1390,93 @@
       "profesor": "Nu\u00f1ez Ortega, Ruben",
       "url": "",
       "eliminada": false
+    },
+    "200207": {
+      "centro": "D",
+      "seccion": "D06",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "cupo": 24,
+      "disponible": 8,
+      "creditos": 8,
+      "nrc": 200207,
+      "clave": "IL365",
+      "sesion": [
+        "01",
+        "01"
+      ],
+      "horas": [
+        "1300-1455",
+        "1300-1455"
+      ],
+      "dias": [
+        ". M . . . .",
+        ". . . J . ."
+      ],
+      "edificio": [
+        "DUCT2",
+        "DEDX"
+      ],
+      "aula": [
+        "LC07",
+        "A013"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Camarena Mendez, Jose Octavio",
+      "url": "https://chat.whatsapp.com/DdlFzlDGZ4UAtasF72t7uV",
+      "eliminada": true
+    },
+    "200209": {
+      "centro": "D",
+      "seccion": "D09",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "cupo": 24,
+      "disponible": 24,
+      "creditos": 8,
+      "nrc": 200209,
+      "clave": "IL365",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "0700-1055"
+      ],
+      "dias": [
+        ". . . . V ."
+      ],
+      "edificio": [
+        "DUCT2"
+      ],
+      "aula": [
+        "LC09"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Navarro Velazquez, Mario Alberto",
+      "url": "",
+      "eliminada": true
+    },
+    "200212": {
+      "centro": "D",
+      "seccion": "D12",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "cupo": 0,
+      "disponible": 0,
+      "creditos": 8,
+      "nrc": 200212,
+      "clave": "IL365",
+      "sesion": [],
+      "horas": [],
+      "dias": [],
+      "edificio": [],
+      "aula": [],
+      "periodo": [],
+      "profesor": "Pati\u00f1o Ruiz, Roberto",
+      "url": "",
+      "eliminada": true
     }
   },
   "IL344": {
@@ -1484,17 +1484,41 @@
       "centro": "D",
       "seccion": "D01",
       "materia": "CALCULO DIFERENCIAL E INTEGRAL",
-      "cupo": 0,
+      "cupo": 20,
       "disponible": 0,
       "creditos": 9,
       "nrc": 193989,
       "clave": "IL344",
-      "sesion": [],
-      "horas": [],
-      "dias": [],
-      "edificio": [],
-      "aula": [],
-      "periodo": [],
+      "sesion": [
+        "01",
+        "01",
+        "01"
+      ],
+      "horas": [
+        "0011-0011",
+        "0011-0011",
+        "0011-0011"
+      ],
+      "dias": [
+        "L . . . . .",
+        ". . I . . .",
+        ". . . . V ."
+      ],
+      "edificio": [
+        "DESV1",
+        "DESV1",
+        "DESV1"
+      ],
+      "aula": [
+        "A006",
+        "A007",
+        "A008"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23",
+        "16/01/23 - 31/05/23"
+      ],
       "profesor": "Macias Sandoval, Omar Vladimir",
       "url": "",
       "eliminada": false
@@ -1547,7 +1571,7 @@
       "seccion": "D03",
       "materia": "CALCULO DIFERENCIAL E INTEGRAL",
       "cupo": 47,
-      "disponible": -3,
+      "disponible": 17,
       "creditos": 9,
       "nrc": 193991,
       "clave": "IL344",
@@ -1567,14 +1591,14 @@
         ". . . . V ."
       ],
       "edificio": [
-        "DEDZ2",
-        "DEDZ2",
-        "DEDZ2"
+        "",
+        "",
+        ""
       ],
       "aula": [
-        "A014",
-        "A014",
-        "A014"
+        "",
+        "",
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -3561,7 +3585,7 @@
       "seccion": "D09",
       "materia": "FUNDAMENTOS DE FISICA",
       "cupo": 35,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189672,
       "clave": "IL340",
@@ -4349,7 +4373,7 @@
       "seccion": "D14",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 189632,
       "clave": "I5288",
@@ -4891,7 +4915,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Romero Gastelu, Maria Elena",
+      "profesor": "Lopez Luquin, Jesus Antonio",
       "url": "",
       "eliminada": false
     },
@@ -5240,9 +5264,9 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Maciel Castillo, Oscar Eduardo",
+      "profesor": "Estrada Gil, Omar Oswaldo",
       "url": "",
-      "eliminada": true
+      "eliminada": false
     }
   },
   "IL342": {
@@ -5536,7 +5560,7 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 4,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
@@ -5936,35 +5960,66 @@
       "url": "",
       "eliminada": false
     },
-    "200667": {
+    "200666": {
       "centro": "D",
-      "seccion": "D18",
+      "seccion": "D17",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 40,
+      "disponible": 1,
       "creditos": 7,
-      "nrc": 200667,
+      "nrc": 200666,
       "clave": "IL350",
       "sesion": [
         "01"
       ],
       "horas": [
-        "0900-1055"
+        "0700-0855"
       ],
       "dias": [
         ". M . J . ."
       ],
       "edificio": [
-        ""
+        "DEDX"
       ],
       "aula": [
-        ""
+        "A010"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Maciel Castillo, Oscar Eduardo",
+      "profesor": "Estrada Gil, Omar Oswaldo",
       "url": "",
+      "eliminada": false
+    },
+    "200668": {
+      "centro": "D",
+      "seccion": "D19",
+      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
+      "cupo": 40,
+      "disponible": 0,
+      "creditos": 7,
+      "nrc": 200668,
+      "clave": "IL350",
+      "sesion": [
+        "01"
+      ],
+      "horas": [
+        "1100-1255"
+      ],
+      "dias": [
+        ". M . J . ."
+      ],
+      "edificio": [
+        "DEDX"
+      ],
+      "aula": [
+        "A017"
+      ],
+      "periodo": [
+        "16/01/23 - 31/05/23"
+      ],
+      "profesor": "Estrada Gil, Omar Oswaldo",
+      "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
       "eliminada": false
     },
     "200669": {
@@ -6060,66 +6115,35 @@
       "url": "",
       "eliminada": false
     },
-    "200666": {
+    "200667": {
       "centro": "D",
-      "seccion": "D17",
+      "seccion": "D18",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 40,
       "creditos": 7,
-      "nrc": 200666,
+      "nrc": 200667,
       "clave": "IL350",
       "sesion": [
         "01"
       ],
       "horas": [
-        "0700-0855"
+        "0900-1055"
       ],
       "dias": [
         ". M . J . ."
       ],
       "edificio": [
-        "DEDX"
+        ""
       ],
       "aula": [
-        "A010"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
       "url": "",
-      "eliminada": true
-    },
-    "200668": {
-      "centro": "D",
-      "seccion": "D19",
-      "materia": "LIDERAZGO Y EMPRENDIMIENTO",
-      "cupo": 40,
-      "disponible": 0,
-      "creditos": 7,
-      "nrc": 200668,
-      "clave": "IL350",
-      "sesion": [
-        "01"
-      ],
-      "horas": [
-        "1100-1255"
-      ],
-      "dias": [
-        ". M . J . ."
-      ],
-      "edificio": [
-        "DEDX"
-      ],
-      "aula": [
-        "A017"
-      ],
-      "periodo": [
-        "16/01/23 - 31/05/23"
-      ],
-      "profesor": "Maciel Castillo, Oscar Eduardo",
-      "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
       "eliminada": true
     },
     "193760": {
@@ -8010,7 +8034,7 @@
       "seccion": "D15",
       "materia": "PRECALCULO",
       "cupo": 30,
-      "disponible": 5,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 201869,
       "clave": "IG738",
@@ -8364,11 +8388,11 @@
       ],
       "edificio": [
         "DESV1",
-        "DEDR"
+        ""
       ],
       "aula": [
         "A015",
-        "A002"
+        ""
       ],
       "periodo": [
         "16/01/23 - 31/05/23",
@@ -9220,10 +9244,10 @@
         ". M . J . ."
       ],
       "edificio": [
-        "DEDX"
+        "DUCT2"
       ],
       "aula": [
-        "A005"
+        "LC05"
       ],
       "periodo": [
         "16/01/23 - 31/05/23"
