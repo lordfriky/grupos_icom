@@ -93,4 +93,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL350&amp;nrc=200667" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Maciel Castillo, Oscar Eduardo | Martes, Jueves | 09:00 - 10:55 | Edificio  |  | D18 | 200667 |Eliminada |
 | <a href="https://chat.whatsapp.com/JEtqVBrtuLW1rwfsvTQE4J" target="_blank"><img src="../../../../res/whatsapp_available.png" width="18px"/> Enlace de invitación</a> | Diaz Gonzalez, Jose Luis | Lunes, Miércoles | 15:00 - 16:55 | Edificio X | A19 | D03 | 193760 |Eliminada |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>6 de febrero de 2023</b> a las <b>08:44 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>6 de febrero de 2023</b> a las <b>10:17 AM</b></p>
