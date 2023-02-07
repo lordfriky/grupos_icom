@@ -1565,7 +1565,7 @@
       "seccion": "D03",
       "materia": "CALCULO DIFERENCIAL E INTEGRAL",
       "cupo": 47,
-      "disponible": 15,
+      "disponible": 14,
       "creditos": 9,
       "nrc": 193991,
       "clave": "IL344",
@@ -5421,7 +5421,7 @@
       "periodo": [
         "16/01/23 - 31/05/23"
       ],
-      "profesor": "Rivera Aguilar, Janeth Gabriela",
+      "profesor": "Garcia Manzo, Ricardo Emmanuel",
       "url": "",
       "eliminada": false
     },
