@@ -139,4 +139,4 @@ layout: default
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL341&amp;nrc=199922" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Torres Molina, Sergio Andres | Lunes, Miércoles | 13:00 - 14:55 | Edificio X | A02 | D12 | 199922 | |
 | <a href="https://github.com/lordfriky/grupos_icom/issues/new?labels=grupo&amp;template=add_group.yml&amp;title=%5BBOT%5D+A%C3%B1adir+enlace+de+invitaci%C3%B3n&amp;clave=IL341&amp;nrc=202212" target="_blank"><img src="../../../../res/whatsapp_unavailable.png" width="18px"/> Agregar</a> | Cruz Vera, Karla Adriana | N/D | N/D | N/D | N/D | D13 | 202212 | |
 
-<p class_="text-center text-muted">Datos actualizados al día <b>8 de febrero de 2023</b> a las <b>02:37 AM</b></p>
+<p class_="text-center text-muted">Datos actualizados al día <b>8 de febrero de 2023</b> a las <b>04:17 AM</b></p>
